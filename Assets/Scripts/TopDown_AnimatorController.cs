@@ -9,8 +9,8 @@ public class TopDown_AnimatorController : MonoBehaviour
 
     private void Awake()
     {
-        anim = GetComponentInChildren<Animator>();
-        sprite = GetComponentInChildren<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     private void Start()
@@ -31,7 +31,7 @@ public class TopDown_AnimatorController : MonoBehaviour
     void PlayAnimations()
     {
         //if either horizontal or vertical is not equal to zero but not both
-        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0 && !(Input.GetAxis("Horizontal") != 0 && Input.GetAxis("Vertical") != 1))
+        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0 && !(Input.GetAxis("Horizontal") != 0 && Input.GetAxis("Vertical") != 0))
         {
             anim.enabled = true;
             anim.SetBool("isWalking", true);
@@ -53,21 +53,28 @@ public class TopDown_AnimatorController : MonoBehaviour
             {
                 anim.SetInteger("walkDir", 2);
             }
-
         }
         else
         {
             anim.SetBool("isWalking", false);
-            anim.enabled = false;
+            if (!anim.GetBool("Attack"))
+            {
+                anim.enabled = false;
+            }
         }
 
-        if (Input.GetMouseButton(0))
+        AnimatorStateInfo info = anim.GetCurrentAnimatorStateInfo(0);
+        if (!info.IsName("Shovel_Swing_Horizontal") && !info.IsName("Shovel_Swing_Up") && !info.IsName("Shovel_Swing_Down"))
         {
-            anim.SetTrigger("Attack");
+            anim.SetBool("Attack", false);
+            if (Input.GetMouseButton(0))
+            {
+                anim.enabled = true;
+                anim.SetBool("Attack", true);
+                anim.SetBool("isWalking", false);
+            }
         }
+            
     }
-
-
-
 
 }
