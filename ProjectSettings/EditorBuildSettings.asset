@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Move Left and Right.unity
+    guid: db129290ae06f47bdb18032458324579
+  - enabled: 1
+    path: Assets/Scenes/Move Up and Down.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Jumping.unity
+    guid: 7c05f7b52541c470ea158ef3fa701101
   m_configObjects: {}
