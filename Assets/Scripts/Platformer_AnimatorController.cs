@@ -48,12 +48,10 @@ public class Platformer_Animator : MonoBehaviour
         else
         {
             anim.SetBool("isWalking", false);
-            anim.enabled = false;
         }
 
         if (Input.GetMouseButton(0))
         {
-            anim.enabled = true;
             anim.SetTrigger("Attack");
         }
     }
