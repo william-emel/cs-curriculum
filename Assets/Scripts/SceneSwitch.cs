@@ -3,21 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CaveExit : MonoBehaviour
+public class SceneSwitch : MonoBehaviour
 {
-    bool unload = false;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int scene;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -27,10 +15,7 @@ public class CaveExit : MonoBehaviour
         {
             Scene current = SceneManager.GetActiveScene();
 
-            SceneManager.LoadScene(1);
-
-            Scene newScene = SceneManager.GetActiveScene();
-            
+            SceneManager.LoadScene(scene);
 
             SceneManager.UnloadSceneAsync(current);
         }
