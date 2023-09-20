@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Movement2D : MonoBehaviour
 {
+    public float speed;
+
     Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -17,23 +19,29 @@ public class Movement2D : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.RightArrow))
         {
-            rb.velocity = new Vector2(3, 0);
+            rb.velocity = new Vector2(speed, 0f);
         }
 
-        if(Input.GetKey(KeyCode.LeftArrow))
+        else if(Input.GetKey(KeyCode.LeftArrow))
         {
-            rb.velocity = new Vector2(-3, 0);
+            rb.velocity = new Vector2(-speed, 0f);
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        else if (Input.GetKey(KeyCode.UpArrow))
         {
-            rb.velocity = new Vector2(0, 3);
+            rb.velocity = new Vector2(0f, speed);
         }
 
-        if (Input.GetKey(KeyCode.DownArrow))
+        else if (Input.GetKey(KeyCode.DownArrow))
         {
-            rb.velocity = new Vector2(0, -3);
+            rb.velocity = new Vector2(0f, -speed);
         }
+
+        else
+        {
+            rb.velocity = new Vector2(0f, 0f);
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
