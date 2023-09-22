@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5c5ad15967d234bb1956970f0b919303
+guid: 84b6dbf90b6a04afd9d94e07bb465a18
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,7 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Standalone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -145,30 +145,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Orc with Axe_0
+      name: Orc with Axe-1_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 2050
-        width: 31
-        height: 47
+        x: 0
+        y: 2048
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e643753f08e34734979f69168779b5a
-      internalID: -669480504
+      spriteID: a3b847cb1477a4fcc922d98a53963f3c
+      internalID: -560432582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_1
+      name: Orc with Axe-1_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 2050
-        width: 30
-        height: 47
+        x: 64
+        y: 2048
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58b031c02afb84ad7af4ca40c9e3ddb3
-      internalID: 382711740
+      spriteID: 24ccbd77b352b4db280a59e3c807a494
+      internalID: -2084708561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_2
+      name: Orc with Axe-1_2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 2050
-        width: 30
-        height: 47
+        x: 128
+        y: 2048
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18036fbdc0c01435498e5bed6be834bf
-      internalID: 946012531
+      spriteID: c90c344ca6d9647fabb2af626bef0986
+      internalID: 350530898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_3
+      name: Orc with Axe-1_3
       rect:
         serializedVersion: 2
-        x: 206
-        y: 2050
-        width: 36
-        height: 47
+        x: 192
+        y: 2048
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea2f735b9567d495fa173df022e7df2f
-      internalID: -1705437090
+      spriteID: d32793b746ac54312ac17e6db61c0dff
+      internalID: 1890634324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_4
+      name: Orc with Axe-1_4
       rect:
         serializedVersion: 2
-        x: 263
-        y: 2050
-        width: 50
-        height: 47
+        x: 256
+        y: 2048
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 384f8de19996548f8ab1f6a32597621a
-      internalID: 463798756
+      spriteID: f1c4ceed81732477697cdf372ad08357
+      internalID: 1534973415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_5
+      name: Orc with Axe-1_5
       rect:
         serializedVersion: 2
-        x: 328
-        y: 2050
-        width: 48
-        height: 47
+        x: 320
+        y: 2048
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67e0aeb62c7a745a981a78bb53989c07
-      internalID: 284819060
+      spriteID: 6382f3c45f0b941c0841075249d98b67
+      internalID: 1830605207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_6
+      name: Orc with Axe-1_6
       rect:
         serializedVersion: 2
-        x: 398
-        y: 2050
-        width: 36
-        height: 47
+        x: 384
+        y: 2048
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e64707a2d08f4d46b02e5ff30e3c947
-      internalID: 1278066213
+      spriteID: a82bf258ae44e4df1b71b15f63d7687a
+      internalID: 2029521555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_7
+      name: Orc with Axe-1_7
       rect:
         serializedVersion: 2
-        x: 449
-        y: 2076
-        width: 11
-        height: 20
+        x: 0
+        y: 1984
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f28140159bb2f41179d462c7280af73c
-      internalID: 1668526659
+      spriteID: 2c1845889b6da4a3ab4cb420f41b8b83
+      internalID: -776386602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_8
+      name: Orc with Axe-1_8
       rect:
         serializedVersion: 2
-        x: 462
-        y: 2085
-        width: 11
-        height: 11
+        x: 64
+        y: 1984
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dff046a5f5e1a40cfb6bd8ef8e84be59
-      internalID: -829736619
+      spriteID: 532a76c3f05844370a771997d3305a2c
+      internalID: -1940944141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_9
+      name: Orc with Axe-1_9
       rect:
         serializedVersion: 2
-        x: 475
-        y: 2085
-        width: 11
-        height: 11
+        x: 128
+        y: 1984
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4929d003635924bf6b13cf76f13b6612
-      internalID: 1387494803
+      spriteID: 62007a3fd1e724c6c9f4e03d72b86a41
+      internalID: 409776232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_10
+      name: Orc with Axe-1_10
       rect:
         serializedVersion: 2
-        x: 488
-        y: 2085
-        width: 11
-        height: 11
+        x: 192
+        y: 1984
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,20 +373,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e9a4ca868664a00b3f46c98e1fa228
-      internalID: -555420553
+      spriteID: 98e136dcdc5364a23b8c48517c3591e1
+      internalID: -1044379736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_11
+      name: Orc with Axe-1_11
       rect:
         serializedVersion: 2
-        x: 501
-        y: 2085
-        width: 11
-        height: 11
+        x: 256
+        y: 1984
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,20 +394,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6d510b09bef946f0a0567a09ecb4ad9
-      internalID: 1213298702
+      spriteID: d8b5511d32eae4b9797efccc5ce0809d
+      internalID: -1128539180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_12
+      name: Orc with Axe-1_12
       rect:
         serializedVersion: 2
-        x: 23
-        y: 1986
-        width: 20
-        height: 48
+        x: 320
+        y: 1984
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c04a950b91dd849ff94dc3560ab4135a
-      internalID: 2090882790
+      spriteID: c4fe934b1b9a44beea8135d0fdff1f56
+      internalID: -504572124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_13
+      name: Orc with Axe-1_13
       rect:
         serializedVersion: 2
-        x: 85
-        y: 1986
-        width: 23
-        height: 48
+        x: 384
+        y: 1984
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,20 +436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fea46be64efd4304ae76470da8f0723
-      internalID: 1776262359
+      spriteID: 05bdf47c778114e08a3d12050d6a92f3
+      internalID: 1168672935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_14
+      name: Orc with Axe-1_14
       rect:
         serializedVersion: 2
-        x: 150
-        y: 1986
-        width: 21
-        height: 48
+        x: 0
+        y: 1920
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,20 +457,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84b20e9c774ce4308a8c5ab6c4f6f2a7
-      internalID: -1567757581
+      spriteID: 2acc582a92c34443282f40900bd07129
+      internalID: 929066049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_15
+      name: Orc with Axe-1_15
       rect:
         serializedVersion: 2
-        x: 212
-        y: 1986
-        width: 26
-        height: 48
+        x: 64
+        y: 1920
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,20 +478,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 100e7b21df4b24a40872e28fc219143f
-      internalID: -79602084
+      spriteID: fc0631761a8ee447c99031459f2fbbe6
+      internalID: -1358949225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_16
+      name: Orc with Axe-1_16
       rect:
         serializedVersion: 2
-        x: 274
-        y: 1986
-        width: 33
-        height: 48
+        x: 128
+        y: 1920
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,20 +499,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c5af166aaa81402cb19115bd4b3629f
-      internalID: 399600849
+      spriteID: d31f54c2213fe42019796282263d7425
+      internalID: -247708188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_17
+      name: Orc with Axe-1_17
       rect:
         serializedVersion: 2
-        x: 338
-        y: 1986
-        width: 33
-        height: 48
+        x: 192
+        y: 1920
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,20 +520,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc99f2b7404ed44b79908c3bb5a961ce
-      internalID: -1575581448
+      spriteID: 313137a906d1d4e269b100457c38486d
+      internalID: 1790183006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_18
+      name: Orc with Axe-1_18
       rect:
         serializedVersion: 2
-        x: 404
-        y: 1986
-        width: 28
-        height: 48
+        x: 256
+        y: 1920
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,20 +541,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e494209e58af4d8186d17c6cddf8f16
-      internalID: -1917884889
+      spriteID: a1f79e700f8a94a50a8cae31f83bb7e7
+      internalID: -428068003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_19
+      name: Orc with Axe-1_19
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1922
-        width: 30
-        height: 48
+        x: 320
+        y: 1920
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,20 +562,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3656157888842ec8041d9674759d10
-      internalID: 853282022
+      spriteID: 91fa7018424f342c68f39ca480fa9fdc
+      internalID: -1986754329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_20
+      name: Orc with Axe-1_20
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1922
-        width: 30
-        height: 48
+        x: 384
+        y: 1920
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,20 +583,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e20f3a1248dc421bbb0794a0fa28a15
-      internalID: 791432712
+      spriteID: cffe251be9822481e9d7ab00f41bfb65
+      internalID: -1299454613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_21
+      name: Orc with Axe-1_21
       rect:
         serializedVersion: 2
-        x: 146
-        y: 1922
-        width: 28
-        height: 48
+        x: 0
+        y: 1856
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,20 +604,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47bd5496311e24933976c2bfcbf80b7f
-      internalID: -76110076
+      spriteID: bf4c04fec37224ae4aceab96ea96a643
+      internalID: -1387357431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_22
+      name: Orc with Axe-1_22
       rect:
         serializedVersion: 2
-        x: 206
-        y: 1922
-        width: 36
-        height: 48
+        x: 64
+        y: 1856
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,20 +625,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5e486434bbbc403cbd9716e2bf5fffa
-      internalID: 326089804
+      spriteID: cb3bf0c234c8249de9b5a9ce28cec657
+      internalID: -814175237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_23
+      name: Orc with Axe-1_23
       rect:
         serializedVersion: 2
-        x: 263
-        y: 1922
-        width: 50
-        height: 48
+        x: 128
+        y: 1856
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,20 +646,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d983d22b6ea9b48b8ba735e36100dfaa
-      internalID: -613247047
+      spriteID: 04ec68936967b400eae1ebfcec4661a1
+      internalID: -592971394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_24
+      name: Orc with Axe-1_24
       rect:
         serializedVersion: 2
-        x: 328
-        y: 1922
-        width: 48
-        height: 48
+        x: 192
+        y: 1856
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,20 +667,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fe9f61754fe04f169783f9c933edfc2
-      internalID: -1159778599
+      spriteID: 2c36534b386554923992f6fe259a1dbd
+      internalID: -1969673268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_25
+      name: Orc with Axe-1_25
       rect:
         serializedVersion: 2
-        x: 399
-        y: 1922
-        width: 34
-        height: 48
+        x: 256
+        y: 1856
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +688,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4905c2afa66d4a549a3a6bd4bbbe0d3
-      internalID: 743443046
+      spriteID: 94482b974d6db43f68b92b5f1352368c
+      internalID: 1101662430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_26
+      name: Orc with Axe-1_26
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1858
-        width: 21
-        height: 48
+        x: 320
+        y: 1856
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,20 +709,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04971e17c9cee4aa5859a4468e218b02
-      internalID: -980139779
+      spriteID: 79228e4141f3640afbd47a3d34f0fb25
+      internalID: 2017309919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_27
+      name: Orc with Axe-1_27
       rect:
         serializedVersion: 2
-        x: 84
-        y: 1858
-        width: 23
-        height: 48
+        x: 384
+        y: 1856
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -743,146 +730,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bac24c07c0fa4f89a6690e5980a4fd5
-      internalID: 2112230387
+      spriteID: 8b16548a918c447fcbb9263406404e63
+      internalID: -2138172323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_28
+      name: Orc with Axe-1_28
       rect:
         serializedVersion: 2
-        x: 148
-        y: 1858
-        width: 22
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10adada57f43444b187789a8cb0aa1e4
-      internalID: -1855571925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_29
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 1858
-        width: 26
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41d51c3040bbd4d90b2c1a06c417e4b1
-      internalID: -641605444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_30
-      rect:
-        serializedVersion: 2
-        x: 269
-        y: 1858
-        width: 33
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b133828f3c9f45618cce15d90bddd98
-      internalID: 2051726843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_31
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 1858
-        width: 33
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6f8e1e26d9ab4d6db21bfc7f1398b91
-      internalID: 430829324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_32
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 1858
-        width: 28
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72804cdf74bb2400d9e4236ce30dc475
-      internalID: 1106630371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_33
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 1794
-        width: 31
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9c9c4410feaa4f5bbb2019e5ad34763
-      internalID: -1007673687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_34
-      rect:
-        serializedVersion: 2
-        x: 84
+        x: 0
         y: 1792
-        width: 26
-        height: 48
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,20 +751,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34c8393330b8643ab82e8ba1ea7c2a7f
-      internalID: -1206183747
+      spriteID: 38883e4924ebd4ad0a493bae4b5bea80
+      internalID: -2093536455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_35
+      name: Orc with Axe-1_29
       rect:
         serializedVersion: 2
-        x: 149
+        x: 64
         y: 1792
-        width: 24
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -911,20 +772,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49cc2b23642bf4fdbbdfd60ae98d965f
-      internalID: -1658542861
+      spriteID: ad7026a4492954205817222a7abe9f5c
+      internalID: -255516440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_36
+      name: Orc with Axe-1_30
       rect:
         serializedVersion: 2
-        x: 213
+        x: 128
         y: 1792
-        width: 24
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -932,20 +793,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 618823e2473e94ab395c2aeb873bf2e5
-      internalID: 659436229
+      spriteID: 16a5bb6f98a6c4883b3a4604db9d09d3
+      internalID: 1254337990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_37
+      name: Orc with Axe-1_31
       rect:
         serializedVersion: 2
-        x: 278
+        x: 192
         y: 1792
-        width: 24
-        height: 48
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -953,20 +814,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a0a0d7f89c9b4aa7864ecd48f9408fc
-      internalID: 225296706
+      spriteID: f4a154902433941c891d2b280465cb31
+      internalID: -1233282287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_38
+      name: Orc with Axe-1_32
       rect:
         serializedVersion: 2
-        x: 342
+        x: 256
         y: 1792
-        width: 24
-        height: 48
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,20 +835,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 574bcc5f47ac74a1a9f57a719ff5ff13
-      internalID: -1801525786
+      spriteID: 7a53b566a3ea74593ab01baf27ab3497
+      internalID: -455643548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_39
+      name: Orc with Axe-1_33
       rect:
         serializedVersion: 2
-        x: 406
+        x: 320
         y: 1792
-        width: 24
-        height: 48
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -995,20 +856,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a289d2ceb7274e978f76b376907ad6c
-      internalID: -2099326915
+      spriteID: 8c95a96af23a94e16afe3e458652562c
+      internalID: -24662095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_40
+      name: Orc with Axe-1_34
       rect:
         serializedVersion: 2
-        x: 469
+        x: 384
         y: 1792
-        width: 24
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1016,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5215319bacc8e44e3a22258b344431e9
-      internalID: -1748436385
+      spriteID: 01345e2a97b584362bab55dd93a78432
+      internalID: 1987451074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_41
+      name: Orc with Axe-1_35
       rect:
         serializedVersion: 2
-        x: 23
-        y: 1730
-        width: 20
-        height: 48
+        x: 448
+        y: 1792
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1037,20 +898,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8df9309296929414fbb8789bf10d43f8
-      internalID: -250056987
+      spriteID: 3f9fc46bb4e954cff9c224741d3794c9
+      internalID: -270424698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_42
+      name: Orc with Axe-1_36
       rect:
         serializedVersion: 2
-        x: 83
-        y: 1730
-        width: 25
-        height: 48
+        x: 0
+        y: 1728
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1058,20 +919,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01f3019b7fe99433789f0553d576d643
-      internalID: -272986735
+      spriteID: 21de858c72ae24198aa5142e1c936151
+      internalID: -1746730996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_43
+      name: Orc with Axe-1_37
       rect:
         serializedVersion: 2
-        x: 147
-        y: 1730
-        width: 27
-        height: 48
+        x: 64
+        y: 1728
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1079,20 +940,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17a077a70461240f7ad7ec9d8c1af17b
-      internalID: 1696477614
+      spriteID: 830fabd2460fd410ab2ff1b75f4127e0
+      internalID: 648912459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_44
+      name: Orc with Axe-1_38
       rect:
         serializedVersion: 2
-        x: 213
-        y: 1730
-        width: 26
-        height: 48
+        x: 128
+        y: 1728
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1100,20 +961,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e9901cd4d00542788e1768b15316483
-      internalID: 1528742039
+      spriteID: c42101be8511e4c529402096b3ad5d76
+      internalID: -1922723115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_45
+      name: Orc with Axe-1_39
       rect:
         serializedVersion: 2
-        x: 271
-        y: 1730
-        width: 27
-        height: 48
+        x: 192
+        y: 1728
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1121,20 +982,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a762332b76544152aec7d2cf76d850e
-      internalID: -1590208561
+      spriteID: 88d86ac70aa824eeb9eb37830fd08b15
+      internalID: 1373156583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_46
+      name: Orc with Axe-1_40
       rect:
         serializedVersion: 2
-        x: 332
-        y: 1730
-        width: 30
-        height: 48
+        x: 256
+        y: 1728
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1142,20 +1003,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca52e538c10034ab3ae6b122d6addfb3
-      internalID: -1987143094
+      spriteID: e76f6d6e807364202984ab9dd22c7fe6
+      internalID: 788898841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_47
+      name: Orc with Axe-1_41
       rect:
         serializedVersion: 2
-        x: 399
-        y: 1730
-        width: 27
-        height: 48
+        x: 320
+        y: 1728
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1024,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4956ac0f50b444884895f8b228985428
-      internalID: -1944644105
+      spriteID: 1f262899362c24f849d4ba0017c8400e
+      internalID: 777571803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_48
+      name: Orc with Axe-1_42
       rect:
         serializedVersion: 2
-        x: 469
-        y: 1730
-        width: 26
-        height: 48
+        x: 384
+        y: 1728
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1184,20 +1045,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5a8a85492010498aa226323d907b62b
-      internalID: -578507956
+      spriteID: e360e327cdb3e4b828e9077d7a54ccfd
+      internalID: -272856617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_49
+      name: Orc with Axe-1_43
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1666
-        width: 30
-        height: 48
+        x: 448
+        y: 1728
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1205,20 +1066,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80155d4bde22c42ea94d9f57ff662f4e
-      internalID: 731295328
+      spriteID: fe35eea246b094313a26454726af5aa1
+      internalID: -528316230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_50
+      name: Orc with Axe-1_44
       rect:
         serializedVersion: 2
-        x: 82
-        y: 1667
-        width: 26
-        height: 47
+        x: 0
+        y: 1664
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1226,20 +1087,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 508380dc2515e4f9d8d0723063cd1584
-      internalID: 1292901636
+      spriteID: ce96ec6ad50bf4774a9b415aa7f73775
+      internalID: -1546665841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_51
+      name: Orc with Axe-1_45
       rect:
         serializedVersion: 2
-        x: 148
-        y: 1667
-        width: 24
-        height: 47
+        x: 64
+        y: 1664
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1247,20 +1108,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ce5ea81d56404ec7ba862894ddf3cdf
-      internalID: -1902369630
+      spriteID: 9b0d26c2a86e34973b15c775354ea19e
+      internalID: -424655869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_52
+      name: Orc with Axe-1_46
       rect:
         serializedVersion: 2
-        x: 210
-        y: 1667
-        width: 26
-        height: 47
+        x: 128
+        y: 1664
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1268,20 +1129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b464740f5be1849f28383384a924c0b4
-      internalID: 1568048362
+      spriteID: c5b9f7dbdde5842c8a4fe05d01c429a0
+      internalID: 921812225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_53
+      name: Orc with Axe-1_47
       rect:
         serializedVersion: 2
-        x: 276
-        y: 1667
-        width: 24
-        height: 46
+        x: 192
+        y: 1664
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1289,20 +1150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fb78efc02f3b4320b39077c4e0e3849
-      internalID: -143989477
+      spriteID: eef32039f55424f86a1939980d5bc1a9
+      internalID: 2123485991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_54
+      name: Orc with Axe-1_48
       rect:
         serializedVersion: 2
-        x: 340
-        y: 1667
-        width: 24
-        height: 46
+        x: 256
+        y: 1664
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1310,20 +1171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 136dd0df42e4a4b0f8fc13dba6a955d4
-      internalID: 243571176
+      spriteID: 9c65bbc8271eb4ba380020febb130a6f
+      internalID: 320498819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_55
+      name: Orc with Axe-1_49
       rect:
         serializedVersion: 2
-        x: 404
-        y: 1667
-        width: 24
-        height: 46
+        x: 320
+        y: 1664
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1331,20 +1192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9a20592d8c11421298c24d609bc772e
-      internalID: -1272601016
+      spriteID: 60a000c9c14d24c80a0827008c3ac2a6
+      internalID: -1382374454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_56
+      name: Orc with Axe-1_50
       rect:
         serializedVersion: 2
-        x: 466
-        y: 1667
-        width: 26
-        height: 47
+        x: 384
+        y: 1664
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1352,20 +1213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfe8f20b16f38439bb72a9d58e38fa76
-      internalID: 685373602
+      spriteID: 293620c42e03e490094d37d69ec91128
+      internalID: 1067056625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_57
+      name: Orc with Axe-1_51
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1602
-        width: 21
-        height: 48
+        x: 448
+        y: 1664
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1373,20 +1234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3638e97990e244d6b0c9ba9ec4831c8
-      internalID: -1689963467
+      spriteID: 17a67abb1558245919b636abc3f63433
+      internalID: 1179173045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_58
+      name: Orc with Axe-1_52
       rect:
         serializedVersion: 2
-        x: 84
-        y: 1602
-        width: 25
-        height: 48
+        x: 0
+        y: 1600
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1394,20 +1255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52c08b33e003451c9c953093140393c
-      internalID: -359116354
+      spriteID: 92a2ee012a04149c18d4485f7b5d5b7f
+      internalID: 1227287029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_59
+      name: Orc with Axe-1_53
       rect:
         serializedVersion: 2
-        x: 146
-        y: 1602
-        width: 27
-        height: 48
+        x: 64
+        y: 1600
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1415,20 +1276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6503b677d36fd42d7a69cc33c60362fa
-      internalID: 9125836
+      spriteID: 9f3e3e3bae3b645bbbf694677a023f78
+      internalID: 148171263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_60
+      name: Orc with Axe-1_54
       rect:
         serializedVersion: 2
-        x: 209
-        y: 1602
-        width: 25
-        height: 48
+        x: 128
+        y: 1600
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1436,20 +1297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91b8af13d86e24971b769d330b8d24c7
-      internalID: 1218128757
+      spriteID: 85fbda149fc0b47e3bd168c12710fca8
+      internalID: 285892052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_61
+      name: Orc with Axe-1_55
       rect:
         serializedVersion: 2
-        x: 278
-        y: 1602
-        width: 27
-        height: 48
+        x: 192
+        y: 1600
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1457,20 +1318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fd4feae712444b0d985c65d1131c980
-      internalID: 523933100
+      spriteID: 35c7097c4e680417da9a003706c667ed
+      internalID: -1410991310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_62
+      name: Orc with Axe-1_56
       rect:
         serializedVersion: 2
-        x: 342
-        y: 1602
-        width: 30
-        height: 48
+        x: 256
+        y: 1600
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1478,20 +1339,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77a285282d901480d81e800df4d9e64b
-      internalID: 284422055
+      spriteID: ca1369bd11ad24a9b956c8a56fc2e94f
+      internalID: 449268060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_63
+      name: Orc with Axe-1_57
       rect:
         serializedVersion: 2
-        x: 406
-        y: 1602
-        width: 27
-        height: 48
+        x: 320
+        y: 1600
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1499,20 +1360,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4d1a84c8533f4f878cf23a440e54044
-      internalID: -1367970506
+      spriteID: 871cb3707d75543d8b8cfee2f4cbcf2c
+      internalID: -1295590736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_64
+      name: Orc with Axe-1_58
       rect:
         serializedVersion: 2
-        x: 465
-        y: 1602
-        width: 25
-        height: 48
+        x: 384
+        y: 1600
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1520,20 +1381,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a9868bb6f8e54a83a48454072bd21a9
-      internalID: -282509233
+      spriteID: e9c681a7b52ff4c1e9cb37539aacb851
+      internalID: -406791342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_65
+      name: Orc with Axe-1_59
       rect:
         serializedVersion: 2
-        x: 13
-        y: 1538
-        width: 46
-        height: 48
+        x: 448
+        y: 1600
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1541,20 +1402,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af799bb4fb4bd4ee7a8a7357139f0bcd
-      internalID: -345068793
+      spriteID: 39d791e5a327748449ef199d33c1cc13
+      internalID: 60372714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_66
+      name: Orc with Axe-1_60
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1539
-        width: 46
-        height: 47
+        x: 0
+        y: 1536
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1562,20 +1423,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db6cd8bdd083342b78e13623a1b59ba1
-      internalID: -1919524803
+      spriteID: fd7bff17f37e844ee867bdcdf9f06bb7
+      internalID: 1936844117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_67
+      name: Orc with Axe-1_61
       rect:
         serializedVersion: 2
-        x: 141
-        y: 1538
-        width: 46
-        height: 48
+        x: 64
+        y: 1536
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1583,20 +1444,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5231202bde0cf48989ec37e917923184
-      internalID: -1576218939
+      spriteID: b6d6a94b90d9141fcb1ebc29bb9cbc17
+      internalID: 313009233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_68
+      name: Orc with Axe-1_62
       rect:
         serializedVersion: 2
-        x: 204
-        y: 1537
-        width: 46
-        height: 48
+        x: 128
+        y: 1536
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1604,20 +1465,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5910e382543324bc28e3d48fb37cf4cf
-      internalID: 389627189
+      spriteID: 446f601c340cd4cfb91d924cd1b34ce6
+      internalID: -611453811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_69
+      name: Orc with Axe-1_63
       rect:
         serializedVersion: 2
-        x: 269
-        y: 1538
-        width: 46
-        height: 48
+        x: 192
+        y: 1536
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1625,20 +1486,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4269bb1e2a7443bb8dc38e6b7e4b0ee
-      internalID: 235503915
+      spriteID: a8d5d2bbda56549fc901278bdd39156f
+      internalID: -1685558354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_70
+      name: Orc with Axe-1_64
       rect:
         serializedVersion: 2
-        x: 333
-        y: 1539
-        width: 46
-        height: 47
+        x: 256
+        y: 1536
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1646,20 +1507,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e151f28b024b4838a676840c71ae0f7
-      internalID: -292586905
+      spriteID: bb92aa7c9fb2d4dab80fef5f3e8543ca
+      internalID: -552754334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_71
+      name: Orc with Axe-1_65
       rect:
         serializedVersion: 2
-        x: 397
-        y: 1538
-        width: 46
-        height: 48
+        x: 320
+        y: 1536
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1667,20 +1528,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1c01cac35e364a65aefc978e19825de
-      internalID: -452218112
+      spriteID: ed83c4e073edd43a79294f1fe6d01656
+      internalID: -111083572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_72
+      name: Orc with Axe-1_66
       rect:
         serializedVersion: 2
-        x: 461
-        y: 1537
-        width: 46
-        height: 48
+        x: 384
+        y: 1536
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1688,20 +1549,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4660ff2e03504a6abb9aa9af2baf5ef
-      internalID: 732005887
+      spriteID: a388d8717ccbd466ba43c52db537bd1a
+      internalID: -441978231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_73
+      name: Orc with Axe-1_67
       rect:
         serializedVersion: 2
-        x: 525
-        y: 1538
-        width: 46
-        height: 48
+        x: 448
+        y: 1536
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1709,20 +1570,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ce9effbe58ca472fbc2e8e1a7cf68f8
-      internalID: -821169021
+      spriteID: e82987f5901524ef29e9c528ffd7801d
+      internalID: -1178869550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_74
+      name: Orc with Axe-1_68
       rect:
         serializedVersion: 2
-        x: 10
-        y: 1474
-        width: 45
-        height: 48
+        x: 512
+        y: 1536
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1730,20 +1591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33485b5cb2e2246aba37d408ff770e1c
-      internalID: 1148691460
+      spriteID: b57f43214a2784a85839da2d7bf92e57
+      internalID: -1128492411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_75
+      name: Orc with Axe-1_69
       rect:
         serializedVersion: 2
-        x: 78
-        y: 1474
-        width: 46
-        height: 47
+        x: 0
+        y: 1472
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1751,20 +1612,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fcc1e52601f74500bcad135e60a6fc0
-      internalID: 891527463
+      spriteID: 86ab2549a113849ecb157bb8dc19316e
+      internalID: 310550867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_76
+      name: Orc with Axe-1_70
       rect:
         serializedVersion: 2
-        x: 143
-        y: 1475
-        width: 46
-        height: 47
+        x: 64
+        y: 1472
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1772,20 +1633,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4541e8b49b4b14c9983e20e34f3d11f0
-      internalID: 1275210852
+      spriteID: f5883160806e84804ace113473cd3a8f
+      internalID: -1461919800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_77
+      name: Orc with Axe-1_71
       rect:
         serializedVersion: 2
-        x: 203
-        y: 1475
-        width: 45
-        height: 47
+        x: 128
+        y: 1472
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1793,20 +1654,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce8f243a36f3347d9af18097613f4559
-      internalID: -873162780
+      spriteID: 730a111220c914151aaf314d4a693af0
+      internalID: -815765728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_78
+      name: Orc with Axe-1_72
       rect:
         serializedVersion: 2
-        x: 264
-        y: 1474
-        width: 46
-        height: 48
+        x: 192
+        y: 1472
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1814,20 +1675,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21979d3c046214acdb6c631e4bc63c84
-      internalID: -1318720601
+      spriteID: 9b375e1f3c5674a3c99357f1e2fc6f16
+      internalID: 1342572772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_79
+      name: Orc with Axe-1_73
       rect:
         serializedVersion: 2
-        x: 325
-        y: 1474
-        width: 43
-        height: 47
+        x: 256
+        y: 1472
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1835,20 +1696,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cb52ae0d2a3a4f1eac1c9b73214d713
-      internalID: -651054635
+      spriteID: 529676da4129d49ff838fde849601a71
+      internalID: -304790158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_80
+      name: Orc with Axe-1_74
       rect:
         serializedVersion: 2
-        x: 394
-        y: 1474
-        width: 46
-        height: 48
+        x: 320
+        y: 1472
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1856,20 +1717,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 192d832dc2fd3455685476a6cf540ca6
-      internalID: -951433341
+      spriteID: a87132282404e45ad82cbf52924f8fe2
+      internalID: -1043991616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_81
+      name: Orc with Axe-1_75
       rect:
         serializedVersion: 2
-        x: 463
-        y: 1474
-        width: 46
-        height: 48
+        x: 384
+        y: 1472
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1877,20 +1738,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a136db45f1904a988516e3ae0a8a484
-      internalID: 2001754174
+      spriteID: f8f2e02f119cf44128f1923dc3f647fa
+      internalID: -949751756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_82
+      name: Orc with Axe-1_76
       rect:
         serializedVersion: 2
-        x: 528
-        y: 1474
-        width: 46
-        height: 48
+        x: 448
+        y: 1472
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1898,20 +1759,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a494d55b823a433a9b69568bca70a88
-      internalID: 1540803049
+      spriteID: addb2bf5301944d13a123c420e4b8313
+      internalID: 687711750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_83
+      name: Orc with Axe-1_77
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1410
-        width: 46
-        height: 48
+        x: 512
+        y: 1472
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1919,20 +1780,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e241599c16036409da45f1c24f4a9a94
-      internalID: -1489567654
+      spriteID: 13497986469c3492e9b8087d40db8260
+      internalID: 553123483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_84
+      name: Orc with Axe-1_78
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1410
-        width: 46
-        height: 48
+        x: 0
+        y: 1408
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1940,20 +1801,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4be042c2b9f0042d3a62f35bd4681d96
-      internalID: 453653789
+      spriteID: 1c66234cade254def914d77824e873d5
+      internalID: -691128986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_85
+      name: Orc with Axe-1_79
       rect:
         serializedVersion: 2
-        x: 145
-        y: 1409
-        width: 46
-        height: 49
+        x: 64
+        y: 1408
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1961,20 +1822,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8be6a8098ff2048db8928f78420bc8b3
-      internalID: -756465141
+      spriteID: 68b3c72e95e6649568f2e1f86c40e412
+      internalID: 806414735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_86
+      name: Orc with Axe-1_80
       rect:
         serializedVersion: 2
-        x: 209
-        y: 1409
-        width: 45
-        height: 48
+        x: 128
+        y: 1408
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1982,20 +1843,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55bbdfb74db414631b97852381b3e7c5
-      internalID: -619637336
+      spriteID: c27cf8d45230e4a6192a6db31f48ce8b
+      internalID: -1583597899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_87
+      name: Orc with Axe-1_81
       rect:
         serializedVersion: 2
-        x: 273
-        y: 1409
-        width: 46
-        height: 49
+        x: 192
+        y: 1408
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2003,20 +1864,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3684433eb5564eef91fcdb665f3de53
-      internalID: 1151558701
+      spriteID: bf5ddb16c8dd7406d84196620aeba1e0
+      internalID: -140499214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_88
+      name: Orc with Axe-1_82
       rect:
         serializedVersion: 2
-        x: 337
-        y: 1410
-        width: 46
-        height: 48
+        x: 256
+        y: 1408
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2024,20 +1885,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6f6d17957fd84955ae0f0711ca692dc
-      internalID: -1094146924
+      spriteID: b8e2695a3964b461293b91eeca83029d
+      internalID: -1566202294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_89
+      name: Orc with Axe-1_83
       rect:
         serializedVersion: 2
-        x: 401
-        y: 1409
-        width: 46
-        height: 49
+        x: 320
+        y: 1408
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2045,20 +1906,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c799fa9e27ef0474e9031dd7695e9ebc
-      internalID: 332293582
+      spriteID: 2a509c7c841074656babf17aff6a8c6f
+      internalID: 1058255283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_90
+      name: Orc with Axe-1_84
       rect:
         serializedVersion: 2
-        x: 463
-        y: 1409
-        width: 47
-        height: 48
+        x: 384
+        y: 1408
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2066,20 +1927,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 659fb05605ca04f3fb1d2666a99ecf40
-      internalID: -1133183377
+      spriteID: 75861b43b30fc4f3697876668fc0412a
+      internalID: 1585094838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_91
+      name: Orc with Axe-1_85
       rect:
         serializedVersion: 2
-        x: 529
-        y: 1409
-        width: 46
-        height: 49
+        x: 448
+        y: 1408
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2087,20 +1948,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 483607fa3e88d4e7f9e6bde51d0c9876
-      internalID: -800013771
+      spriteID: 6a0ee736350ae42ae9a9807c0d26f2ff
+      internalID: -1109367541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_92
+      name: Orc with Axe-1_86
       rect:
         serializedVersion: 2
-        x: 9
-        y: 1346
-        width: 45
-        height: 48
+        x: 512
+        y: 1408
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2108,20 +1969,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33d99ef560b83443187a7cae69e0e06f
-      internalID: 2080165306
+      spriteID: 18b00bb1223734a818bb583d4d5c499b
+      internalID: -1587357906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_93
+      name: Orc with Axe-1_87
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1346
-        width: 46
-        height: 47
+        x: 0
+        y: 1344
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2129,20 +1990,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f303a601e0df465389a92b9f7aea9e1
-      internalID: -575077693
+      spriteID: b210e8f1f95f743dc8755b1e9031f334
+      internalID: 82142917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_94
+      name: Orc with Axe-1_88
       rect:
         serializedVersion: 2
-        x: 131
-        y: 1347
-        width: 46
-        height: 47
+        x: 64
+        y: 1344
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2150,20 +2011,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d70a77fad16c84f05ac88addb19e6f15
-      internalID: 1887011462
+      spriteID: 5fa00f504507e43708965353d47dc6a9
+      internalID: 1175663648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_95
+      name: Orc with Axe-1_89
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1347
-        width: 45
-        height: 47
+        x: 128
+        y: 1344
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2171,20 +2032,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac7a74641be9b4b8d9aeec9a449d177a
-      internalID: 1944746886
+      spriteID: 027f72d5cd0b240008e5268f5da18cf2
+      internalID: 977915017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_96
+      name: Orc with Axe-1_90
       rect:
         serializedVersion: 2
-        x: 266
-        y: 1346
-        width: 46
-        height: 48
+        x: 192
+        y: 1344
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2192,20 +2053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a71c273792b5445ea60a2d291721005
-      internalID: -1437359326
+      spriteID: 638e24da704a04a6eaf2e1d5077fceef
+      internalID: -1701827265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_97
+      name: Orc with Axe-1_91
       rect:
         serializedVersion: 2
-        x: 336
-        y: 1346
-        width: 43
-        height: 47
+        x: 256
+        y: 1344
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2213,20 +2074,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e597bbeb35cb04bb0b5aea0df0de7004
-      internalID: 192034978
+      spriteID: dce93acf3c90045b8b5b0b97c6251ec3
+      internalID: 914783934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_98
+      name: Orc with Axe-1_92
       rect:
         serializedVersion: 2
-        x: 392
-        y: 1346
-        width: 46
-        height: 48
+        x: 320
+        y: 1344
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2234,20 +2095,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59791fa1b08444b3287cad72d10a0e4f
-      internalID: 2115812237
+      spriteID: 983dddcc02241436f812c6799e18e1ea
+      internalID: -222800081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_99
+      name: Orc with Axe-1_93
       rect:
         serializedVersion: 2
-        x: 451
-        y: 1346
-        width: 46
-        height: 48
+        x: 384
+        y: 1344
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2255,20 +2116,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceb41a81410c14be59b2af0ae753f4d3
-      internalID: 2058976583
+      spriteID: d94ef8ccd4d8d4cebb8decdc2df706ff
+      internalID: -986395199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_100
+      name: Orc with Axe-1_94
       rect:
         serializedVersion: 2
-        x: 514
-        y: 1346
-        width: 46
-        height: 48
+        x: 448
+        y: 1344
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2276,20 +2137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba225403bd8c64c5086db7ab5dfcf07c
-      internalID: -294225087
+      spriteID: acd4cea65ab9a43529be633abfd0f371
+      internalID: 1381542894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_101
+      name: Orc with Axe-1_95
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1282
-        width: 31
-        height: 47
+        x: 512
+        y: 1344
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2297,20 +2158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30e3d7e4605b141f9a3e420fd2bac636
-      internalID: 540508697
+      spriteID: ffc85d7dee8c3434f91f4a4d2ceb87cd
+      internalID: -780394132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_102
+      name: Orc with Axe-1_96
       rect:
         serializedVersion: 2
-        x: 83
-        y: 1281
-        width: 28
-        height: 47
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2318,20 +2179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9a2873fd01d4071a7a9a5892aee959
-      internalID: -1227660300
+      spriteID: c9443518a939241c8aa3abec5b0d99a7
+      internalID: -1026495509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_103
+      name: Orc with Axe-1_97
       rect:
         serializedVersion: 2
-        x: 147
-        y: 1281
-        width: 26
-        height: 47
+        x: 64
+        y: 1280
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2339,20 +2200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 603a25849b2da4a48afed8664ec63bcd
-      internalID: 1934857763
+      spriteID: 7d24e5f65078b48e0be70929c7ed574c
+      internalID: -1309343598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_104
+      name: Orc with Axe-1_98
       rect:
         serializedVersion: 2
-        x: 211
-        y: 1281
-        width: 28
-        height: 48
+        x: 128
+        y: 1280
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2360,20 +2221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d0986f060701469b92e405ab10b8f4a
-      internalID: -648636559
+      spriteID: 7a0897e3b585e4f01aa9fdb69c0d77bf
+      internalID: -235026236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_105
+      name: Orc with Axe-1_99
       rect:
         serializedVersion: 2
-        x: 274
-        y: 1281
-        width: 36
-        height: 48
+        x: 192
+        y: 1280
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2381,20 +2242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ccfa8b1135d34e52a3191bf7adea697
-      internalID: -387529138
+      spriteID: 77e3cd530fba54b24a2635467d6a7974
+      internalID: 1071133704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_106
+      name: Orc with Axe-1_100
       rect:
         serializedVersion: 2
-        x: 338
-        y: 1281
-        width: 39
-        height: 48
+        x: 256
+        y: 1280
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2402,20 +2263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10492781fca3c44b295c34f338b895ed
-      internalID: 1465018795
+      spriteID: ba27c14966c594485904f30f782d42a9
+      internalID: 42536615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_107
+      name: Orc with Axe-1_101
       rect:
         serializedVersion: 2
-        x: 23
-        y: 1218
-        width: 20
-        height: 48
+        x: 320
+        y: 1280
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2423,20 +2284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caf47ed305cff40339c2156ecf17b6fe
-      internalID: -1141961761
+      spriteID: 608c2ca0af6f54f0eb46bcac839c3413
+      internalID: 947258858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_108
+      name: Orc with Axe-1_102
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1218
-        width: 25
-        height: 46
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2444,20 +2305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfef1dbf5184c4cb591aecf598b67058
-      internalID: -1245896516
+      spriteID: c17943f6ee96f4939b1ac3e1092c8e33
+      internalID: -727372329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_109
+      name: Orc with Axe-1_103
       rect:
         serializedVersion: 2
-        x: 148
-        y: 1218
-        width: 24
-        height: 48
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2465,20 +2326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2d459e4e245847bb90886d83557392b
-      internalID: -198785677
+      spriteID: a69ca13acd6c247578f3ca4b9d01934e
+      internalID: 6164980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_110
+      name: Orc with Axe-1_104
       rect:
         serializedVersion: 2
-        x: 203
-        y: 1218
-        width: 34
-        height: 48
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2486,20 +2347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5459e691b7a314ba9b11d86aecaeff19
-      internalID: -1659927743
+      spriteID: b90f25e9272464d658a01a5919aa4cb9
+      internalID: 1863978061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_111
+      name: Orc with Axe-1_105
       rect:
         serializedVersion: 2
-        x: 264
-        y: 1218
-        width: 36
-        height: 48
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2507,20 +2368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90e58ee8990a54105a9bbbb9d429d4b9
-      internalID: 1327364552
+      spriteID: 6fbfb084248df4c7cb0fdf2ecfb268ca
+      internalID: -1168165364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_112
+      name: Orc with Axe-1_106
       rect:
         serializedVersion: 2
-        x: 331
-        y: 1218
-        width: 33
-        height: 48
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2528,20 +2389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3753bb1595af447ab9e26f2af643da0
-      internalID: 1642607380
+      spriteID: b7dcdae2a6d55436087e601a3a59401c
+      internalID: -1968720194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_113
+      name: Orc with Axe-1_107
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1154
-        width: 30
-        height: 48
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2549,20 +2410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55bc359df904041f5a144b28ddc74f8e
-      internalID: -1286292630
+      spriteID: bab686020a08e41ee91352fd8c1ca00b
+      internalID: -1750514191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_114
+      name: Orc with Axe-1_108
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1154
-        width: 28
-        height: 48
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2570,20 +2431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddbb9606b0294470ba48c5f1928e3507
-      internalID: -17874812
+      spriteID: 06a24a66d8913482ab8f3a2bd2757238
+      internalID: -2117914950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_115
+      name: Orc with Axe-1_109
       rect:
         serializedVersion: 2
-        x: 145
-        y: 1154
-        width: 28
-        height: 46
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2591,20 +2452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bc9c1049d1594ebca2fba4b79682259
-      internalID: -1207683140
+      spriteID: e1d9988212494452eaabd0d9477c0ce5
+      internalID: -926249563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_116
+      name: Orc with Axe-1_110
       rect:
         serializedVersion: 2
-        x: 212
-        y: 1154
-        width: 26
-        height: 47
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2612,20 +2473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2eef50a7619524d8ca463a10a528ddba
-      internalID: 632075466
+      spriteID: f5f42b5186a5b45218b661e813bdaf7a
+      internalID: 649653975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_117
+      name: Orc with Axe-1_111
       rect:
         serializedVersion: 2
-        x: 276
-        y: 1154
-        width: 35
-        height: 48
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2633,20 +2494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af6ffea607b4c432094e972138a83ed3
-      internalID: -564363711
+      spriteID: ce8c4909518c4423089e8da1ae052801
+      internalID: 1998834107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_118
+      name: Orc with Axe-1_112
       rect:
         serializedVersion: 2
-        x: 339
-        y: 1154
-        width: 39
-        height: 48
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2654,20 +2515,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3adce55c61774c779c701b39e33b119
-      internalID: -1268508872
+      spriteID: 3e45dda95ea3740ec8c350dbdf998c1e
+      internalID: 665939075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_119
+      name: Orc with Axe-1_113
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1090
-        width: 21
-        height: 48
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2675,20 +2536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f96dbb0ade85542a7b019cb7a36af89a
-      internalID: 744481063
+      spriteID: 61573416a42fd43a585c36b08ae090ee
+      internalID: -1713683483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_120
+      name: Orc with Axe-1_114
       rect:
         serializedVersion: 2
-        x: 86
-        y: 1090
-        width: 25
-        height: 46
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2696,20 +2557,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 686d51d5160e94f29901b762882e1ed0
-      internalID: -1944311494
+      spriteID: d43e3441ed5b640dfa2a9ec2d5c54af5
+      internalID: 557391689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_121
+      name: Orc with Axe-1_115
       rect:
         serializedVersion: 2
-        x: 148
-        y: 1090
-        width: 24
-        height: 48
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2717,20 +2578,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c5d6c8e5ff12455db9e8142663dfe66
-      internalID: 1294631113
+      spriteID: e8573e6e82e7b4b53b5fbb6b03f2d795
+      internalID: 158493953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_122
+      name: Orc with Axe-1_116
       rect:
         serializedVersion: 2
-        x: 211
-        y: 1090
-        width: 34
-        height: 48
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2738,20 +2599,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0381132b7d664e56a65fd87718207b8
-      internalID: -1125804178
+      spriteID: ec0aef26211724db09fd855ab03680ca
+      internalID: -385334849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_123
+      name: Orc with Axe-1_117
       rect:
         serializedVersion: 2
-        x: 276
-        y: 1090
-        width: 36
-        height: 48
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2759,20 +2620,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35fcf0ac28c4a433db4c75b9a0ffe6ad
-      internalID: 1211058454
+      spriteID: 197f56772c5bf4d3d9f512646bbff1ed
+      internalID: -1207432576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_124
+      name: Orc with Axe-1_118
       rect:
         serializedVersion: 2
-        x: 340
-        y: 1090
-        width: 33
-        height: 48
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2780,20 +2641,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1e832f6c644042b0a7dc034861f7423
-      internalID: -2061270618
+      spriteID: 773745eaba253460298c72e017dab02b
+      internalID: -1443288325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_125
+      name: Orc with Axe-1_119
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1026
-        width: 31
-        height: 47
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2801,20 +2662,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45fbbe6103c53464284588d08c719846
-      internalID: 1131699686
+      spriteID: 991b4a9d1256f4fea9d4ab9ca69f74c6
+      internalID: -125687204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_126
+      name: Orc with Axe-1_120
       rect:
         serializedVersion: 2
-        x: 83
+        x: 0
         y: 1024
-        width: 26
-        height: 48
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2822,20 +2683,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bad4b325168e24c94837bcc88753afd3
-      internalID: -307093326
+      spriteID: 4b8718cf5971c457db0508d111de1b14
+      internalID: -1845397807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_127
+      name: Orc with Axe-1_121
       rect:
         serializedVersion: 2
-        x: 148
+        x: 64
         y: 1024
-        width: 24
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2843,20 +2704,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eb3d2b58d24b4993bdb16c9b57ca39d
-      internalID: 581218825
+      spriteID: 6fa91969803274139bcc287f5a01557d
+      internalID: 1774666942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_128
+      name: Orc with Axe-1_122
       rect:
         serializedVersion: 2
-        x: 211
+        x: 128
         y: 1024
-        width: 24
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2864,20 +2725,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7baa75511e9142c6abee353c6450bf1
-      internalID: -795435135
+      spriteID: b5f02b88129424d459a00f54006c6a87
+      internalID: -1889354089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_129
+      name: Orc with Axe-1_123
       rect:
         serializedVersion: 2
-        x: 275
+        x: 192
         y: 1024
-        width: 28
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2885,20 +2746,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4538be2bda984693b7140d2233c3f22
-      internalID: 1170362583
+      spriteID: 08925c69433764a569afa851ceed00e8
+      internalID: -1422595098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_130
+      name: Orc with Axe-1_124
       rect:
         serializedVersion: 2
-        x: 339
+        x: 256
         y: 1024
-        width: 26
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2906,20 +2767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73191a58d04c64ab98a00b2d9d586f5f
-      internalID: 1243279106
+      spriteID: 7639b15cbff61416488d73345fa9ac9b
+      internalID: -2132368127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_131
+      name: Orc with Axe-1_125
       rect:
         serializedVersion: 2
-        x: 403
+        x: 320
         y: 1024
-        width: 27
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2927,20 +2788,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f940a6e2fd4148fbb06b430ab42a5a4
-      internalID: -877533507
+      spriteID: 7c4e3be4f6db14b409b1601a1af4dfa3
+      internalID: -14621243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_132
+      name: Orc with Axe-1_126
       rect:
         serializedVersion: 2
-        x: 467
+        x: 384
         y: 1024
-        width: 28
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2948,20 +2809,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8816fdd2f5dfc4f7983dab8c536340e7
-      internalID: -403938705
+      spriteID: b4f261341747b49b7b8cfe84c68e57d9
+      internalID: -581702735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_133
+      name: Orc with Axe-1_127
       rect:
         serializedVersion: 2
-        x: 531
+        x: 448
         y: 1024
-        width: 29
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2969,20 +2830,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e67c4bbe7b8a24836916db7fb8004e48
-      internalID: 197843572
+      spriteID: be135df9510b9497f87fa35db96eb29b
+      internalID: -489934718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_134
+      name: Orc with Axe-1_128
       rect:
         serializedVersion: 2
-        x: 595
+        x: 512
         y: 1024
-        width: 28
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2990,20 +2851,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eae3444a139074af78c8565f389b7ce7
-      internalID: 531521039
+      spriteID: db571b9c58703417791708fbaeacaabd
+      internalID: -1943061675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_135
+      name: Orc with Axe-1_129
       rect:
         serializedVersion: 2
-        x: 659
+        x: 576
         y: 1024
-        width: 24
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3011,20 +2872,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52ff614588cab4ec3b0985e9afe9bbab
-      internalID: 2054231892
+      spriteID: c328c862228f84ff3a243f52ea7afce1
+      internalID: 752944223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_136
+      name: Orc with Axe-1_130
       rect:
         serializedVersion: 2
-        x: 723
+        x: 640
         y: 1024
-        width: 24
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3032,20 +2893,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40b8e5f32d1714f2fb899f0b81310d9b
-      internalID: -1731204795
+      spriteID: e1975b59678a04d8aa393bb72734906d
+      internalID: 963988896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_137
+      name: Orc with Axe-1_131
       rect:
         serializedVersion: 2
-        x: 787
+        x: 704
         y: 1024
-        width: 24
-        height: 49
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3053,20 +2914,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 289e5562261234e6e9b507f02b12f7e4
-      internalID: -741379844
+      spriteID: 632ce1c83186c423895f302905500d3e
+      internalID: 1937627469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_138
+      name: Orc with Axe-1_132
       rect:
         serializedVersion: 2
-        x: 24
-        y: 962
-        width: 20
-        height: 48
+        x: 768
+        y: 1024
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3074,20 +2935,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f991cb833efe94133a94fd96310afb2a
-      internalID: 1915999588
+      spriteID: f95832eae9c2945e78af61413c14cfe6
+      internalID: 1233994517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_139
+      name: Orc with Axe-1_133
       rect:
         serializedVersion: 2
-        x: 84
-        y: 962
-        width: 25
-        height: 48
+        x: 0
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3095,20 +2956,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2141616c1fed41e1a16c3dcef0070d0
-      internalID: 1628449145
+      spriteID: fc273acc32bd34b4599d9c0f58a6e916
+      internalID: 1491132596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_140
+      name: Orc with Axe-1_134
       rect:
         serializedVersion: 2
-        x: 143
-        y: 962
-        width: 32
-        height: 48
+        x: 64
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3116,20 +2977,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86d4e4c279f2d42a4a45cbb919cec5ca
-      internalID: 1045832218
+      spriteID: 97f196b5806cf4db89c4fc1bc89aeba5
+      internalID: -1629047407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_141
+      name: Orc with Axe-1_135
       rect:
         serializedVersion: 2
-        x: 205
-        y: 962
-        width: 35
-        height: 48
+        x: 128
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3137,20 +2998,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8e83046ac1e746b3a823350ad841c4f
-      internalID: 1653784067
+      spriteID: 6cd4f1c9adc1342929ea51293c987a62
+      internalID: 1291270813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_142
+      name: Orc with Axe-1_136
       rect:
         serializedVersion: 2
-        x: 269
-        y: 962
-        width: 35
-        height: 48
+        x: 192
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3158,20 +3019,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb2913abd23c84c83b53ccb768a414b9
-      internalID: 947522048
+      spriteID: eaa71921d11404868a66cc9314c0f967
+      internalID: -1140219398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_143
+      name: Orc with Axe-1_137
       rect:
         serializedVersion: 2
-        x: 332
-        y: 962
-        width: 32
-        height: 48
+        x: 256
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3179,20 +3040,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cae055768e9948529bf690738a06d03
-      internalID: -376597648
+      spriteID: ba59c6551c7584c5381c26417ad41328
+      internalID: 1262062518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_144
+      name: Orc with Axe-1_138
       rect:
         serializedVersion: 2
-        x: 396
-        y: 962
-        width: 34
-        height: 48
+        x: 320
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3200,20 +3061,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e68df5faeb45d421abb35a7e7a92ae80
-      internalID: -1845934419
+      spriteID: e28814923c7b94a65952b5f33458fde2
+      internalID: 1152170999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_145
+      name: Orc with Axe-1_139
       rect:
         serializedVersion: 2
-        x: 461
-        y: 962
-        width: 36
-        height: 48
+        x: 384
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3221,20 +3082,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4ccf8d32cd39490cb67c1e4c3f9a203
-      internalID: 609589966
+      spriteID: 1c56a5e077aca4af9a672273f7925507
+      internalID: 1266254688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_146
+      name: Orc with Axe-1_140
       rect:
         serializedVersion: 2
-        x: 525
-        y: 962
-        width: 38
-        height: 48
+        x: 448
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3242,20 +3103,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 715709ff1f19c45ab97fa5cc0938e2c5
-      internalID: -1141665947
+      spriteID: 796db455dcbb842d9bbd38e366e579a7
+      internalID: -285385267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_147
+      name: Orc with Axe-1_141
       rect:
         serializedVersion: 2
-        x: 589
-        y: 962
-        width: 35
-        height: 48
+        x: 512
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3263,20 +3124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e76920988efa47dda6ff847d20d715f
-      internalID: 852758495
+      spriteID: 4c3f2e64651514d9e844f02560893848
+      internalID: 834980130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_148
+      name: Orc with Axe-1_142
       rect:
         serializedVersion: 2
-        x: 653
-        y: 962
-        width: 34
-        height: 48
+        x: 576
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3284,20 +3145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bf09658997be47a695dd4f712f9dd74
-      internalID: -1705990783
+      spriteID: 87934c2aa58fc4645857fe1a9c2b5723
+      internalID: -1916555494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_149
+      name: Orc with Axe-1_143
       rect:
         serializedVersion: 2
-        x: 717
-        y: 962
-        width: 30
-        height: 48
+        x: 640
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3305,20 +3166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d869adf7ed246b7afcbcc35fa92925
-      internalID: -1855968866
+      spriteID: 3eeaa275fff7d4ffd81f2e67c069154d
+      internalID: 792986269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_150
+      name: Orc with Axe-1_144
       rect:
         serializedVersion: 2
-        x: 781
-        y: 962
-        width: 34
-        height: 48
+        x: 704
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3326,20 +3187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1dff3cf9412c41538c6d6bfd858253e
-      internalID: 439671287
+      spriteID: 5af29e9081b57447a98e76b38058a6a4
+      internalID: -1613599173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_151
+      name: Orc with Axe-1_145
       rect:
         serializedVersion: 2
-        x: 16
-        y: 898
-        width: 30
-        height: 48
+        x: 768
+        y: 960
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3347,20 +3208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2a282bd9d09e4d76adb2391ef64c929
-      internalID: 1101134336
+      spriteID: 91d90ccf9bd984987bb7ba42370169c2
+      internalID: 986063436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_152
+      name: Orc with Axe-1_146
       rect:
         serializedVersion: 2
-        x: 81
-        y: 899
-        width: 26
-        height: 47
+        x: 0
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3368,20 +3229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0d02f11996444b1087d2a674125a70a
-      internalID: 94857106
+      spriteID: 84ba4a2dea0d641eaafff56f70a3f14d
+      internalID: 880171923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_153
+      name: Orc with Axe-1_147
       rect:
         serializedVersion: 2
-        x: 146
-        y: 899
-        width: 25
-        height: 47
+        x: 64
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3389,20 +3250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2766035a3cf3847aabe67f32571603dd
-      internalID: -571564042
+      spriteID: cca3f2abaf5214360859f8ccc1d552d7
+      internalID: 1861545738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_154
+      name: Orc with Axe-1_148
       rect:
         serializedVersion: 2
-        x: 210
-        y: 898
-        width: 25
-        height: 48
+        x: 128
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3410,20 +3271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b313da963c3a44d43915238fb343c5cf
-      internalID: -93293784
+      spriteID: 0d6b7130b03c54004aa398a2aafa2275
+      internalID: -1382178411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_155
+      name: Orc with Axe-1_149
       rect:
         serializedVersion: 2
-        x: 275
-        y: 898
-        width: 24
-        height: 48
+        x: 192
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3431,20 +3292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86105b912a330428eaa2cc4de9831925
-      internalID: 582455874
+      spriteID: b956516d5a4284d34bd45d69786a4408
+      internalID: 393218249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_156
+      name: Orc with Axe-1_150
       rect:
         serializedVersion: 2
-        x: 339
-        y: 898
-        width: 24
-        height: 48
+        x: 256
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3452,20 +3313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ea8d06ec1588408fa57ea6e6cf2516f
-      internalID: 894834452
+      spriteID: be66f16a2c0f44bb6bc56834d3f37ecb
+      internalID: 1356278350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_157
+      name: Orc with Axe-1_151
       rect:
         serializedVersion: 2
-        x: 403
-        y: 898
-        width: 24
-        height: 48
+        x: 320
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3473,20 +3334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60ea7f0cc93974be0a9c64045e7e0cc3
-      internalID: 1212362855
+      spriteID: cb041b7a4ee3948db9f377dea58b90e1
+      internalID: -1299263379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_158
+      name: Orc with Axe-1_152
       rect:
         serializedVersion: 2
-        x: 466
-        y: 898
-        width: 25
-        height: 48
+        x: 384
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3494,20 +3355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3d02c0d54da7411c892021000838693
-      internalID: -1991300123
+      spriteID: 8f6368856e46a4ca3bb5c54887d82ac0
+      internalID: -116224727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_159
+      name: Orc with Axe-1_153
       rect:
         serializedVersion: 2
-        x: 530
-        y: 898
-        width: 25
-        height: 48
+        x: 448
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3515,20 +3376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b987342f58454947a39dbebb29dafe5
-      internalID: 878430175
+      spriteID: 47009df6aace24fb3b7837f3a4a40026
+      internalID: 78581067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_160
+      name: Orc with Axe-1_154
       rect:
         serializedVersion: 2
-        x: 595
-        y: 898
-        width: 24
-        height: 48
+        x: 512
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3536,20 +3397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07a2694b6abc645618f7bae2ba41b42c
-      internalID: -1779720392
+      spriteID: 0253298a9e7bc4a808937f9388df723b
+      internalID: 1795729977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_161
+      name: Orc with Axe-1_155
       rect:
         serializedVersion: 2
-        x: 658
-        y: 898
-        width: 25
-        height: 48
+        x: 576
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3557,20 +3418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8831470e6f5354b2ab3fdc4321126e20
-      internalID: -1324027106
+      spriteID: 21f7b250257f647a9b924e4e46c9c8ba
+      internalID: 410048393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_162
+      name: Orc with Axe-1_156
       rect:
         serializedVersion: 2
-        x: 723
-        y: 898
-        width: 24
-        height: 48
+        x: 640
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3578,20 +3439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9e02d0bf34eb40c89499b92b585616e
-      internalID: -2054179773
+      spriteID: af6ba4c15bce249dfacc399871c991f0
+      internalID: 1382439667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_163
+      name: Orc with Axe-1_157
       rect:
         serializedVersion: 2
-        x: 786
-        y: 898
-        width: 25
-        height: 48
+        x: 704
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3599,20 +3460,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bf3c830f1abc43e4a70289641b8bcdb
-      internalID: 2029302565
+      spriteID: 53e7469e19fc341ab96a0170c73eea23
+      internalID: -928161405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_164
+      name: Orc with Axe-1_158
       rect:
         serializedVersion: 2
-        x: 19
-        y: 834
-        width: 21
-        height: 48
+        x: 768
+        y: 896
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3620,20 +3481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5445a5d3824d44040b008ab42ea98cc4
-      internalID: -1318025853
+      spriteID: f321748e096c4460986b6119ed1d5849
+      internalID: -744831576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_165
+      name: Orc with Axe-1_159
       rect:
         serializedVersion: 2
-        x: 83
-        y: 834
-        width: 25
-        height: 48
+        x: 0
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3641,20 +3502,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f162eb73475c7403090895c7683f855e
-      internalID: 1843206953
+      spriteID: 5820bfc50e9f449dd8f113528e492be0
+      internalID: -497290680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_166
+      name: Orc with Axe-1_160
       rect:
         serializedVersion: 2
-        x: 145
-        y: 834
-        width: 32
-        height: 48
+        x: 64
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3662,20 +3523,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0557cecb99f7d4efbb479905f295a9e6
-      internalID: -1381476263
+      spriteID: 86f5a1416975b4de29ba28b40e8e1ff2
+      internalID: 2038924324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_167
+      name: Orc with Axe-1_161
       rect:
         serializedVersion: 2
-        x: 208
-        y: 834
-        width: 35
-        height: 48
+        x: 128
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3683,20 +3544,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0c65d91c30af4a3bafbafc046874fd3
-      internalID: 35144854
+      spriteID: 0723a6021912742828c594e9353841e9
+      internalID: -1942111440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_168
+      name: Orc with Axe-1_162
       rect:
         serializedVersion: 2
-        x: 272
-        y: 834
-        width: 35
-        height: 48
+        x: 192
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3704,20 +3565,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8afe33540b70415bb612dd28e14331e
-      internalID: 464266824
+      spriteID: 6ca3f3c7be903437499f42d0e2a130b1
+      internalID: 1956797599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_169
+      name: Orc with Axe-1_163
       rect:
         serializedVersion: 2
-        x: 340
-        y: 834
-        width: 32
-        height: 48
+        x: 256
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3725,20 +3586,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcfea89d5cfad45258e9698809827d02
-      internalID: 883428213
+      spriteID: e323d023519004cd0820e93a635cc00f
+      internalID: -1827673315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_170
+      name: Orc with Axe-1_164
       rect:
         serializedVersion: 2
-        x: 402
-        y: 834
-        width: 34
-        height: 48
+        x: 320
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3746,20 +3607,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a798674981cee4af08006b2350f5c51b
-      internalID: 1188104511
+      spriteID: dcaf3c791019343ddb1ebb109123222a
+      internalID: -1670528152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_171
+      name: Orc with Axe-1_165
       rect:
         serializedVersion: 2
-        x: 463
-        y: 834
-        width: 36
-        height: 48
+        x: 384
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3767,20 +3628,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff6879bbdd6b6421781075d27006e648
-      internalID: -93152614
+      spriteID: 8f1bb9935b7a54bb5af55dfac0fe34a8
+      internalID: -935763856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_172
+      name: Orc with Axe-1_166
       rect:
         serializedVersion: 2
-        x: 525
-        y: 834
-        width: 38
-        height: 48
+        x: 448
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3788,20 +3649,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09124693adccb4122a037fe4372cf764
-      internalID: -1047550893
+      spriteID: fb5cb6c387fba47a0bad2f384617c6a1
+      internalID: -283885033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_173
+      name: Orc with Axe-1_167
       rect:
         serializedVersion: 2
-        x: 592
-        y: 834
-        width: 35
-        height: 48
+        x: 512
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3809,20 +3670,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a81d8f95654fd4fd3a526b2e6cb27128
-      internalID: -275360259
+      spriteID: ac95cc20c595043f49d1c2d50c6d55b7
+      internalID: 2079172906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_174
+      name: Orc with Axe-1_168
       rect:
         serializedVersion: 2
-        x: 657
-        y: 834
-        width: 34
-        height: 48
+        x: 576
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3830,20 +3691,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a56d74e501f82485098e0926ecae3ced
-      internalID: 1838630988
+      spriteID: bf0a6b08a190c466aa7a521122c93a2a
+      internalID: -1042286355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_175
+      name: Orc with Axe-1_169
       rect:
         serializedVersion: 2
-        x: 723
-        y: 834
-        width: 32
-        height: 48
+        x: 640
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3851,20 +3712,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea1fb8a962ab742098fc4641eaeeddee
-      internalID: 480994123
+      spriteID: eda8305bfcdbb42cc90fc444090d70ab
+      internalID: 458689733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_176
+      name: Orc with Axe-1_170
       rect:
         serializedVersion: 2
-        x: 785
-        y: 834
-        width: 34
-        height: 48
+        x: 704
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3872,20 +3733,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 476b750c6be8645f2ba002467601c22c
-      internalID: 955978719
+      spriteID: a86ed5da48fb7453b8db8f057874ea1e
+      internalID: 244319622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_177
+      name: Orc with Axe-1_171
       rect:
         serializedVersion: 2
-        x: 17
-        y: 770
-        width: 46
-        height: 48
+        x: 768
+        y: 832
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3893,83 +3754,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad4c2d766d8264472b75c637b3b5a377
-      internalID: -105869899
+      spriteID: 9f485faf39a104c15bf4d95529bae259
+      internalID: -324651235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_178
+      name: Orc with Axe-1_172
       rect:
         serializedVersion: 2
-        x: 82
-        y: 770
-        width: 46
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2d3c6dee4c304f62a1bfa675489292d
-      internalID: -753809366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_179
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 770
-        width: 46
-        height: 41
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 853fed297de7a4f688e15377a4c4c1df
-      internalID: 1629121061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_180
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 769
-        width: 46
-        height: 40
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c39649825ce0040169ec42b06daad736
-      internalID: 1796109713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_181
-      rect:
-        serializedVersion: 2
-        x: 274
+        x: 0
         y: 768
-        width: 46
-        height: 33
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3977,20 +3775,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f288aa0cb3ed493ea8935f85d21302e
-      internalID: 1673080654
+      spriteID: 67b213370e3724a25b11e6a9d442becc
+      internalID: 894544986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_182
+      name: Orc with Axe-1_173
       rect:
         serializedVersion: 2
-        x: 338
+        x: 64
         y: 768
-        width: 46
-        height: 36
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3998,20 +3796,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa2f0c57aaaf347a5a1e73f415c970b3
-      internalID: 800634753
+      spriteID: 8e5b39b89705d4cc6b4b12ea705c02be
+      internalID: 2022651336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_183
+      name: Orc with Axe-1_174
       rect:
         serializedVersion: 2
-        x: 77
-        y: 642
-        width: 46
-        height: 47
+        x: 128
+        y: 768
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4019,20 +3817,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c166ae00051a4c5087fdf79f8bdc6c9
-      internalID: 761461989
+      spriteID: 2f72e217c74fd46e8b7745cf9c728f2a
+      internalID: -1546469241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_184
+      name: Orc with Axe-1_175
       rect:
         serializedVersion: 2
-        x: 265
-        y: 641
-        width: 45
-        height: 47
+        x: 192
+        y: 768
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4040,20 +3838,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4687ddd5d5b59474d94d5f1e5b4c067b
-      internalID: 1018382653
+      spriteID: c55b29fc4d2524a489f57d2dd468824f
+      internalID: -1858652979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_185
+      name: Orc with Axe-1_176
       rect:
         serializedVersion: 2
-        x: 451
-        y: 641
-        width: 46
-        height: 47
+        x: 256
+        y: 768
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4061,20 +3859,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ae410de5345049dabd3fc8cc44a9a8c
-      internalID: 1915004777
+      spriteID: cbe59b6c52be94c2196896e56a656e17
+      internalID: -1911591918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe_186
+      name: Orc with Axe-1_177
       rect:
         serializedVersion: 2
-        x: 650
-        y: 641
-        width: 45
-        height: 48
+        x: 320
+        y: 768
+        width: 64
+        height: 64
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4082,428 +3880,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4fa21285c8ec4b39899e09fa38a900f
-      internalID: -1543434010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_187
-      rect:
-        serializedVersion: 2
-        x: 840
-        y: 641
-        width: 54
-        height: 56
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 668d6ac9735b04ae498fdd86fd3d7517
-      internalID: 893803842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_188
-      rect:
-        serializedVersion: 2
-        x: 1042
-        y: 641
-        width: 62
-        height: 54
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 885cc4ac83b6e442da70254e333db1d9
-      internalID: -1938520918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_189
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 450
-        width: 45
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9dfef3aec268147209273a8753f39809
-      internalID: 792440948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_190
-      rect:
-        serializedVersion: 2
-        x: 269
-        y: 450
-        width: 29
-        height: 46
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1051ddfee0534433babd977959ce198b
-      internalID: 209665673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_191
-      rect:
-        serializedVersion: 2
-        x: 461
-        y: 450
-        width: 39
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ec6252c442b14e77a14c36eba4b6633
-      internalID: -673666650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_192
-      rect:
-        serializedVersion: 2
-        x: 632
-        y: 450
-        width: 56
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b84b7a730145c45d2926a44fc5cfb4c9
-      internalID: -569606959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_193
-      rect:
-        serializedVersion: 2
-        x: 820
-        y: 450
-        width: 56
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0e0e5c09a4c84f2a8fa0b85b1dab6c1
-      internalID: 1250136463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_194
-      rect:
-        serializedVersion: 2
-        x: 1012
-        y: 450
-        width: 56
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 457e7d9f5256e41d49afda33eccaa1af
-      internalID: 1864551147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_195
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 258
-        width: 46
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f150a405b410549d5a7865769dc76cf8
-      internalID: -1229490848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_196
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 258
-        width: 45
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02135ae3489d44665973b9ef6af5b78e
-      internalID: 2076412523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_197
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 258
-        width: 46
-        height: 46
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 643c759ce7a7e4e5bb322f179899bd2a
-      internalID: 1456726022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_198
-      rect:
-        serializedVersion: 2
-        x: 643
-        y: 258
-        width: 54
-        height: 47
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79ac0aeeb639245cd9315935624b0b4f
-      internalID: 259007391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_199
-      rect:
-        serializedVersion: 2
-        x: 843
-        y: 249
-        width: 66
-        height: 57
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e04fdfc4bbfdd4a919415acff12f8560
-      internalID: 192629063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_200
-      rect:
-        serializedVersion: 2
-        x: 1043
-        y: 253
-        width: 62
-        height: 53
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24ebf0d02122c483283758614571f1b9
-      internalID: 185952374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_201
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 66
-        width: 45
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07a6ad7bbbd4349879f357781a177dbc
-      internalID: 107044377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_202
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 66
-        width: 29
-        height: 46
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7f4b48a02d904e8cae2150ad183a0f0
-      internalID: -1821170029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_203
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 66
-        width: 39
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e636438fb9df415c8e54723f25d205a
-      internalID: -1004106687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_204
-      rect:
-        serializedVersion: 2
-        x: 656
-        y: 66
-        width: 56
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b104e8b8f5bec45bfb29f631b8016d2a
-      internalID: -309478600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_205
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 66
-        width: 56
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1a2105a75e4347fcb6ed5ad115367c7
-      internalID: -1748515243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe_206
-      rect:
-        serializedVersion: 2
-        x: 1044
-        y: 66
-        width: 56
-        height: 48
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53c01429fe2dd4d19bcec75907f2e9c9
-      internalID: -1352246269
+      spriteID: c9b0aaaf63681497287ecda3905a795c
+      internalID: -1205018791
       vertices: []
       indices: 
       edges: []
@@ -4519,213 +3897,184 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Orc with Axe_0: -669480504
-      Orc with Axe_1: 382711740
-      Orc with Axe_10: -555420553
-      Orc with Axe_100: -294225087
-      Orc with Axe_101: 540508697
-      Orc with Axe_102: -1227660300
-      Orc with Axe_103: 1934857763
-      Orc with Axe_104: -648636559
-      Orc with Axe_105: -387529138
-      Orc with Axe_106: 1465018795
-      Orc with Axe_107: -1141961761
-      Orc with Axe_108: -1245896516
-      Orc with Axe_109: -198785677
-      Orc with Axe_11: 1213298702
-      Orc with Axe_110: -1659927743
-      Orc with Axe_111: 1327364552
-      Orc with Axe_112: 1642607380
-      Orc with Axe_113: -1286292630
-      Orc with Axe_114: -17874812
-      Orc with Axe_115: -1207683140
-      Orc with Axe_116: 632075466
-      Orc with Axe_117: -564363711
-      Orc with Axe_118: -1268508872
-      Orc with Axe_119: 744481063
-      Orc with Axe_12: 2090882790
-      Orc with Axe_120: -1944311494
-      Orc with Axe_121: 1294631113
-      Orc with Axe_122: -1125804178
-      Orc with Axe_123: 1211058454
-      Orc with Axe_124: -2061270618
-      Orc with Axe_125: 1131699686
-      Orc with Axe_126: -307093326
-      Orc with Axe_127: 581218825
-      Orc with Axe_128: -795435135
-      Orc with Axe_129: 1170362583
-      Orc with Axe_13: 1776262359
-      Orc with Axe_130: 1243279106
-      Orc with Axe_131: -877533507
-      Orc with Axe_132: -403938705
-      Orc with Axe_133: 197843572
-      Orc with Axe_134: 531521039
-      Orc with Axe_135: 2054231892
-      Orc with Axe_136: -1731204795
-      Orc with Axe_137: -741379844
-      Orc with Axe_138: 1915999588
-      Orc with Axe_139: 1628449145
-      Orc with Axe_14: -1567757581
-      Orc with Axe_140: 1045832218
-      Orc with Axe_141: 1653784067
-      Orc with Axe_142: 947522048
-      Orc with Axe_143: -376597648
-      Orc with Axe_144: -1845934419
-      Orc with Axe_145: 609589966
-      Orc with Axe_146: -1141665947
-      Orc with Axe_147: 852758495
-      Orc with Axe_148: -1705990783
-      Orc with Axe_149: -1855968866
-      Orc with Axe_15: -79602084
-      Orc with Axe_150: 439671287
-      Orc with Axe_151: 1101134336
-      Orc with Axe_152: 94857106
-      Orc with Axe_153: -571564042
-      Orc with Axe_154: -93293784
-      Orc with Axe_155: 582455874
-      Orc with Axe_156: 894834452
-      Orc with Axe_157: 1212362855
-      Orc with Axe_158: -1991300123
-      Orc with Axe_159: 878430175
-      Orc with Axe_16: 399600849
-      Orc with Axe_160: -1779720392
-      Orc with Axe_161: -1324027106
-      Orc with Axe_162: -2054179773
-      Orc with Axe_163: 2029302565
-      Orc with Axe_164: -1318025853
-      Orc with Axe_165: 1843206953
-      Orc with Axe_166: -1381476263
-      Orc with Axe_167: 35144854
-      Orc with Axe_168: 464266824
-      Orc with Axe_169: 883428213
-      Orc with Axe_17: -1575581448
-      Orc with Axe_170: 1188104511
-      Orc with Axe_171: -93152614
-      Orc with Axe_172: -1047550893
-      Orc with Axe_173: -275360259
-      Orc with Axe_174: 1838630988
-      Orc with Axe_175: 480994123
-      Orc with Axe_176: 955978719
-      Orc with Axe_177: -105869899
-      Orc with Axe_178: -753809366
-      Orc with Axe_179: 1629121061
-      Orc with Axe_18: -1917884889
-      Orc with Axe_180: 1796109713
-      Orc with Axe_181: 1673080654
-      Orc with Axe_182: 800634753
-      Orc with Axe_183: 761461989
-      Orc with Axe_184: 1018382653
-      Orc with Axe_185: 1915004777
-      Orc with Axe_186: -1543434010
-      Orc with Axe_187: 893803842
-      Orc with Axe_188: -1938520918
-      Orc with Axe_189: 792440948
-      Orc with Axe_19: 853282022
-      Orc with Axe_190: 209665673
-      Orc with Axe_191: -673666650
-      Orc with Axe_192: -569606959
-      Orc with Axe_193: 1250136463
-      Orc with Axe_194: 1864551147
-      Orc with Axe_195: -1229490848
-      Orc with Axe_196: 2076412523
-      Orc with Axe_197: 1456726022
-      Orc with Axe_198: 259007391
-      Orc with Axe_199: 192629063
-      Orc with Axe_2: 946012531
-      Orc with Axe_20: 791432712
-      Orc with Axe_200: 185952374
-      Orc with Axe_201: 107044377
-      Orc with Axe_202: -1821170029
-      Orc with Axe_203: -1004106687
-      Orc with Axe_204: -309478600
-      Orc with Axe_205: -1748515243
-      Orc with Axe_206: -1352246269
-      Orc with Axe_21: -76110076
-      Orc with Axe_22: 326089804
-      Orc with Axe_23: -613247047
-      Orc with Axe_24: -1159778599
-      Orc with Axe_25: 743443046
-      Orc with Axe_26: -980139779
-      Orc with Axe_27: 2112230387
-      Orc with Axe_28: -1855571925
-      Orc with Axe_29: -641605444
-      Orc with Axe_3: -1705437090
-      Orc with Axe_30: 2051726843
-      Orc with Axe_31: 430829324
-      Orc with Axe_32: 1106630371
-      Orc with Axe_33: -1007673687
-      Orc with Axe_34: -1206183747
-      Orc with Axe_35: -1658542861
-      Orc with Axe_36: 659436229
-      Orc with Axe_37: 225296706
-      Orc with Axe_38: -1801525786
-      Orc with Axe_39: -2099326915
-      Orc with Axe_4: 463798756
-      Orc with Axe_40: -1748436385
-      Orc with Axe_41: -250056987
-      Orc with Axe_42: -272986735
-      Orc with Axe_43: 1696477614
-      Orc with Axe_44: 1528742039
-      Orc with Axe_45: -1590208561
-      Orc with Axe_46: -1987143094
-      Orc with Axe_47: -1944644105
-      Orc with Axe_48: -578507956
-      Orc with Axe_49: 731295328
-      Orc with Axe_5: 284819060
-      Orc with Axe_50: 1292901636
-      Orc with Axe_51: -1902369630
-      Orc with Axe_52: 1568048362
-      Orc with Axe_53: -143989477
-      Orc with Axe_54: 243571176
-      Orc with Axe_55: -1272601016
-      Orc with Axe_56: 685373602
-      Orc with Axe_57: -1689963467
-      Orc with Axe_58: -359116354
-      Orc with Axe_59: 9125836
-      Orc with Axe_6: 1278066213
-      Orc with Axe_60: 1218128757
-      Orc with Axe_61: 523933100
-      Orc with Axe_62: 284422055
-      Orc with Axe_63: -1367970506
-      Orc with Axe_64: -282509233
-      Orc with Axe_65: -345068793
-      Orc with Axe_66: -1919524803
-      Orc with Axe_67: -1576218939
-      Orc with Axe_68: 389627189
-      Orc with Axe_69: 235503915
-      Orc with Axe_7: 1668526659
-      Orc with Axe_70: -292586905
-      Orc with Axe_71: -452218112
-      Orc with Axe_72: 732005887
-      Orc with Axe_73: -821169021
-      Orc with Axe_74: 1148691460
-      Orc with Axe_75: 891527463
-      Orc with Axe_76: 1275210852
-      Orc with Axe_77: -873162780
-      Orc with Axe_78: -1318720601
-      Orc with Axe_79: -651054635
-      Orc with Axe_8: -829736619
-      Orc with Axe_80: -951433341
-      Orc with Axe_81: 2001754174
-      Orc with Axe_82: 1540803049
-      Orc with Axe_83: -1489567654
-      Orc with Axe_84: 453653789
-      Orc with Axe_85: -756465141
-      Orc with Axe_86: -619637336
-      Orc with Axe_87: 1151558701
-      Orc with Axe_88: -1094146924
-      Orc with Axe_89: 332293582
-      Orc with Axe_9: 1387494803
-      Orc with Axe_90: -1133183377
-      Orc with Axe_91: -800013771
-      Orc with Axe_92: 2080165306
-      Orc with Axe_93: -575077693
-      Orc with Axe_94: 1887011462
-      Orc with Axe_95: 1944746886
-      Orc with Axe_96: -1437359326
-      Orc with Axe_97: 192034978
-      Orc with Axe_98: 2115812237
-      Orc with Axe_99: 2058976583
+      Orc with Axe-1_0: -560432582
+      Orc with Axe-1_1: -2084708561
+      Orc with Axe-1_10: -1044379736
+      Orc with Axe-1_100: 42536615
+      Orc with Axe-1_101: 947258858
+      Orc with Axe-1_102: -727372329
+      Orc with Axe-1_103: 6164980
+      Orc with Axe-1_104: 1863978061
+      Orc with Axe-1_105: -1168165364
+      Orc with Axe-1_106: -1968720194
+      Orc with Axe-1_107: -1750514191
+      Orc with Axe-1_108: -2117914950
+      Orc with Axe-1_109: -926249563
+      Orc with Axe-1_11: -1128539180
+      Orc with Axe-1_110: 649653975
+      Orc with Axe-1_111: 1998834107
+      Orc with Axe-1_112: 665939075
+      Orc with Axe-1_113: -1713683483
+      Orc with Axe-1_114: 557391689
+      Orc with Axe-1_115: 158493953
+      Orc with Axe-1_116: -385334849
+      Orc with Axe-1_117: -1207432576
+      Orc with Axe-1_118: -1443288325
+      Orc with Axe-1_119: -125687204
+      Orc with Axe-1_12: -504572124
+      Orc with Axe-1_120: -1845397807
+      Orc with Axe-1_121: 1774666942
+      Orc with Axe-1_122: -1889354089
+      Orc with Axe-1_123: -1422595098
+      Orc with Axe-1_124: -2132368127
+      Orc with Axe-1_125: -14621243
+      Orc with Axe-1_126: -581702735
+      Orc with Axe-1_127: -489934718
+      Orc with Axe-1_128: -1943061675
+      Orc with Axe-1_129: 752944223
+      Orc with Axe-1_13: 1168672935
+      Orc with Axe-1_130: 963988896
+      Orc with Axe-1_131: 1937627469
+      Orc with Axe-1_132: 1233994517
+      Orc with Axe-1_133: 1491132596
+      Orc with Axe-1_134: -1629047407
+      Orc with Axe-1_135: 1291270813
+      Orc with Axe-1_136: -1140219398
+      Orc with Axe-1_137: 1262062518
+      Orc with Axe-1_138: 1152170999
+      Orc with Axe-1_139: 1266254688
+      Orc with Axe-1_14: 929066049
+      Orc with Axe-1_140: -285385267
+      Orc with Axe-1_141: 834980130
+      Orc with Axe-1_142: -1916555494
+      Orc with Axe-1_143: 792986269
+      Orc with Axe-1_144: -1613599173
+      Orc with Axe-1_145: 986063436
+      Orc with Axe-1_146: 880171923
+      Orc with Axe-1_147: 1861545738
+      Orc with Axe-1_148: -1382178411
+      Orc with Axe-1_149: 393218249
+      Orc with Axe-1_15: -1358949225
+      Orc with Axe-1_150: 1356278350
+      Orc with Axe-1_151: -1299263379
+      Orc with Axe-1_152: -116224727
+      Orc with Axe-1_153: 78581067
+      Orc with Axe-1_154: 1795729977
+      Orc with Axe-1_155: 410048393
+      Orc with Axe-1_156: 1382439667
+      Orc with Axe-1_157: -928161405
+      Orc with Axe-1_158: -744831576
+      Orc with Axe-1_159: -497290680
+      Orc with Axe-1_16: -247708188
+      Orc with Axe-1_160: 2038924324
+      Orc with Axe-1_161: -1942111440
+      Orc with Axe-1_162: 1956797599
+      Orc with Axe-1_163: -1827673315
+      Orc with Axe-1_164: -1670528152
+      Orc with Axe-1_165: -935763856
+      Orc with Axe-1_166: -283885033
+      Orc with Axe-1_167: 2079172906
+      Orc with Axe-1_168: -1042286355
+      Orc with Axe-1_169: 458689733
+      Orc with Axe-1_17: 1790183006
+      Orc with Axe-1_170: 244319622
+      Orc with Axe-1_171: -324651235
+      Orc with Axe-1_172: 894544986
+      Orc with Axe-1_173: 2022651336
+      Orc with Axe-1_174: -1546469241
+      Orc with Axe-1_175: -1858652979
+      Orc with Axe-1_176: -1911591918
+      Orc with Axe-1_177: -1205018791
+      Orc with Axe-1_18: -428068003
+      Orc with Axe-1_19: -1986754329
+      Orc with Axe-1_2: 350530898
+      Orc with Axe-1_20: -1299454613
+      Orc with Axe-1_21: -1387357431
+      Orc with Axe-1_22: -814175237
+      Orc with Axe-1_23: -592971394
+      Orc with Axe-1_24: -1969673268
+      Orc with Axe-1_25: 1101662430
+      Orc with Axe-1_26: 2017309919
+      Orc with Axe-1_27: -2138172323
+      Orc with Axe-1_28: -2093536455
+      Orc with Axe-1_29: -255516440
+      Orc with Axe-1_3: 1890634324
+      Orc with Axe-1_30: 1254337990
+      Orc with Axe-1_31: -1233282287
+      Orc with Axe-1_32: -455643548
+      Orc with Axe-1_33: -24662095
+      Orc with Axe-1_34: 1987451074
+      Orc with Axe-1_35: -270424698
+      Orc with Axe-1_36: -1746730996
+      Orc with Axe-1_37: 648912459
+      Orc with Axe-1_38: -1922723115
+      Orc with Axe-1_39: 1373156583
+      Orc with Axe-1_4: 1534973415
+      Orc with Axe-1_40: 788898841
+      Orc with Axe-1_41: 777571803
+      Orc with Axe-1_42: -272856617
+      Orc with Axe-1_43: -528316230
+      Orc with Axe-1_44: -1546665841
+      Orc with Axe-1_45: -424655869
+      Orc with Axe-1_46: 921812225
+      Orc with Axe-1_47: 2123485991
+      Orc with Axe-1_48: 320498819
+      Orc with Axe-1_49: -1382374454
+      Orc with Axe-1_5: 1830605207
+      Orc with Axe-1_50: 1067056625
+      Orc with Axe-1_51: 1179173045
+      Orc with Axe-1_52: 1227287029
+      Orc with Axe-1_53: 148171263
+      Orc with Axe-1_54: 285892052
+      Orc with Axe-1_55: -1410991310
+      Orc with Axe-1_56: 449268060
+      Orc with Axe-1_57: -1295590736
+      Orc with Axe-1_58: -406791342
+      Orc with Axe-1_59: 60372714
+      Orc with Axe-1_6: 2029521555
+      Orc with Axe-1_60: 1936844117
+      Orc with Axe-1_61: 313009233
+      Orc with Axe-1_62: -611453811
+      Orc with Axe-1_63: -1685558354
+      Orc with Axe-1_64: -552754334
+      Orc with Axe-1_65: -111083572
+      Orc with Axe-1_66: -441978231
+      Orc with Axe-1_67: -1178869550
+      Orc with Axe-1_68: -1128492411
+      Orc with Axe-1_69: 310550867
+      Orc with Axe-1_7: -776386602
+      Orc with Axe-1_70: -1461919800
+      Orc with Axe-1_71: -815765728
+      Orc with Axe-1_72: 1342572772
+      Orc with Axe-1_73: -304790158
+      Orc with Axe-1_74: -1043991616
+      Orc with Axe-1_75: -949751756
+      Orc with Axe-1_76: 687711750
+      Orc with Axe-1_77: 553123483
+      Orc with Axe-1_78: -691128986
+      Orc with Axe-1_79: 806414735
+      Orc with Axe-1_8: -1940944141
+      Orc with Axe-1_80: -1583597899
+      Orc with Axe-1_81: -140499214
+      Orc with Axe-1_82: -1566202294
+      Orc with Axe-1_83: 1058255283
+      Orc with Axe-1_84: 1585094838
+      Orc with Axe-1_85: -1109367541
+      Orc with Axe-1_86: -1587357906
+      Orc with Axe-1_87: 82142917
+      Orc with Axe-1_88: 1175663648
+      Orc with Axe-1_89: 977915017
+      Orc with Axe-1_9: 409776232
+      Orc with Axe-1_90: -1701827265
+      Orc with Axe-1_91: 914783934
+      Orc with Axe-1_92: -222800081
+      Orc with Axe-1_93: -986395199
+      Orc with Axe-1_94: 1381542894
+      Orc with Axe-1_95: -780394132
+      Orc with Axe-1_96: -1026495509
+      Orc with Axe-1_97: -1309343598
+      Orc with Axe-1_98: -235026236
+      Orc with Axe-1_99: 1071133704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
