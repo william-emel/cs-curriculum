@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cdfd31e4eb63946ae86bfe63c7b5304f
+guid: 9216e2f5332204d7ca4e74818027ca2c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,7 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Standalone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -145,30 +145,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Download24881_0
+      name: Hero_With_Axe_0
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 2049
-        width: 33
-        height: 49
+        width: 30
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc4b15926782a47a9866421367a13155
-      internalID: 313361134
+      spriteID: b14f0505a6607435fbaaaf692db93bba
+      internalID: -299850396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_1
+      name: Hero_With_Axe_1
       rect:
         serializedVersion: 2
-        x: 81
+        x: 83
         y: 2049
-        width: 32
-        height: 49
+        width: 26
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c8a88435fc6847c48de2079d84f2127
-      internalID: 42144532
+      spriteID: a2c992ceb37374d4eaa94a820b6992be
+      internalID: -2045605537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_2
+      name: Hero_With_Axe_2
       rect:
         serializedVersion: 2
-        x: 145
+        x: 147
         y: 2049
-        width: 32
-        height: 49
+        width: 26
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccdcb76dd348f4836b7d8c2804edefd1
-      internalID: 988219871
+      spriteID: 0149c9bc2b0f24fa49672e50f7d29fb2
+      internalID: -1634769175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_3
+      name: Hero_With_Axe_3
       rect:
         serializedVersion: 2
-        x: 205
+        x: 206
         y: 2049
-        width: 38
-        height: 49
+        width: 36
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df17a332248e14d3594891a2383e3d9b
-      internalID: 190550849
+      spriteID: 764444aecc62747e491f8e32475fb627
+      internalID: -1250714265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_4
+      name: Hero_With_Axe_4
       rect:
         serializedVersion: 2
-        x: 261
+        x: 265
         y: 2049
-        width: 53
-        height: 49
+        width: 46
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 065e706c5ca45400a8e5544321eb9088
-      internalID: -1900935043
+      spriteID: 328bb1559f4da4e988cc489eb24de40c
+      internalID: 1675951997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_5
+      name: Hero_With_Axe_5
       rect:
         serializedVersion: 2
-        x: 326
+        x: 329
         y: 2049
-        width: 51
-        height: 49
+        width: 46
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8da6437cc5b8344b2af1127cfc0bd65a
-      internalID: 1768015793
+      spriteID: 15a2c2af6a95f4a19a41afa8f3b5b8be
+      internalID: -984252447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_6
+      name: Hero_With_Axe_6
       rect:
         serializedVersion: 2
-        x: 397
+        x: 398
         y: 2049
-        width: 38
-        height: 49
+        width: 36
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +289,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a3ec8fc7982b4a85852b2a9a3d17350
-      internalID: -1564597729
+      spriteID: 279ddb1c643b04382b44e77f7f0a1350
+      internalID: -1387482079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_7
+      name: Hero_With_Axe_7
       rect:
         serializedVersion: 2
-        x: 448
+        x: 467
+        y: 2069
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e233a040b532441cba666af773708518
+      internalID: 467951533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_8
+      rect:
+        serializedVersion: 2
+        x: 475
         y: 2074
-        width: 65
-        height: 23
+        width: 6
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1824d5d5bf0245c9a241693a07a7574
-      internalID: 91639185
+      spriteID: 73bc72c196c9f478d83ff14254c25880
+      internalID: -512007154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_8
+      name: Hero_With_Axe_9
       rect:
         serializedVersion: 2
-        x: 22
-        y: 1985
-        width: 22
-        height: 50
+        x: 801
+        y: 1921
+        width: 32
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b4e220ba83ae459383f62b3fc317b1d
-      internalID: -1194157053
+      spriteID: 6ab535e75b1f14687bff12ea3c5bc0f5
+      internalID: -1000688437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_9
+      name: Hero_With_Axe_10
       rect:
         serializedVersion: 2
-        x: 84
+        x: 19
         y: 1985
-        width: 25
-        height: 50
+        width: 26
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,20 +373,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6e4ee105ae9444b593f40ada9287170
-      internalID: -1101981819
+      spriteID: bed528c0c99ef4755905351cf8ad0c7f
+      internalID: -1539424043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_10
+      name: Hero_With_Axe_11
       rect:
         serializedVersion: 2
-        x: 149
+        x: 83
         y: 1985
-        width: 23
-        height: 50
+        width: 26
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,20 +394,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51a21afa672004186b57bd23866e42b7
-      internalID: 873592769
+      spriteID: d7a5cf7c6b4ea4359ab7c750f4c529b8
+      internalID: -1680396723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_11
+      name: Hero_With_Axe_12
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1985
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029ac5b44dec44eceb19415a5d2c6a7d
+      internalID: 230149959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_13
       rect:
         serializedVersion: 2
         x: 211
         y: 1985
-        width: 28
-        height: 50
+        width: 27
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,20 +436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4293ec448092e4e19acddd3806919361
-      internalID: 1884616993
+      spriteID: 7e4344517b61747e0b19417b2f9bd77a
+      internalID: -496011442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_12
+      name: Hero_With_Axe_14
       rect:
         serializedVersion: 2
         x: 273
         y: 1985
-        width: 35
-        height: 50
+        width: 34
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,20 +457,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c270666dec75248a9aca5b9c6b771874
-      internalID: -690585423
+      spriteID: ff4394fd8d5ef423ab0c0c10bba31fd1
+      internalID: -1109177174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_13
+      name: Hero_With_Axe_15
       rect:
         serializedVersion: 2
         x: 337
         y: 1985
-        width: 35
-        height: 50
+        width: 34
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,20 +478,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eecf3905013c84a09b6349eae3abf747
-      internalID: 1810742837
+      spriteID: 0ef37e85a44fd42d2987e0b9ac283fd9
+      internalID: -1760617158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_14
+      name: Hero_With_Axe_16
       rect:
         serializedVersion: 2
         x: 403
         y: 1985
-        width: 31
-        height: 50
+        width: 28
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,62 +499,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22f5b7603876f4c4f9a6028e31e359db
-      internalID: -1849814111
+      spriteID: 2fbbda12dbb5340a08cb05dd5fa3e211
+      internalID: -578616966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_15
+      name: Hero_With_Axe_17
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1921
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98f03817491054aa2808a68334988a43
-      internalID: 1386207072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_16
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 1921
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43727f338ec9a4f16b00bfcd88f2683c
-      internalID: -2040353814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_17
-      rect:
-        serializedVersion: 2
-        x: 145
+        x: 17
         y: 1921
         width: 30
-        height: 50
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,20 +520,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45835200d79354678b76e53920f6cc4f
-      internalID: 924238267
+      spriteID: 6b9aa9f8e16c94200979fc03caffce1e
+      internalID: -151758628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_18
+      name: Hero_With_Axe_18
       rect:
         serializedVersion: 2
-        x: 205
+        x: 81
         y: 1921
-        width: 38
-        height: 50
+        width: 30
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,20 +541,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be9c2fc923bb44bebbcde1f80a5b7caa
-      internalID: -613623238
+      spriteID: 418be708734cc4856828caf005f58e0d
+      internalID: 341289869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_19
+      name: Hero_With_Axe_19
       rect:
         serializedVersion: 2
-        x: 261
+        x: 146
         y: 1921
-        width: 53
-        height: 50
+        width: 28
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,20 +562,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e70bff61b376484a9b20d1cc920920d
-      internalID: -863672889
+      spriteID: 62dd1202e77e840ec87dd5fa2190590f
+      internalID: -1568804802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_20
+      name: Hero_With_Axe_20
       rect:
         serializedVersion: 2
-        x: 326
+        x: 207
         y: 1921
-        width: 51
-        height: 50
+        width: 34
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,20 +583,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1df7eef33f8a34145ae8c9048484e47e
-      internalID: -70492193
+      spriteID: a2ced11aa08ab403e8f65bf54dad70c2
+      internalID: 2077734170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_21
+      name: Hero_With_Axe_21
       rect:
         serializedVersion: 2
-        x: 398
+        x: 265
         y: 1921
-        width: 36
-        height: 50
+        width: 46
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,20 +604,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34db0fecd8d834a0e8af576a6a12a7c0
-      internalID: -1895065254
+      spriteID: 945470ed1f26f42b297c2f60827c0d2f
+      internalID: 217297158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_22
+      name: Hero_With_Axe_22
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1921
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b5f1fc329484a2eb74c665c7134523
+      internalID: 341879875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_23
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1921
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6196c6c2c6b5e48be8107775a3b79699
+      internalID: -1756624562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_24
       rect:
         serializedVersion: 2
         x: 19
         y: 1857
-        width: 23
-        height: 50
+        width: 26
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,18 +667,186 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46ecf5d768b874895828676640933c9a
-      internalID: 1947535783
+      spriteID: c95e33216dcd1436b852da33c070e4d0
+      internalID: -1491494231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_23
+      name: Hero_With_Axe_25
       rect:
         serializedVersion: 2
         x: 83
         y: 1857
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659194e8286d74a17a758ace4f2c5ea5
+      internalID: 2058434427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1857
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8584c21d9934222821bbced013e24f
+      internalID: -1450792623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1857
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14331b95e59b4cadaafda749c3cebc1
+      internalID: -1907690261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1857
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e467a95d60d2a4d76ad2ca0a1121ad54
+      internalID: 66493583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_29
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1857
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adff6ce458e224d6e8e162a34910aa67
+      internalID: 1945901941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_30
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1857
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a537f32ec362f408ebb469258c5a5608
+      internalID: 1032963712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1793
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feff009e2987c41fc841fb761fd51367
+      internalID: 468607692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_32
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1792
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edd6a869868b45a3a4331890bc17feb
+      internalID: 453878990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_33
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1791
         width: 25
         height: 50
       alignment: 0
@@ -659,18 +856,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a68451118176e4033b449c42cc9f21bd
-      internalID: -2137839167
+      spriteID: 70fc990d990bf4dec8e1b2e0acc184d8
+      internalID: 773628948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_24
+      name: Hero_With_Axe_34
       rect:
         serializedVersion: 2
-        x: 147
-        y: 1857
+        x: 213
+        y: 1791
         width: 24
         height: 50
       alignment: 0
@@ -680,103 +877,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04cac148d279b45fb82bc34e1bcd9283
-      internalID: -635974613
+      spriteID: 754cf7cf1b3c7402ea016cc26cfd8fc2
+      internalID: 1384047306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_25
+      name: Hero_With_Axe_35
       rect:
         serializedVersion: 2
-        x: 209
-        y: 1857
-        width: 28
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ea901e6ab70a4497bff07f052d1600b
-      internalID: 463352097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_26
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 1857
-        width: 35
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52680ce6d3d434b9a86675b128c53d65
-      internalID: 931112044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_27
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 1857
-        width: 36
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da386ed175aa24e4fb6e771b972d0a4c
-      internalID: 1985067804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_28
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 1857
-        width: 31
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e762a34c79e3242bd9ced8826525aa5c
-      internalID: -1180588042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_29
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 1793
-        width: 40
+        x: 277
+        y: 1791
+        width: 25
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -785,103 +898,61 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 150668d0dacdc41fd998f2a6094b729d
-      internalID: -1272315623
+      spriteID: fd427e93ab60d4bbfa0332183a8d7471
+      internalID: 1516368529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_30
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 1791
-        width: 35
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e033075ab8d2a483da430f5f6ea38f54
-      internalID: 1800149314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_31
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 1791
-        width: 30
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ae9917e80b1746298d3817e978caddc
-      internalID: -1751697579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_32
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 1791
-        width: 28
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70500bf90f95c4c90af3299ef9a463ca
-      internalID: 319636700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_33
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 1791
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fe7424e038c2421f8d44b91ea6c6113
-      internalID: -899801491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_34
+      name: Hero_With_Axe_36
       rect:
         serializedVersion: 2
         x: 341
         y: 1791
         width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c73308077ab4864b0690643e2b92a5
+      internalID: 1142136064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_37
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1791
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e986ab81bfa146c3bd7f90593010716
+      internalID: 2024807571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_38
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1791
+        width: 24
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -890,40 +961,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77363cdbadeb94519a225ce58d7e5f05
-      internalID: 1950367612
+      spriteID: 3bb1b6fc8834644679bf5e9ffd278c18
+      internalID: 172473963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_35
+      name: Hero_With_Axe_39
       rect:
         serializedVersion: 2
-        x: 404
-        y: 1791
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c557e7d54dc2643918d2d2d30de9cca7
-      internalID: 626231189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_36
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 1791
-        width: 28
+        x: 19
+        y: 1729
+        width: 26
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -932,41 +982,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd041b8a0edca4b9cb833db6471b0579
-      internalID: 1700039003
+      spriteID: 55b0990aa76294d98b85d7ba6fc6d5ad
+      internalID: 1917401053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_37
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 1729
-        width: 30
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8ed1408bc2f04aabb16430a0176aae2
-      internalID: 626296871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_38
+      name: Hero_With_Axe_40
       rect:
         serializedVersion: 2
         x: 82
         y: 1729
-        width: 35
-        height: 50
+        width: 27
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,20 +1003,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59c08a2823acc4c41aaea70f22debb6f
-      internalID: 730635404
+      spriteID: acdfbd5d14f6b4bbb99efae6e072191e
+      internalID: 1252435458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_39
+      name: Hero_With_Axe_41
       rect:
         serializedVersion: 2
         x: 146
         y: 1729
-        width: 37
-        height: 50
+        width: 29
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -995,20 +1024,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1f627ef7dea24bf0ac2d6e903fc703d
-      internalID: 1762792291
+      spriteID: d2731eb1749ce42acad377d710d6de09
+      internalID: 35551187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_40
+      name: Hero_With_Axe_42
       rect:
         serializedVersion: 2
-        x: 212
+        x: 211
         y: 1729
-        width: 35
-        height: 50
+        width: 29
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1016,20 +1045,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 027ccf21c7f8c41559a5479f341cc422
-      internalID: -489648730
+      spriteID: c81c3ceb237454f63a495988ea1891c7
+      internalID: 1731828319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_41
+      name: Hero_With_Axe_43
       rect:
         serializedVersion: 2
-        x: 270
+        x: 271
+        y: 1729
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac27f79f91dd44989ad2be9313f37fd9
+      internalID: -1500102897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_44
+      rect:
+        serializedVersion: 2
+        x: 332
         y: 1729
         width: 32
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1037,20 +1087,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 167bc312d76344bf3a15b9b3ed61ca2c
-      internalID: -1315190135
+      spriteID: a2a3cc17f9777446ba4ba021bed099b2
+      internalID: 882299105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_42
+      name: Hero_With_Axe_45
       rect:
         serializedVersion: 2
-        x: 331
+        x: 399
         y: 1729
-        width: 34
-        height: 50
+        width: 29
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1058,20 +1108,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afa4f74f3b8b94eee84bbcbf316b4bff
-      internalID: -1514754892
+      spriteID: f7d46012ab2e54c53ac6882392ba9222
+      internalID: -441480265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_43
+      name: Hero_With_Axe_46
       rect:
         serializedVersion: 2
-        x: 398
+        x: 467
         y: 1729
-        width: 33
-        height: 50
+        width: 30
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1079,41 +1129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0701a5622320f440b97bec868ab780ce
-      internalID: 1295280933
+      spriteID: f4c31b5b53af7464f83d0f093d2ae82a
+      internalID: -1177198162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_44
+      name: Hero_With_Axe_47
       rect:
         serializedVersion: 2
-        x: 468
-        y: 1729
-        width: 35
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 836bd7978ade647bb98aad0f793159d4
-      internalID: 1876682552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_45
-      rect:
-        serializedVersion: 2
-        x: 16
+        x: 17
         y: 1665
-        width: 37
-        height: 50
+        width: 30
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1121,20 +1150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc002925af0624e17a9b00ab47323353
-      internalID: -1295574847
+      spriteID: 4092bae6a92e144cdbbee0af074dfdc0
+      internalID: 1203273375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_46
+      name: Hero_With_Axe_48
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1666
-        width: 34
-        height: 49
+        x: 82
+        y: 1665
+        width: 27
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1142,20 +1171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d8360465e733415e84064b7f712e7d1
-      internalID: 781375015
+      spriteID: 8d3618cb889c844c69337b04933ab0a6
+      internalID: 1045626839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_47
+      name: Hero_With_Axe_49
       rect:
         serializedVersion: 2
         x: 147
-        y: 1666
-        width: 28
-        height: 49
+        y: 1665
+        width: 26
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 027ea7f71729b4feb86bdfdbbbcccc77
-      internalID: -1905715163
+      spriteID: ace5d1edca7914ddb9a59f2d801bc3b0
+      internalID: -328904543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_48
+      name: Hero_With_Axe_50
       rect:
         serializedVersion: 2
         x: 209
         y: 1666
-        width: 29
-        height: 49
+        width: 28
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1184,20 +1213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ede05b6fdca4f26993da83ec515657
-      internalID: -112975671
+      spriteID: dbb06b46574b14f4fbc84decd3f14752
+      internalID: 642663002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_49
+      name: Hero_With_Axe_51
       rect:
         serializedVersion: 2
         x: 275
-        y: 1666
-        width: 29
-        height: 48
+        y: 1665
+        width: 27
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1205,20 +1234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 449b9baf5164f478e83239a0941f2a27
-      internalID: -937236402
+      spriteID: 8ec1e52e60c5f4bd2a157d463af850bf
+      internalID: -1654558617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_50
+      name: Hero_With_Axe_52
       rect:
         serializedVersion: 2
         x: 339
-        y: 1666
-        width: 29
-        height: 48
+        y: 1665
+        width: 27
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1226,20 +1255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50a99b5196d084f6c81535f67c088107
-      internalID: -986395661
+      spriteID: 8e376a717bc1e4afb8de8126d5b96532
+      internalID: -1740985787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_51
+      name: Hero_With_Axe_53
       rect:
         serializedVersion: 2
         x: 403
-        y: 1666
-        width: 31
-        height: 48
+        y: 1665
+        width: 27
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1247,20 +1276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5940ebb2c6084474b5ba99e55df5adf
-      internalID: 968024277
+      spriteID: ed6c3f2b0963941dabc4756c16e70a3c
+      internalID: 1074018421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_52
+      name: Hero_With_Axe_54
       rect:
         serializedVersion: 2
         x: 465
-        y: 1666
-        width: 29
-        height: 49
+        y: 1665
+        width: 28
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1268,501 +1297,186 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe0b19132285e46eeb71a4995d760094
-      internalID: -1904854718
+      spriteID: 7ec495805f09041b7bcfb8234ca5c9b7
+      internalID: -1606752631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_53
+      name: Hero_With_Axe_55
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1601
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba9f418034dd435ca2f9c9c6a8ffd81
+      internalID: 2135474394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_56
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1601
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9330fd22f69084bf185680eba5857ca2
+      internalID: -1504144131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_57
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1601
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8efd287c5ed4171bdc3193a48d1265
+      internalID: -723507457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1601
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d4f8d8537bc48c8815ab0ef8150ca8
+      internalID: -51295746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_59
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1601
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06db75de4ad974667a576b6b4a91019b
+      internalID: -1725752685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_60
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1601
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa456a11098047d0ac820e37479ec15
+      internalID: 1358872721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_61
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1601
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6090be8e193ed415285c32dcf9c7c492
+      internalID: -2078354430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_62
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1601
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1bb09e4bc8f4cee9c9c330d0fafb88
+      internalID: 372851204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_63
       rect:
         serializedVersion: 2
         x: 12
-        y: 1601
-        width: 33
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50d1c87f8224748d796623a1231b2cee
-      internalID: -819544856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_54
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 1601
-        width: 35
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92c508c1d1edd4edf84fa93453abd5f2
-      internalID: 750915726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_55
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 1601
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d565e7ed0676b461ba257bf1cbb80b4e
-      internalID: -2008752790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_56
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 1601
-        width: 35
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 276830a32350d4f768e3c2ff4a80b351
-      internalID: 456962850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_57
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 1601
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e37e6557287449d083ed74b31372ac1
-      internalID: -1443065135
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_58
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 1601
-        width: 33
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19a763eda8894402a9870422d0ea7f63
-      internalID: -679644880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_59
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 1601
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b225b9965a8e4161bf7819daecd2c19
-      internalID: -1490198552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_60
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 1601
-        width: 35
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a0f4e4ce255d41898b283853a3edbc5
-      internalID: -1128878687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_61
-      rect:
-        serializedVersion: 2
-        x: 9
         y: 1537
-        width: 44
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 672abfe32bc8349cf9003dad56e9341f
-      internalID: -2027279742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_62
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 1538
-        width: 42
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3467af645a85a4a399540f41f2c2af9d
-      internalID: 2131266632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_63
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 1537
-        width: 44
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e8100a8f7931477a9e3a226f6004f8e
-      internalID: -706411655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_64
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 1536
-        width: 44
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06df2ca891e244bd7a64ed04945f7044
-      internalID: -630138413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_65
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 1537
-        width: 43
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8d32c3f503e54ad2b397e62cb076d52
-      internalID: 1361909085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_66
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 1538
-        width: 43
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 282ed9577be994e00a9c199f987c5959
-      internalID: -1776670116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_67
-      rect:
-        serializedVersion: 2
-        x: 393
-        y: 1537
-        width: 42
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 203b4639618b44e6eacbd827507b6ef3
-      internalID: -25474417
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_68
-      rect:
-        serializedVersion: 2
-        x: 458
-        y: 1536
-        width: 41
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76635d627761649cca94a8ed56ea92bf
-      internalID: 512090197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_69
-      rect:
-        serializedVersion: 2
-        x: 521
-        y: 1537
-        width: 43
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f1dd13e3f975419793db7d9be306faf
-      internalID: -359142963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_70
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 1473
-        width: 46
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ef45fbd250ac4a879e5a619f91e2d31
-      internalID: -700368187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_71
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 1473
-        width: 33
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f68b7d056c0634e2b84d2847b635d0b8
-      internalID: -2086363703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_72
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 1474
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 494b75f024a864102aa9cb3dc550e53d
-      internalID: -986066976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_73
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 1474
-        width: 39
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0738690a9cf74cb38e6c106fd9b67f3
-      internalID: -1862430501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_74
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 1473
-        width: 46
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35115d70b2a5144908f815c93d1a5216
-      internalID: -634015825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_75
-      rect:
-        serializedVersion: 2
-        x: 325
-        y: 1473
-        width: 49
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ac3b9fae1d2d4158a69f57b735a8ab1
-      internalID: -1237358981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_76
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 1473
         width: 48
         height: 50
       alignment: 0
@@ -1772,375 +1486,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa76770593ef943e79a0b809ef8c9d4f
-      internalID: -1938588458
+      spriteID: 755b0e8b306fd4cb5b21b41ce5627478
+      internalID: -1910109817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_77
-      rect:
-        serializedVersion: 2
-        x: 461
-        y: 1473
-        width: 40
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 838c11093d09347b48808138d2e4dbd1
-      internalID: -474745694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_78
-      rect:
-        serializedVersion: 2
-        x: 531
-        y: 1473
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 235cd0fa1f6ca495d94e15a39de1789e
-      internalID: 617484387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_79
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 1409
-        width: 37
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72cf200308627493ea6b3e01b98656ae
-      internalID: 811565382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_80
+      name: Hero_With_Axe_64
       rect:
         serializedVersion: 2
         x: 76
-        y: 1409
-        width: 36
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17de5970068d5449ca1d460518dbf390
-      internalID: 400337296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_81
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 1408
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aff452a1c15a248ba87a13b74d582761
-      internalID: 2100125816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_82
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 1407
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4abc6c7a77f5499eb8d5b8b588f702f
-      internalID: 99386815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_83
-      rect:
-        serializedVersion: 2
-        x: 267
-        y: 1408
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 660b8cdf63d6749bfa4e0da35506e5b9
-      internalID: 822833790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_84
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 1409
-        width: 38
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d90c26dd8946e4a3fa299c11f851709c
-      internalID: 1093542613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_85
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 1408
-        width: 38
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdb3110ba0faa4cdfa4edfd15f9ac256
-      internalID: 239492567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_86
-      rect:
-        serializedVersion: 2
-        x: 458
-        y: 1408
-        width: 38
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0a1c625eec5a4ac1a16467be0f4b936
-      internalID: 740449478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_87
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 1408
-        width: 39
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5b623db4fddc491ca09c2bf1746d87e
-      internalID: 285434778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_88
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 1345
-        width: 46
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17ef906401cc64dc5850c4490950dd3c
-      internalID: 178060620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_89
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 1345
-        width: 33
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1124979533bf42a28f15bfb73cb8925
-      internalID: 1648707238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_90
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 1346
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51dc8fd2118bb43da8dfa9a199f8b105
-      internalID: 979319323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_91
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 1346
-        width: 39
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f53264707288b4f0eb6b4a05b8ef2525
-      internalID: 285639705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_92
-      rect:
-        serializedVersion: 2
-        x: 267
-        y: 1345
-        width: 46
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c05360ba91804da7bb9766dbd75c40c
-      internalID: -1769234750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_93
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 1345
-        width: 48
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26d98e3d2f03f4c86a22c775d0b74ea2
-      internalID: -2061169029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_94
-      rect:
-        serializedVersion: 2
-        x: 393
-        y: 1345
+        y: 1537
         width: 48
         height: 50
       alignment: 0
@@ -2150,104 +1507,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80de4e4a2f4934e348ac2a19d8939a5d
-      internalID: 1155152851
+      spriteID: ce2aa753f13534e049bb26893fd500e8
+      internalID: 645106436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_95
-      rect:
-        serializedVersion: 2
-        x: 458
-        y: 1345
-        width: 41
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a970031ad676244d291185c1602d96f3
-      internalID: -280277333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_96
-      rect:
-        serializedVersion: 2
-        x: 523
-        y: 1345
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f16a4bfa9c1e84959a230b6ae281cab4
-      internalID: 218150097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_97
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 1281
-        width: 40
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4669a4b1761549fca4f72f046906389
-      internalID: 458527045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_98
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 1280
-        width: 36
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28bf2c0bb4ee34d378285e8352e0673c
-      internalID: 1016434935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_99
+      name: Hero_With_Axe_65
       rect:
         serializedVersion: 2
         x: 140
-        y: 1280
-        width: 34
-        height: 49
+        y: 1536
+        width: 48
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2255,20 +1528,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2077078d630b94f0280d2d119879c33e
-      internalID: 2051542831
+      spriteID: 306d7ab561f9f438f8ba22ed716389c4
+      internalID: 1542291805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_100
+      name: Hero_With_Axe_66
       rect:
         serializedVersion: 2
         x: 203
-        y: 1280
-        width: 37
-        height: 50
+        y: 1535
+        width: 48
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2276,20 +1549,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d1016b3b513148df8fbf2ca28263588
-      internalID: 1690651124
+      spriteID: 28606cfbf0c3a4f768139f2d50cea26a
+      internalID: 581765422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_101
+      name: Hero_With_Axe_67
       rect:
         serializedVersion: 2
         x: 268
-        y: 1280
-        width: 43
-        height: 50
+        y: 1536
+        width: 48
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2297,19 +1570,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9107fa8b81d7a462f95e8042a1e735f3
-      internalID: 1800037620
+      spriteID: e83e7a9db223545b8b9e778ab3b08e54
+      internalID: 1492750326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_102
+      name: Hero_With_Axe_68
       rect:
         serializedVersion: 2
         x: 332
-        y: 1280
-        width: 46
+        y: 1537
+        width: 48
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2318,19 +1591,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a00b12e7c012f4a42a26a377bfbe6043
-      internalID: 1815072383
+      spriteID: accd93096cf444d7ab423b3b3547fbba
+      internalID: 1940595685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_103
+      name: Hero_With_Axe_69
       rect:
         serializedVersion: 2
-        x: 22
-        y: 1216
-        width: 29
+        x: 396
+        y: 1536
+        width: 48
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2339,40 +1612,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f5637d59dd59434290bfe63b8f2308a
-      internalID: 1663894355
+      spriteID: eeaadbc99bdc64587a73990d009d6fbf
+      internalID: -569642764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_104
+      name: Hero_With_Axe_70
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1216
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea7baa48e801d41d1b1885133c380b81
-      internalID: -1766934666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_105
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 1216
-        width: 32
+        x: 459
+        y: 1535
+        width: 49
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2381,145 +1633,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88f3213c73ebd4be58e1e96572aae457
-      internalID: -1175438983
+      spriteID: 2ecc19ddcdc8541209e1bbd2569285e1
+      internalID: 708779907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_106
+      name: Hero_With_Axe_71
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1536
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545cddad6ed00438391611d747d15aa3
+      internalID: -2112973828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1473
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a5ea550cac2482c9fbcb33d688259a
+      internalID: 1410444979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_73
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1473
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cee88d5b731547d28be5408ca09d1d0
+      internalID: 912523464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_74
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1474
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4060420308bce4a8c891c910a5b1f3f0
+      internalID: 1658814674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_75
       rect:
         serializedVersion: 2
         x: 202
-        y: 1216
-        width: 42
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11b60cf87adef40a7a6ceafc60b8a981
-      internalID: -1405569385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_107
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 1216
-        width: 46
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2faf26d80fa234abc8fbae1ad852cc45
-      internalID: -1657371541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_108
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 1216
-        width: 44
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abae1ea15ad0946728ffa82601ba8d75
-      internalID: 1535059781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_109
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 1152
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85bdafaf6218b40dc9096cf6cb41a96a
-      internalID: -1846363602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_110
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 1152
-        width: 35
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f4b4b0cb528f4fc09b24f4ed954f49c
-      internalID: 1941955700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_111
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 1152
-        width: 36
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8195ffcf9ac94476eb36d1edfebdf1d9
-      internalID: -1096504984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_112
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 1152
-        width: 34
+        y: 1474
+        width: 47
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2528,19 +1738,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 566ac7c11a9b446aa9375d59103fbdf0
-      internalID: -429428269
+      spriteID: 329d1ec7a5b444fd3914ee13e85cc5a9
+      internalID: 140794092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_113
+      name: Hero_With_Axe_76
       rect:
         serializedVersion: 2
-        x: 270
-        y: 1152
-        width: 42
+        x: 263
+        y: 1473
+        width: 48
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2549,18 +1759,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd1d8e9a44728476fb103a35b7103ca7
-      internalID: -1201481872
+      spriteID: 986768c07c4994b94be0bc39af1750ab
+      internalID: 1914737500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_114
+      name: Hero_With_Axe_77
       rect:
         serializedVersion: 2
-        x: 334
-        y: 1152
+        x: 324
+        y: 1473
         width: 45
         height: 51
       alignment: 0
@@ -2570,19 +1780,292 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c63ef29641c54cc9b8da402f1c5fbce
-      internalID: 649979291
+      spriteID: 589a70092184e4fad86e17b02d39f76c
+      internalID: -434823904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_115
+      name: Hero_With_Axe_78
       rect:
         serializedVersion: 2
-        x: 13
-        y: 1089
-        width: 29
+        x: 392
+        y: 1473
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3088473756a2b46d28880a12dd15a733
+      internalID: -22559835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_79
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1473
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0244160ff5c1a4a3a9a2b9b4d52e09fc
+      internalID: -2128144120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_80
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1473
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993b15ac913f544aab61352749237497
+      internalID: -2106828918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1409
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa27aa193f124947b80f6c977eed89e
+      internalID: -1179287856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1409
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c37cb7db54964f0db51b5ca3937cf17
+      internalID: 1393375465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_83
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1408
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8359193a692a4848812539ecc559834
+      internalID: 1696970764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_84
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1408
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e97804beacf401699fc5e8ef304233
+      internalID: 799062863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_85
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1408
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7c74ca38e0046bfbb1d019c808adbc
+      internalID: 1626868830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_86
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1409
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595b5b9a2179d463bbf662f631d32757
+      internalID: -974123393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_87
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1408
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79182ee47ddba48cb88e21e981683029
+      internalID: -1922234365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_88
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1408
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a6136fdb7a437faba31eaa853f313
+      internalID: -298776384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_89
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1408
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854c7b14522f1483eb4690b1c55de58a
+      internalID: 2018106887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_90
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1345
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c225f821b273c4de580819e7a9f4ebaa
+      internalID: -1868594996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_91
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1345
+        width: 48
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2591,19 +2074,166 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25c36c1f876df470596bc32cc2df39f9
-      internalID: 169681695
+      spriteID: 1019ca6b4cab8496787cf57a35578678
+      internalID: 1896815449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_116
+      name: Hero_With_Axe_92
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1089
-        width: 35
+        x: 129
+        y: 1346
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99b7ced8449d4841b4210fd558760f9
+      internalID: -1666037682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_93
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1346
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4325ddfc7633442aa766730c9b44b46
+      internalID: 1959529236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_94
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1345
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcf3b252e7e240c7b0771ffc6e005b5
+      internalID: 858144267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_95
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1345
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67320c4b998514482b3042d6f798b6fc
+      internalID: 805682570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_96
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1345
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f7f7b2d3f164536b50d32f6b3caa7d
+      internalID: 1510186978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1345
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46ea20720e524e32ac711152a6b7541
+      internalID: 1122687064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_98
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1345
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1defa306a0343c4b73a2e6bdff6e14
+      internalID: -786696870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_99
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1281
+        width: 30
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2612,20 +2242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1409d4264f725413ca09ad92c0f554f9
-      internalID: 8607161
+      spriteID: 7eaaaa5d2d9a84f6cadb50173f2ee421
+      internalID: -1280617514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_117
+      name: Hero_With_Axe_100
       rect:
         serializedVersion: 2
-        x: 141
-        y: 1089
-        width: 32
-        height: 50
+        x: 82
+        y: 1280
+        width: 26
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2633,20 +2263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acfa5aa94929a40258c720c465c60837
-      internalID: -867825079
+      spriteID: 0c5214545030c4363a0f6ec98fc2507c
+      internalID: 140164674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_118
+      name: Hero_With_Axe_101
       rect:
         serializedVersion: 2
-        x: 204
-        y: 1089
-        width: 42
-        height: 50
+        x: 146
+        y: 1280
+        width: 26
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2654,61 +2284,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a687df2399af74b6b9f7d948085be946
-      internalID: -1424633900
+      spriteID: 532c129fec9ee4df38a2974c2cf12a67
+      internalID: 529563122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_119
+      name: Hero_With_Axe_102
       rect:
         serializedVersion: 2
-        x: 267
-        y: 1089
-        width: 46
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18cf68bed99c549b88f03fed4ca926eb
-      internalID: -51616964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_120
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 1089
-        width: 44
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f2e948a5be024eee9574489342e5793
-      internalID: -673743394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_121
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 1025
-        width: 33
+        x: 211
+        y: 1280
+        width: 26
         height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2717,17 +2305,668 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1e3c794549a9461185067daa5be5ae0
-      internalID: 1377116766
+      spriteID: fcfe15d7de9c84489afd024fb7f332a3
+      internalID: 232027720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_122
+      name: Hero_With_Axe_103
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1280
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae374c61f9a8146e9a002be36ac31986
+      internalID: 2137473302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_104
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1280
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813e90c1adc8c46d5bf993a3c49af170
+      internalID: -1817802929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_105
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1281
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4871634ad79854e77b7cdc9eed74ece8
+      internalID: -613461308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_106
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1280
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8143b5011fbea4d4fb2415b81706a3cd
+      internalID: 327862003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_107
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1280
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277cdc2b6afaf46aeb1c556957a89177
+      internalID: -1556130641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_108
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1282
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e612e2770dd0406495de75ff7810042
+      internalID: -21705651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_109
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1282
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e328b1dcf2c1a46369a62f1845a214d7
+      internalID: 1874959571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_110
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1282
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43e52a84215447438135edb53ae31a8
+      internalID: -1815041046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_111
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1216
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf7a34381a0643729e3996b26929258
+      internalID: -715647627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1215
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d4e7568bf5344aea185100577ff6fd
+      internalID: -2008331319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_113
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1215
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ab5b86b81a74b5b8a9c580a20f772e
+      internalID: 626620903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_114
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1216
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0fba9a949fa4786aa1e61360d697f6
+      internalID: 439038001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_115
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1216
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87e1adcb208e44e78350444e45e8b45
+      internalID: -777383384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_116
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1216
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788d9bcc4e2094feba98ddb35d955c93
+      internalID: 2092697709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_117
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1152
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27401d1b1242e4b3db6786b7960958c9
+      internalID: -1765980221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_118
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1150
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716d107b5081b43f8b2e1082bfc82998
+      internalID: -167143827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_119
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1151
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09346cd8e33e4b59b2ac0430fa876db
+      internalID: 1422570606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_120
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1152
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b78c0b94c4e45c89b86a70f103449c
+      internalID: -1081017046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_121
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1152
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8527156a71e9485c9ddb1b3f4a83d9e
+      internalID: 1631316038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_122
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1152
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da68b26bb8f84485285675700502f6c5
+      internalID: 1834967080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_123
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1089
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca38b8fce01594799a28550c93cce088
+      internalID: -1848166658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_124
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1087
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fa00384a28345f88bff85d3e443fbc
+      internalID: 1923825983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_125
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1087
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df073e1da84694ffa8afebf90458e955
+      internalID: 1560649561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_126
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1089
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e52fbeb57bca46bca8fc30f5f80c343
+      internalID: 1534619960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_127
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1089
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f500a7efc2c48a38ad63cdc019fb78
+      internalID: -1743884269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_128
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1089
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821fc6a95255449b1be005ba5c02e06c
+      internalID: -406164515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_129
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1025
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a10ec3920e44bb29ac6d106468f444
+      internalID: 565579154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_130
       rect:
         serializedVersion: 2
         x: 82
+        y: 1024
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1531f5d70f58943f4a4cc710a2cdefc4
+      internalID: 1719868003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_131
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1023
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857bd64f23e3244afaaf78a17eb18438
+      internalID: 1535618542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_132
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1023
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cdfb9c72b1b4294a790abd5f8b8524
+      internalID: 984964532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_133
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1023
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6195373aeaca54dabb46958f5e86f8e7
+      internalID: 1266277290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_134
+      rect:
+        serializedVersion: 2
+        x: 339
         y: 1023
         width: 28
         height: 50
@@ -2738,250 +2977,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da08703d667d4e03a0aa9f2baaab556
-      internalID: 599685974
+      spriteID: a6770a8f89b494bf58a06d4c05e94ab3
+      internalID: -415150053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_123
+      name: Hero_With_Axe_135
       rect:
         serializedVersion: 2
-        x: 147
-        y: 1023
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97674173ffac44b388d55793b3b3667e
-      internalID: -1436655511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_124
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 1023
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e8a3679de92f4263adb509c53c1c8e5
-      internalID: -1323173128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_125
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 1023
-        width: 30
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 427b37e8631a24ad59eae35c173c11e7
-      internalID: -565460270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_126
-      rect:
-        serializedVersion: 2
-        x: 338
+        x: 403
         y: 1023
         width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 050b90180e2cc4e2e870bc009466c0f0
-      internalID: -1899566609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_127
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 1023
-        width: 30
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 903cb9b9c477c4b5b94c03456210f7e4
-      internalID: 1669550400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_128
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 1023
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34df2817187b4445a8a970a782f2d6bb
-      internalID: 1998305916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_129
-      rect:
-        serializedVersion: 2
-        x: 530
-        y: 1023
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5ad613df60024bc798998f403cadd60
-      internalID: 537140869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_130
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 1023
-        width: 30
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75802e7f7e8c04482b7d2fbfa84b196e
-      internalID: -656603428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_131
-      rect:
-        serializedVersion: 2
-        x: 658
-        y: 1023
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2284858d939f9461a8d06febe17d037d
-      internalID: -1714229673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_132
-      rect:
-        serializedVersion: 2
-        x: 721
-        y: 1023
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c742819a6108e4638946ac055bb79603
-      internalID: -1421474505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_133
-      rect:
-        serializedVersion: 2
-        x: 786
-        y: 1023
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d318139a7b41f4c7d853ccf17cfe4e82
-      internalID: -1983678120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_134
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 961
-        width: 22
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2990,20 +2998,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 159bf45fbe21a4f149cc8a77c30276e2
-      internalID: -1356241314
+      spriteID: fba7d27fe38fb485da4c06a0b8f181bc
+      internalID: -449195713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_135
+      name: Hero_With_Axe_136
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1023
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258c4e5db9a57447a847bfc0f930e86b
+      internalID: 1080594836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_137
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1023
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b71111623b6b446faf742880a731e32
+      internalID: -48335287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_138
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1023
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ba739ee330344059ee55b8dba8059d
+      internalID: -832199096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_139
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1023
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79af13337526748f08b533046515fd6f
+      internalID: 476562442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_140
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1023
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d615f89b7b72e48138dfc12e92aa3703
+      internalID: 1204512072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_141
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1023
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fd5d4df069a4234b8a5017a2a68778
+      internalID: -943723398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_142
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 961
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392fb31111f2b4b2e8e52af785b999ad
+      internalID: 1294093048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_143
       rect:
         serializedVersion: 2
         x: 83
         y: 961
         width: 27
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3011,20 +3166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3738e161d08c24ff69fa745c68e43e1e
-      internalID: 665808818
+      spriteID: 1cc20eb74b85e4db7aa8db25b993f398
+      internalID: 1467270401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_136
+      name: Hero_With_Axe_144
       rect:
         serializedVersion: 2
         x: 142
         y: 961
         width: 34
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3032,20 +3187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08958f16f84ea4de49a462a5b9d5dd2d
-      internalID: -678600464
+      spriteID: 8a47d0988e0404b15812df1c205552f3
+      internalID: 1638097059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_137
+      name: Hero_With_Axe_145
       rect:
         serializedVersion: 2
         x: 204
         y: 961
         width: 37
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3053,20 +3208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af3af049ebb034692a6fa7a8e27c80ba
-      internalID: -495242744
+      spriteID: 335365a0ec57247f6b84cde6cc02590f
+      internalID: -948411173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_138
+      name: Hero_With_Axe_146
       rect:
         serializedVersion: 2
         x: 268
         y: 961
         width: 37
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3074,20 +3229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8f269e070e7b45908526735f547d3a5
-      internalID: 2131745815
+      spriteID: 7dcb0407125494fe68403aa0d4a50b42
+      internalID: -864837319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_139
+      name: Hero_With_Axe_147
       rect:
         serializedVersion: 2
         x: 331
         y: 961
-        width: 35
-        height: 50
+        width: 36
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3095,20 +3250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a6327d2795544abbb4be21b7c7c9cc7
-      internalID: -1784882454
+      spriteID: a27324a214c704e479bf147edbf6ff59
+      internalID: -1286288019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_140
+      name: Hero_With_Axe_148
       rect:
         serializedVersion: 2
         x: 395
         y: 961
         width: 37
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3116,20 +3271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59437250077ed4f77bb99d9534499fa5
-      internalID: 2108183377
+      spriteID: 37d6df9acb1d047ce92542356e2f80d7
+      internalID: 1369084763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_141
+      name: Hero_With_Axe_149
       rect:
         serializedVersion: 2
         x: 459
         y: 961
         width: 40
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3137,20 +3292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac26b181175a747589be576b7edec96f
-      internalID: 616351268
+      spriteID: 39013f8a5fbea42c0a2b3f6807f73dab
+      internalID: -503404030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_142
+      name: Hero_With_Axe_150
       rect:
         serializedVersion: 2
         x: 523
         y: 961
         width: 42
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3158,20 +3313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6698eee9890074ec1a8e72f076fccfcf
-      internalID: 367613172
+      spriteID: af09336aede54439fbf2370ec2c5382f
+      internalID: -321880757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_143
+      name: Hero_With_Axe_151
       rect:
         serializedVersion: 2
         x: 587
         y: 961
         width: 38
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3179,20 +3334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 934822f6c83354495963307c2e2b1f14
-      internalID: 395966754
+      spriteID: 670c4033b94be4660b52ca7cc9456adb
+      internalID: 1102808513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_144
+      name: Hero_With_Axe_152
       rect:
         serializedVersion: 2
         x: 652
         y: 961
         width: 36
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3200,20 +3355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb1cf6c948a9b46039967b6325931730
-      internalID: -714290646
+      spriteID: 600fb3aa80083421e8833446a607f447
+      internalID: -1406032534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_145
+      name: Hero_With_Axe_153
       rect:
         serializedVersion: 2
         x: 716
         y: 961
-        width: 32
-        height: 50
+        width: 34
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3221,20 +3376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc9c31f46dba34834b9ca6b27a2f7a66
-      internalID: -1453091686
+      spriteID: 0e4ba3bb89f6946f89786bf99d40a026
+      internalID: 2115137497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_146
+      name: Hero_With_Axe_154
       rect:
         serializedVersion: 2
         x: 780
         y: 961
         width: 36
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3242,20 +3397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 052312dd156c4435c93d05cc31593432
-      internalID: -1033167474
+      spriteID: f04311b4c4ff44b1e98065eefb2edec6
+      internalID: 1299816198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_147
+      name: Hero_With_Axe_155
       rect:
         serializedVersion: 2
-        x: 15
+        x: 16
         y: 897
-        width: 32
-        height: 50
+        width: 30
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3263,20 +3418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98be3086ce5204fe58bb4f4f48059e87
-      internalID: -1152575164
+      spriteID: 43e179c099ad84e879e06a864015f896
+      internalID: 1923098802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_148
+      name: Hero_With_Axe_156
       rect:
         serializedVersion: 2
-        x: 80
-        y: 898
-        width: 28
-        height: 49
+        x: 81
+        y: 896
+        width: 27
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3284,20 +3439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5619e4361e12472b90c938617148f10
-      internalID: -1399623022
+      spriteID: f0b857b4997e74451bbce18b4eb87493
+      internalID: -2142024925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_149
+      name: Hero_With_Axe_157
       rect:
         serializedVersion: 2
         x: 145
         y: 898
-        width: 27
-        height: 49
+        width: 28
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3305,20 +3460,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bc32cb16e56943cf9c4512f247e8ef3
-      internalID: 1546237125
+      spriteID: 38ed2035b41d54de58541e848b218b22
+      internalID: -493670755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_150
+      name: Hero_With_Axe_158
       rect:
         serializedVersion: 2
         x: 209
         y: 897
         width: 27
-        height: 50
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3326,20 +3481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1532848e5a69a43b9bb95f9dd701c95c
-      internalID: -1590401776
+      spriteID: c0bc2faf0dff7469f80d3b306f76d788
+      internalID: -1471395775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_151
+      name: Hero_With_Axe_159
       rect:
         serializedVersion: 2
         x: 274
         y: 897
         width: 26
-        height: 50
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3347,20 +3502,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb1d09a77c38c44c7ae58fa39a938e00
-      internalID: 278853722
+      spriteID: 0d675b1dbbdbe4ea284a25ad59c32a7e
+      internalID: 1583137884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_152
+      name: Hero_With_Axe_160
       rect:
         serializedVersion: 2
         x: 338
         y: 897
-        width: 27
-        height: 50
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3368,20 +3523,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e14bf181136fd48e2a4bc9de1409bb42
-      internalID: 1492767124
+      spriteID: 8aa826e4952fc4818b4b2e9937a3c7ca
+      internalID: -1657384558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_153
+      name: Hero_With_Axe_161
       rect:
         serializedVersion: 2
         x: 402
         y: 897
-        width: 26
-        height: 50
+        width: 25
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3389,20 +3544,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5fb57e11d1974bab872c15a44c40763
-      internalID: 2002577827
+      spriteID: 9c0ff4d39c2e94992982bd972661277c
+      internalID: -1407583452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_154
+      name: Hero_With_Axe_162
       rect:
         serializedVersion: 2
         x: 465
         y: 897
-        width: 27
-        height: 50
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3410,20 +3565,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2761c600ca0a4ecaa32d5223d83094d
-      internalID: 1466333056
+      spriteID: ee7d087069d5246a69d4298e45819356
+      internalID: -1110822838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_155
+      name: Hero_With_Axe_163
       rect:
         serializedVersion: 2
         x: 529
         y: 897
-        width: 27
-        height: 50
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3431,20 +3586,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1caeb8b78e00e4a4390ae6a14e8f6615
-      internalID: -2059575250
+      spriteID: beab235e5219e43fa928e0fa8c30cab6
+      internalID: 744886448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_156
+      name: Hero_With_Axe_164
       rect:
         serializedVersion: 2
         x: 594
         y: 897
-        width: 26
-        height: 50
+        width: 25
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3452,20 +3607,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb38e18ff9b5c4b47b85eea43d27705b
-      internalID: -640554631
+      spriteID: dc007d59639794edc957801d5219861a
+      internalID: -689159258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_157
+      name: Hero_With_Axe_165
       rect:
         serializedVersion: 2
         x: 656
         y: 897
-        width: 28
-        height: 50
+        width: 27
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3473,20 +3628,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3892d812983144e4681fdffda04428e5
-      internalID: 1459013914
+      spriteID: ffe5e4d626a984eaebfa2e9c94a3937d
+      internalID: -1657285554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_158
+      name: Hero_With_Axe_166
       rect:
         serializedVersion: 2
         x: 721
         y: 897
-        width: 27
-        height: 50
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3494,20 +3649,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a593273ee84840faaaca53ce41b80ec
-      internalID: 452711010
+      spriteID: 87d1368183f76419d84a95b4735a2e22
+      internalID: 334528510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_159
+      name: Hero_With_Axe_167
       rect:
         serializedVersion: 2
         x: 784
         y: 897
-        width: 28
-        height: 50
+        width: 27
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3515,20 +3670,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd010f11a542b45bb86f2fd79806ae6e
-      internalID: -333969672
+      spriteID: 673ab2533402849cd9422935fbae5ed9
+      internalID: -1184033781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_160
+      name: Hero_With_Axe_168
       rect:
         serializedVersion: 2
         x: 18
         y: 833
-        width: 23
-        height: 50
+        width: 26
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3536,20 +3691,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6c0cd23fd1984d22b9adc2cf43f2cd1
-      internalID: 1722059616
+      spriteID: 17a53afabb85644a89995b2567aba646
+      internalID: -967371736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_161
+      name: Hero_With_Axe_169
       rect:
         serializedVersion: 2
         x: 82
         y: 833
         width: 27
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3557,20 +3712,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996513864495b4d6a854ea487c2467dc
-      internalID: -1897881060
+      spriteID: a9dd147384a1d497db1e30304675e880
+      internalID: -1586295481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_162
+      name: Hero_With_Axe_170
       rect:
         serializedVersion: 2
         x: 144
         y: 833
         width: 34
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3578,20 +3733,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2491f1e0d1a914aa8bde943d12a50e99
-      internalID: 170004710
+      spriteID: 77590ea0ee5f944b1ba56cbaff2d422b
+      internalID: 820817967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_163
+      name: Hero_With_Axe_171
       rect:
         serializedVersion: 2
         x: 207
         y: 833
         width: 37
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3599,20 +3754,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69d0f66e2c21f44e39b1c5475603cea0
-      internalID: 1414498262
+      spriteID: 47c27765ec0594d15a664843708c5f62
+      internalID: 957576028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_164
+      name: Hero_With_Axe_172
       rect:
         serializedVersion: 2
         x: 271
         y: 833
         width: 37
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3620,20 +3775,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 577ce05cc782347d7b9086b45a529a99
-      internalID: 1861579683
+      spriteID: 21f4efdea160c4865a16ae5be2a5328b
+      internalID: 335284799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_165
+      name: Hero_With_Axe_173
       rect:
         serializedVersion: 2
-        x: 339
+        x: 338
         y: 833
-        width: 34
-        height: 50
+        width: 35
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3641,20 +3796,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aad516f45d0024366aa8d3bd92b4c22f
-      internalID: -1904786208
+      spriteID: f49bff435254f4c79977393ec2ab693a
+      internalID: 1877010727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_166
+      name: Hero_With_Axe_174
       rect:
         serializedVersion: 2
         x: 401
         y: 833
         width: 36
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3662,20 +3817,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab32103b3bd1c4ae5904d797461f6068
-      internalID: 1640740508
+      spriteID: da7c095b009d04487a0824c66af360c7
+      internalID: 282325708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_167
+      name: Hero_With_Axe_175
       rect:
         serializedVersion: 2
         x: 462
         y: 833
         width: 38
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3683,20 +3838,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b4b9d6efef4d457fb72501caaa7970b
-      internalID: -1687301972
+      spriteID: a84cc5c5e05aa499a88d6e3eeb986155
+      internalID: -1724046688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_168
+      name: Hero_With_Axe_176
       rect:
         serializedVersion: 2
         x: 523
         y: 833
         width: 42
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3704,20 +3859,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd4149469dac0436f929ad70e0b6bbee
-      internalID: 1229639251
+      spriteID: aad959022f1444675bd4e9308f60c26d
+      internalID: -1864911591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_169
+      name: Hero_With_Axe_177
       rect:
         serializedVersion: 2
         x: 590
         y: 833
         width: 39
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3725,20 +3880,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f624af893c354fe3aaff110333cc352
-      internalID: 388597656
+      spriteID: e987855c6d38743e7bcac415f761fe79
+      internalID: -1004726780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_170
+      name: Hero_With_Axe_178
       rect:
         serializedVersion: 2
         x: 655
         y: 833
         width: 38
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3746,20 +3901,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccc9aabe3b0b444bba681c0998698802
-      internalID: 1733385953
+      spriteID: ad1f634575b0345739b48b7938652c7d
+      internalID: 790098153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_171
+      name: Hero_With_Axe_179
       rect:
         serializedVersion: 2
         x: 721
         y: 833
         width: 35
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3767,20 +3922,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a33d98cf55759498caa38851bb7c96f1
-      internalID: 1102071376
+      spriteID: af0563b3867654623af86e8ad7eb79cf
+      internalID: -123483904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_172
+      name: Hero_With_Axe_180
       rect:
         serializedVersion: 2
         x: 784
         y: 833
         width: 36
-        height: 50
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3788,20 +3943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ace6308ace014f5399881ebb8b5a005
-      internalID: -669864163
+      spriteID: c34466f482b764ac1b11f3f8152dba1a
+      internalID: 197007088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_173
+      name: Hero_With_Axe_181
       rect:
         serializedVersion: 2
         x: 16
         y: 769
-        width: 32
-        height: 50
+        width: 48
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3809,18 +3964,270 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cad9ed822476c466986e5421e4823411
-      internalID: 1461371757
+      spriteID: ca091b75a717643a4ae704140a585cd2
+      internalID: 2133423618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_174
+      name: Hero_With_Axe_182
       rect:
         serializedVersion: 2
         x: 81
+        y: 769
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4f07f23775f4a219908888dad052e9
+      internalID: 212193540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_183
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 768
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af61133671d034ebdbd368655f6e4348
+      internalID: -1797211559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_184
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 768
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ed27d38c10b425b8aa76a5aaaaee04
+      internalID: 505145126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_185
+      rect:
+        serializedVersion: 2
+        x: 273
         y: 767
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72adfd5f32a43475891f117a6407875f
+      internalID: -1096698842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_186
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 767
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289bab0c2803c4988b2df9e5492df82e
+      internalID: 2029009172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_187
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 641
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3225520395ac241b280d48b89f56c834
+      internalID: 655188941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_188
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 640
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7a00abde4a442368f13dd1b0d0ebf5
+      internalID: -331456631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_189
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 640
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2ec1179f26b4721a01c06121d0dc7c
+      internalID: 1733241851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_190
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 640
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52a72f563cfb42c5892a72841c73d9a
+      internalID: -878577153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_191
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 640
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45646c28c7c8f435ba05eedf28dc6fe6
+      internalID: 851595733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_192
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 640
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d3fadb8613b4f24ba8e2698723b386
+      internalID: -1897861460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_193
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 449
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbd3668c1923407fa200b59cf2c02eb
+      internalID: 2098626312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_194
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 448
         width: 33
         height: 51
       alignment: 0
@@ -3830,20 +4237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb7f8881187af44f1a4d1411e6493597
-      internalID: 1367514236
+      spriteID: 7bc0f6781c955417d83efa407dc3fcf6
+      internalID: 1042356628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_175
+      name: Hero_With_Axe_195
       rect:
         serializedVersion: 2
-        x: 146
-        y: 768
-        width: 32
-        height: 44
+        x: 460
+        y: 448
+        width: 41
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3851,167 +4258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa827b838a6104275aa6850b2b3df678
-      internalID: -1516814640
+      spriteID: aad7dc70247c740e6ac170f704d4d51d
+      internalID: -1942144946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_176
+      name: Hero_With_Axe_196
       rect:
         serializedVersion: 2
-        x: 210
-        y: 767
-        width: 32
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a347d1f63f75f438486e9d6e764e83b2
-      internalID: -833508718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_177
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 767
-        width: 44
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66a16fc8fe2ae4e32837931711f2de6e
-      internalID: 2140405778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_178
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 768
-        width: 49
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05e4834e08cfb4966bbc66378f782220
-      internalID: 1621896534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_179
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 641
-        width: 40
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbae24aa856504061b87c013c5838be9
-      internalID: -1620762982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_180
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 640
-        width: 36
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d894a5f86896543d5b8c3d9b0565ff76
-      internalID: -2122285810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_181
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 640
-        width: 39
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 788ad7ea7f8314a22b47893685ded9b4
-      internalID: 1167282670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_182
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 640
-        width: 37
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5ee50eb07f984795ae74dd90979fe7c
-      internalID: 273652803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_183
-      rect:
-        serializedVersion: 2
-        x: 844
-        y: 640
+        x: 631
+        y: 449
         width: 58
-        height: 56
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4019,124 +4279,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 098feb909826040b29d9ec75b5f46006
-      internalID: 799809776
+      spriteID: 6b8cc81f91d8e42cf9eca0b85bb5b125
+      internalID: 2113684769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_184
-      rect:
-        serializedVersion: 2
-        x: 1036
-        y: 640
-        width: 63
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34f41346c60c94ddba804d49d61dfa56
-      internalID: -979163719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_185
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 449
-        width: 46
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f374b312b9c004a8eb5fbd0677976d36
-      internalID: -1339719607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_186
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 449
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d6398a512da74c83a3c5a5ab329ac9b
-      internalID: -273776003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_187
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 449
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e162ffbc2df743f5993c0645e35dbd1
-      internalID: 1948836969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_188
-      rect:
-        serializedVersion: 2
-        x: 650
-        y: 449
-        width: 43
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5163acca3ecf647e494953901e7a1f11
-      internalID: 1920913447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_189
+      name: Hero_With_Axe_197
       rect:
         serializedVersion: 2
         x: 818
         y: 449
-        width: 67
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6a5b4c12c574cfe8505d22ab5a3b1d
+      internalID: -495573219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_198
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 449
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58be9ca766fe74624b6aad4c15e55458
+      internalID: -1305092270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_199
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 257
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac11a3f1f09ca41d6999169db32289fe
+      internalID: 1729978440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_200
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 255
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a20c32a97248bd8856f9fad2df36f
+      internalID: -2099336671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_201
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 256
+        width: 49
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -4145,18 +4384,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d810372268d2149489642a12ac608e9d
-      internalID: -796681099
+      spriteID: 120bef122ba5b4d54ae039e9b7eca6df
+      internalID: -236148688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_190
+      name: Hero_With_Axe_202
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 449
+        x: 642
+        y: 257
         width: 56
         height: 51
       alignment: 0
@@ -4166,20 +4405,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2417eb54b61b4cd1b29cf599e6496a9
-      internalID: -1190212741
+      spriteID: 299777b72ff144aa5a9a21736447d9b5
+      internalID: -612246849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_191
+      name: Hero_With_Axe_203
       rect:
         serializedVersion: 2
-        x: 75
-        y: 257
-        width: 37
-        height: 50
+        x: 842
+        y: 248
+        width: 68
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4187,20 +4426,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17348ceadf2f7436ab16a0fe4639625f
-      internalID: -274793898
+      spriteID: 963b9bde8c6d342fb91e795e19e6d1e5
+      internalID: 1067287403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_192
+      name: Hero_With_Axe_204
       rect:
         serializedVersion: 2
-        x: 267
-        y: 257
-        width: 35
-        height: 50
+        x: 1042
+        y: 252
+        width: 64
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4208,104 +4447,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76a0d37dede904dadb7551ee6e5c39e1
-      internalID: -325048694
+      spriteID: 31792be9580e84f9ca2bbb1636a71e27
+      internalID: 125548493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_193
+      name: Hero_With_Axe_205
       rect:
         serializedVersion: 2
-        x: 451
-        y: 257
-        width: 43
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eea0b474c24d54895840989069862a3b
-      internalID: -1380179939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_194
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 257
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23e5930504925437799261b3e51e9d40
-      internalID: -561871601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_195
-      rect:
-        serializedVersion: 2
-        x: 846
-        y: 256
-        width: 57
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e10e666384544e739f89400812bfe9d
-      internalID: -970408410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_196
-      rect:
-        serializedVersion: 2
-        x: 1038
-        y: 257
-        width: 66
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6bd082289b3fc44b6bc01c0de7c64d00
-      internalID: -810142473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_197
-      rect:
-        serializedVersion: 2
-        x: 77
+        x: 72
         y: 64
-        width: 46
-        height: 51
+        width: 47
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4313,39 +4468,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 609d572cd15ae4f198e6673ed03a990d
-      internalID: -661877205
+      spriteID: 0db1390ef5f3343cca52fe2546422af6
+      internalID: 353676551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_198
+      name: Hero_With_Axe_206
       rect:
         serializedVersion: 2
-        x: 269
-        y: 64
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8bf823e5ed6784a048893c108f259895
-      internalID: 12005690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Download24881_199
-      rect:
-        serializedVersion: 2
-        x: 461
-        y: 64
+        x: 276
+        y: 63
         width: 32
         height: 51
       alignment: 0
@@ -4355,20 +4489,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c349f9de88134fde8261c71a9ed63cc
-      internalID: -567685681
+      spriteID: 4167844cba52c489f8bbb81e89bedc7a
+      internalID: 1952248420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_200
+      name: Hero_With_Axe_207
       rect:
         serializedVersion: 2
-        x: 652
-        y: 64
-        width: 43
-        height: 51
+        x: 458
+        y: 63
+        width: 42
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4376,20 +4510,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29925be72875b4d018a5ed5bd8daaae8
-      internalID: 400885688
+      spriteID: 9b0a21334fc7b4159848296e4628abc0
+      internalID: -176424288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_201
+      name: Hero_With_Axe_208
       rect:
         serializedVersion: 2
-        x: 843
+        x: 654
         y: 64
-        width: 67
-        height: 51
+        width: 59
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4397,20 +4531,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c96cf6772fc35436e83edd1efe683d2e
-      internalID: 68979847
+      spriteID: a5739cc212db2437daeceb7e50c423d2
+      internalID: 532994039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Download24881_202
+      name: Hero_With_Axe_209
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 64
-        width: 57
-        height: 51
+        x: 801
+        y: 0
+        width: 108
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4418,8 +4552,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c989c8f53b1e2445bb263a4c4ce06908
-      internalID: -1912708596
+      spriteID: f2de41cbe7ef34ce7a2900c46b8dd6a7
+      internalID: 1461851376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe_210
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 64
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f3cde51ed434444b0b4b2051a380b8
+      internalID: -1586649576
       vertices: []
       indices: 
       edges: []
@@ -4435,209 +4590,217 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Download24881_0: 313361134
-      Download24881_1: 42144532
-      Download24881_10: 873592769
-      Download24881_100: 1690651124
-      Download24881_101: 1800037620
-      Download24881_102: 1815072383
-      Download24881_103: 1663894355
-      Download24881_104: -1766934666
-      Download24881_105: -1175438983
-      Download24881_106: -1405569385
-      Download24881_107: -1657371541
-      Download24881_108: 1535059781
-      Download24881_109: -1846363602
-      Download24881_11: 1884616993
-      Download24881_110: 1941955700
-      Download24881_111: -1096504984
-      Download24881_112: -429428269
-      Download24881_113: -1201481872
-      Download24881_114: 649979291
-      Download24881_115: 169681695
-      Download24881_116: 8607161
-      Download24881_117: -867825079
-      Download24881_118: -1424633900
-      Download24881_119: -51616964
-      Download24881_12: -690585423
-      Download24881_120: -673743394
-      Download24881_121: 1377116766
-      Download24881_122: 599685974
-      Download24881_123: -1436655511
-      Download24881_124: -1323173128
-      Download24881_125: -565460270
-      Download24881_126: -1899566609
-      Download24881_127: 1669550400
-      Download24881_128: 1998305916
-      Download24881_129: 537140869
-      Download24881_13: 1810742837
-      Download24881_130: -656603428
-      Download24881_131: -1714229673
-      Download24881_132: -1421474505
-      Download24881_133: -1983678120
-      Download24881_134: -1356241314
-      Download24881_135: 665808818
-      Download24881_136: -678600464
-      Download24881_137: -495242744
-      Download24881_138: 2131745815
-      Download24881_139: -1784882454
-      Download24881_14: -1849814111
-      Download24881_140: 2108183377
-      Download24881_141: 616351268
-      Download24881_142: 367613172
-      Download24881_143: 395966754
-      Download24881_144: -714290646
-      Download24881_145: -1453091686
-      Download24881_146: -1033167474
-      Download24881_147: -1152575164
-      Download24881_148: -1399623022
-      Download24881_149: 1546237125
-      Download24881_15: 1386207072
-      Download24881_150: -1590401776
-      Download24881_151: 278853722
-      Download24881_152: 1492767124
-      Download24881_153: 2002577827
-      Download24881_154: 1466333056
-      Download24881_155: -2059575250
-      Download24881_156: -640554631
-      Download24881_157: 1459013914
-      Download24881_158: 452711010
-      Download24881_159: -333969672
-      Download24881_16: -2040353814
-      Download24881_160: 1722059616
-      Download24881_161: -1897881060
-      Download24881_162: 170004710
-      Download24881_163: 1414498262
-      Download24881_164: 1861579683
-      Download24881_165: -1904786208
-      Download24881_166: 1640740508
-      Download24881_167: -1687301972
-      Download24881_168: 1229639251
-      Download24881_169: 388597656
-      Download24881_17: 924238267
-      Download24881_170: 1733385953
-      Download24881_171: 1102071376
-      Download24881_172: -669864163
-      Download24881_173: 1461371757
-      Download24881_174: 1367514236
-      Download24881_175: -1516814640
-      Download24881_176: -833508718
-      Download24881_177: 2140405778
-      Download24881_178: 1621896534
-      Download24881_179: -1620762982
-      Download24881_18: -613623238
-      Download24881_180: -2122285810
-      Download24881_181: 1167282670
-      Download24881_182: 273652803
-      Download24881_183: 799809776
-      Download24881_184: -979163719
-      Download24881_185: -1339719607
-      Download24881_186: -273776003
-      Download24881_187: 1948836969
-      Download24881_188: 1920913447
-      Download24881_189: -796681099
-      Download24881_19: -863672889
-      Download24881_190: -1190212741
-      Download24881_191: -274793898
-      Download24881_192: -325048694
-      Download24881_193: -1380179939
-      Download24881_194: -561871601
-      Download24881_195: -970408410
-      Download24881_196: -810142473
-      Download24881_197: -661877205
-      Download24881_198: 12005690
-      Download24881_199: -567685681
-      Download24881_2: 988219871
-      Download24881_20: -70492193
-      Download24881_200: 400885688
-      Download24881_201: 68979847
-      Download24881_202: -1912708596
-      Download24881_21: -1895065254
-      Download24881_22: 1947535783
-      Download24881_23: -2137839167
-      Download24881_24: -635974613
-      Download24881_25: 463352097
-      Download24881_26: 931112044
-      Download24881_27: 1985067804
-      Download24881_28: -1180588042
-      Download24881_29: -1272315623
-      Download24881_3: 190550849
-      Download24881_30: 1800149314
-      Download24881_31: -1751697579
-      Download24881_32: 319636700
-      Download24881_33: -899801491
-      Download24881_34: 1950367612
-      Download24881_35: 626231189
-      Download24881_36: 1700039003
-      Download24881_37: 626296871
-      Download24881_38: 730635404
-      Download24881_39: 1762792291
-      Download24881_4: -1900935043
-      Download24881_40: -489648730
-      Download24881_41: -1315190135
-      Download24881_42: -1514754892
-      Download24881_43: 1295280933
-      Download24881_44: 1876682552
-      Download24881_45: -1295574847
-      Download24881_46: 781375015
-      Download24881_47: -1905715163
-      Download24881_48: -112975671
-      Download24881_49: -937236402
-      Download24881_5: 1768015793
-      Download24881_50: -986395661
-      Download24881_51: 968024277
-      Download24881_52: -1904854718
-      Download24881_53: -819544856
-      Download24881_54: 750915726
-      Download24881_55: -2008752790
-      Download24881_56: 456962850
-      Download24881_57: -1443065135
-      Download24881_58: -679644880
-      Download24881_59: -1490198552
-      Download24881_6: -1564597729
-      Download24881_60: -1128878687
-      Download24881_61: -2027279742
-      Download24881_62: 2131266632
-      Download24881_63: -706411655
-      Download24881_64: -630138413
-      Download24881_65: 1361909085
-      Download24881_66: -1776670116
-      Download24881_67: -25474417
-      Download24881_68: 512090197
-      Download24881_69: -359142963
-      Download24881_7: 91639185
-      Download24881_70: -700368187
-      Download24881_71: -2086363703
-      Download24881_72: -986066976
-      Download24881_73: -1862430501
-      Download24881_74: -634015825
-      Download24881_75: -1237358981
-      Download24881_76: -1938588458
-      Download24881_77: -474745694
-      Download24881_78: 617484387
-      Download24881_79: 811565382
-      Download24881_8: -1194157053
-      Download24881_80: 400337296
-      Download24881_81: 2100125816
-      Download24881_82: 99386815
-      Download24881_83: 822833790
-      Download24881_84: 1093542613
-      Download24881_85: 239492567
-      Download24881_86: 740449478
-      Download24881_87: 285434778
-      Download24881_88: 178060620
-      Download24881_89: 1648707238
-      Download24881_9: -1101981819
-      Download24881_90: 979319323
-      Download24881_91: 285639705
-      Download24881_92: -1769234750
-      Download24881_93: -2061169029
-      Download24881_94: 1155152851
-      Download24881_95: -280277333
-      Download24881_96: 218150097
-      Download24881_97: 458527045
-      Download24881_98: 1016434935
-      Download24881_99: 2051542831
+      Hero_With_Axe_0: -299850396
+      Hero_With_Axe_1: -2045605537
+      Hero_With_Axe_10: -1539424043
+      Hero_With_Axe_100: 140164674
+      Hero_With_Axe_101: 529563122
+      Hero_With_Axe_102: 232027720
+      Hero_With_Axe_103: 2137473302
+      Hero_With_Axe_104: -1817802929
+      Hero_With_Axe_105: -613461308
+      Hero_With_Axe_106: 327862003
+      Hero_With_Axe_107: -1556130641
+      Hero_With_Axe_108: -21705651
+      Hero_With_Axe_109: 1874959571
+      Hero_With_Axe_11: -1680396723
+      Hero_With_Axe_110: -1815041046
+      Hero_With_Axe_111: -715647627
+      Hero_With_Axe_112: -2008331319
+      Hero_With_Axe_113: 626620903
+      Hero_With_Axe_114: 439038001
+      Hero_With_Axe_115: -777383384
+      Hero_With_Axe_116: 2092697709
+      Hero_With_Axe_117: -1765980221
+      Hero_With_Axe_118: -167143827
+      Hero_With_Axe_119: 1422570606
+      Hero_With_Axe_12: 230149959
+      Hero_With_Axe_120: -1081017046
+      Hero_With_Axe_121: 1631316038
+      Hero_With_Axe_122: 1834967080
+      Hero_With_Axe_123: -1848166658
+      Hero_With_Axe_124: 1923825983
+      Hero_With_Axe_125: 1560649561
+      Hero_With_Axe_126: 1534619960
+      Hero_With_Axe_127: -1743884269
+      Hero_With_Axe_128: -406164515
+      Hero_With_Axe_129: 565579154
+      Hero_With_Axe_13: -496011442
+      Hero_With_Axe_130: 1719868003
+      Hero_With_Axe_131: 1535618542
+      Hero_With_Axe_132: 984964532
+      Hero_With_Axe_133: 1266277290
+      Hero_With_Axe_134: -415150053
+      Hero_With_Axe_135: -449195713
+      Hero_With_Axe_136: 1080594836
+      Hero_With_Axe_137: -48335287
+      Hero_With_Axe_138: -832199096
+      Hero_With_Axe_139: 476562442
+      Hero_With_Axe_14: -1109177174
+      Hero_With_Axe_140: 1204512072
+      Hero_With_Axe_141: -943723398
+      Hero_With_Axe_142: 1294093048
+      Hero_With_Axe_143: 1467270401
+      Hero_With_Axe_144: 1638097059
+      Hero_With_Axe_145: -948411173
+      Hero_With_Axe_146: -864837319
+      Hero_With_Axe_147: -1286288019
+      Hero_With_Axe_148: 1369084763
+      Hero_With_Axe_149: -503404030
+      Hero_With_Axe_15: -1760617158
+      Hero_With_Axe_150: -321880757
+      Hero_With_Axe_151: 1102808513
+      Hero_With_Axe_152: -1406032534
+      Hero_With_Axe_153: 2115137497
+      Hero_With_Axe_154: 1299816198
+      Hero_With_Axe_155: 1923098802
+      Hero_With_Axe_156: -2142024925
+      Hero_With_Axe_157: -493670755
+      Hero_With_Axe_158: -1471395775
+      Hero_With_Axe_159: 1583137884
+      Hero_With_Axe_16: -578616966
+      Hero_With_Axe_160: -1657384558
+      Hero_With_Axe_161: -1407583452
+      Hero_With_Axe_162: -1110822838
+      Hero_With_Axe_163: 744886448
+      Hero_With_Axe_164: -689159258
+      Hero_With_Axe_165: -1657285554
+      Hero_With_Axe_166: 334528510
+      Hero_With_Axe_167: -1184033781
+      Hero_With_Axe_168: -967371736
+      Hero_With_Axe_169: -1586295481
+      Hero_With_Axe_17: -151758628
+      Hero_With_Axe_170: 820817967
+      Hero_With_Axe_171: 957576028
+      Hero_With_Axe_172: 335284799
+      Hero_With_Axe_173: 1877010727
+      Hero_With_Axe_174: 282325708
+      Hero_With_Axe_175: -1724046688
+      Hero_With_Axe_176: -1864911591
+      Hero_With_Axe_177: -1004726780
+      Hero_With_Axe_178: 790098153
+      Hero_With_Axe_179: -123483904
+      Hero_With_Axe_18: 341289869
+      Hero_With_Axe_180: 197007088
+      Hero_With_Axe_181: 2133423618
+      Hero_With_Axe_182: 212193540
+      Hero_With_Axe_183: -1797211559
+      Hero_With_Axe_184: 505145126
+      Hero_With_Axe_185: -1096698842
+      Hero_With_Axe_186: 2029009172
+      Hero_With_Axe_187: 655188941
+      Hero_With_Axe_188: -331456631
+      Hero_With_Axe_189: 1733241851
+      Hero_With_Axe_19: -1568804802
+      Hero_With_Axe_190: -878577153
+      Hero_With_Axe_191: 851595733
+      Hero_With_Axe_192: -1897861460
+      Hero_With_Axe_193: 2098626312
+      Hero_With_Axe_194: 1042356628
+      Hero_With_Axe_195: -1942144946
+      Hero_With_Axe_196: 2113684769
+      Hero_With_Axe_197: -495573219
+      Hero_With_Axe_198: -1305092270
+      Hero_With_Axe_199: 1729978440
+      Hero_With_Axe_2: -1634769175
+      Hero_With_Axe_20: 2077734170
+      Hero_With_Axe_200: -2099336671
+      Hero_With_Axe_201: -236148688
+      Hero_With_Axe_202: -612246849
+      Hero_With_Axe_203: 1067287403
+      Hero_With_Axe_204: 125548493
+      Hero_With_Axe_205: 353676551
+      Hero_With_Axe_206: 1952248420
+      Hero_With_Axe_207: -176424288
+      Hero_With_Axe_208: 532994039
+      Hero_With_Axe_209: 1461851376
+      Hero_With_Axe_21: 217297158
+      Hero_With_Axe_210: -1586649576
+      Hero_With_Axe_22: 341879875
+      Hero_With_Axe_23: -1756624562
+      Hero_With_Axe_24: -1491494231
+      Hero_With_Axe_25: 2058434427
+      Hero_With_Axe_26: -1450792623
+      Hero_With_Axe_27: -1907690261
+      Hero_With_Axe_28: 66493583
+      Hero_With_Axe_29: 1945901941
+      Hero_With_Axe_3: -1250714265
+      Hero_With_Axe_30: 1032963712
+      Hero_With_Axe_31: 468607692
+      Hero_With_Axe_32: 453878990
+      Hero_With_Axe_33: 773628948
+      Hero_With_Axe_34: 1384047306
+      Hero_With_Axe_35: 1516368529
+      Hero_With_Axe_36: 1142136064
+      Hero_With_Axe_37: 2024807571
+      Hero_With_Axe_38: 172473963
+      Hero_With_Axe_39: 1917401053
+      Hero_With_Axe_4: 1675951997
+      Hero_With_Axe_40: 1252435458
+      Hero_With_Axe_41: 35551187
+      Hero_With_Axe_42: 1731828319
+      Hero_With_Axe_43: -1500102897
+      Hero_With_Axe_44: 882299105
+      Hero_With_Axe_45: -441480265
+      Hero_With_Axe_46: -1177198162
+      Hero_With_Axe_47: 1203273375
+      Hero_With_Axe_48: 1045626839
+      Hero_With_Axe_49: -328904543
+      Hero_With_Axe_5: -984252447
+      Hero_With_Axe_50: 642663002
+      Hero_With_Axe_51: -1654558617
+      Hero_With_Axe_52: -1740985787
+      Hero_With_Axe_53: 1074018421
+      Hero_With_Axe_54: -1606752631
+      Hero_With_Axe_55: 2135474394
+      Hero_With_Axe_56: -1504144131
+      Hero_With_Axe_57: -723507457
+      Hero_With_Axe_58: -51295746
+      Hero_With_Axe_59: -1725752685
+      Hero_With_Axe_6: -1387482079
+      Hero_With_Axe_60: 1358872721
+      Hero_With_Axe_61: -2078354430
+      Hero_With_Axe_62: 372851204
+      Hero_With_Axe_63: -1910109817
+      Hero_With_Axe_64: 645106436
+      Hero_With_Axe_65: 1542291805
+      Hero_With_Axe_66: 581765422
+      Hero_With_Axe_67: 1492750326
+      Hero_With_Axe_68: 1940595685
+      Hero_With_Axe_69: -569642764
+      Hero_With_Axe_7: 467951533
+      Hero_With_Axe_70: 708779907
+      Hero_With_Axe_71: -2112973828
+      Hero_With_Axe_72: 1410444979
+      Hero_With_Axe_73: 912523464
+      Hero_With_Axe_74: 1658814674
+      Hero_With_Axe_75: 140794092
+      Hero_With_Axe_76: 1914737500
+      Hero_With_Axe_77: -434823904
+      Hero_With_Axe_78: -22559835
+      Hero_With_Axe_79: -2128144120
+      Hero_With_Axe_8: -512007154
+      Hero_With_Axe_80: -2106828918
+      Hero_With_Axe_81: -1179287856
+      Hero_With_Axe_82: 1393375465
+      Hero_With_Axe_83: 1696970764
+      Hero_With_Axe_84: 799062863
+      Hero_With_Axe_85: 1626868830
+      Hero_With_Axe_86: -974123393
+      Hero_With_Axe_87: -1922234365
+      Hero_With_Axe_88: -298776384
+      Hero_With_Axe_89: 2018106887
+      Hero_With_Axe_9: -1000688437
+      Hero_With_Axe_90: -1868594996
+      Hero_With_Axe_91: 1896815449
+      Hero_With_Axe_92: -1666037682
+      Hero_With_Axe_93: 1959529236
+      Hero_With_Axe_94: 858144267
+      Hero_With_Axe_95: 805682570
+      Hero_With_Axe_96: 1510186978
+      Hero_With_Axe_97: 1122687064
+      Hero_With_Axe_98: -786696870
+      Hero_With_Axe_99: -1280617514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
