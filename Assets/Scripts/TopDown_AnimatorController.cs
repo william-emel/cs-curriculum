@@ -9,15 +9,15 @@ public class TopDown_AnimatorController : MonoBehaviour
 
     private void Awake()
     {
-        anim = GetComponentInChildren<Animator>();
-        sprite = GetComponentInChildren<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     private void Start()
     {
         //start off facing to the right.
         anim.SetBool("isWalking", false);
-        anim.SetInteger("walkDir", 1);
+        anim.SetInteger("walkDir", 2);
         sprite.flipX = true;
 
     }
@@ -31,9 +31,8 @@ public class TopDown_AnimatorController : MonoBehaviour
     void PlayAnimations()
     {
         //if either horizontal or vertical is not equal to zero but not both
-        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0 && !(Input.GetAxis("Horizontal") != 0 && Input.GetAxis("Vertical") != 1))
+        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0 && !(Input.GetAxis("Horizontal") != 0 && Input.GetAxis("Vertical") != 0))
         {
-            anim.enabled = true;
             anim.SetBool("isWalking", true);
             if (Input.GetAxis("Horizontal") > 0)
             {
@@ -53,21 +52,18 @@ public class TopDown_AnimatorController : MonoBehaviour
             {
                 anim.SetInteger("walkDir", 2);
             }
-
         }
         else
         {
             anim.SetBool("isWalking", false);
-            anim.enabled = false;
         }
 
         if (Input.GetMouseButton(0))
         {
             anim.SetTrigger("Attack");
+            anim.SetBool("isWalking", false);
         }
+            
     }
-
-
-
 
 }
