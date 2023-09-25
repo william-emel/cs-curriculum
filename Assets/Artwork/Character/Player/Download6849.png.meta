@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -33,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: VisionOS
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4012,194 +4057,193 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Download6849_67: -650588562
-      Download6849_122: 1495927229
-      Download6849_66: 1593822792
-      Download6849_99: 1159833507
-      Download6849_40: -1364026450
-      Download6849_45: -1559371784
-      Download6849_128: -1181610497
-      Download6849_131: 1996444898
-      Download6849_82: -1814953426
-      Download6849_151: -1132134008
-      Download6849_98: 1351065985
-      Download6849_71: 1233655008
-      Download6849_42: 530562645
-      Download6849_114: -1055235057
-      Download6849_134: -1430360960
-      Download6849_164: 1778251163
-      Download6849_166: 1992407078
-      Download6849_92: -1421722150
-      Download6849_73: -1861542704
-      Download6849_124: -1597400104
-      Download6849_77: 1603852390
-      Download6849_90: -1241086821
-      Download6849_148: 1268694564
-      Download6849_135: -474572929
-      Download6849_145: -586930185
-      Download6849_120: 1928317162
-      Download6849_58: -1831297876
-      Download6849_20: -2063174319
-      Download6849_16: -221485411
-      Download6849_27: -1104055669
-      Download6849_76: -414562980
-      Download6849_3: 1877355777
-      Download6849_38: 292000236
-      Download6849_176: 1451931444
-      Download6849_83: 1728563076
-      Download6849_152: 374429643
-      Download6849_53: -1082302098
-      Download6849_168: 2001924175
-      Download6849_44: 1772862805
-      Download6849_144: -315857265
-      Download6849_46: 30743031
-      Download6849_70: 1323942860
-      Download6849_43: -1132714416
-      Download6849_7: 724683150
-      Download6849_105: 1156944438
-      Download6849_81: -1508899038
-      Download6849_127: -930494750
-      Download6849_31: -1702250894
-      Download6849_17: 404473745
-      Download6849_101: 1773317411
-      Download6849_54: 389057304
-      Download6849_170: 1782374798
-      Download6849_86: -2002344763
-      Download6849_129: 1271770084
-      Download6849_9: -1689868342
-      Download6849_107: -1778269779
-      Download6849_6: 54028645
-      Download6849_138: -1285747610
-      Download6849_32: 1458100067
-      Download6849_64: -2027501832
-      Download6849_74: -1876943056
-      Download6849_181: 1393887731
-      Download6849_173: 979266498
-      Download6849_25: 991737312
-      Download6849_24: -1953204602
-      Download6849_69: 1534514979
-      Download6849_106: -1261489654
-      Download6849_84: -1824776292
-      Download6849_109: 122580101
-      Download6849_33: 1642619663
-      Download6849_150: -479173553
-      Download6849_37: 2102219342
-      Download6849_121: -1731010285
-      Download6849_88: 1508768659
-      Download6849_136: -1941119230
-      Download6849_75: -327625401
-      Download6849_100: 1759390605
-      Download6849_29: -490159177
-      Download6849_28: 27159834
-      Download6849_65: -549851013
-      Download6849_59: 629735737
-      Download6849_112: -578748380
-      Download6849_126: 1712069291
-      Download6849_177: -1688386581
-      Download6849_87: 1930754445
-      Download6849_171: 1680158622
-      Download6849_130: 1734908205
-      Download6849_123: -1184043545
-      Download6849_36: 2089330481
-      Download6849_51: 2021229291
-      Download6849_113: 2013450847
-      Download6849_23: -939961913
-      Download6849_165: -450670309
-      Download6849_55: 1221372373
-      Download6849_95: -1189145125
-      Download6849_8: 22966470
-      Download6849_14: 2117642567
-      Download6849_19: -1810103686
-      Download6849_48: -809152767
-      Download6849_116: 111279931
-      Download6849_142: 131123423
-      Download6849_169: 1573108190
-      Download6849_78: -1526684510
-      Download6849_158: -1227571570
-      Download6849_140: 181448995
-      Download6849_56: 2028859935
-      Download6849_161: -2122650241
-      Download6849_2: 1494541447
-      Download6849_96: 1948150134
-      Download6849_162: 1288372458
-      Download6849_160: 1429039215
-      Download6849_89: -29753877
-      Download6849_93: -1747788420
-      Download6849_49: 1824498280
-      Download6849_178: -948304438
-      Download6849_146: 1913749397
-      Download6849_61: 405910243
-      Download6849_147: 252483991
-      Download6849_172: -1698727589
-      Download6849_52: 1978230015
-      Download6849_18: 242484918
-      Download6849_184: 27438778
-      Download6849_110: -30308448
-      Download6849_4: 1347888221
-      Download6849_63: 1327356770
-      Download6849_62: 1217158049
-      Download6849_156: -979045284
-      Download6849_10: -1600443701
-      Download6849_157: 1079420157
-      Download6849_139: -1074163911
-      Download6849_155: 1914403155
-      Download6849_34: -107711731
-      Download6849_21: -585636440
-      Download6849_41: -1937480597
-      Download6849_94: -597799787
-      Download6849_179: 1077416649
-      Download6849_133: 1828201883
-      Download6849_35: 87982596
-      Download6849_13: -1522864026
-      Download6849_79: 2091609577
-      Download6849_91: 836448671
-      Download6849_68: 271336599
-      Download6849_175: 1250699952
-      Download6849_103: -1653769853
-      Download6849_174: 1456831123
-      Download6849_12: 1785209192
-      Download6849_72: 1003664279
-      Download6849_167: 1776963553
-      Download6849_5: 403159180
-      Download6849_60: -1623054633
-      Download6849_149: 1318675203
-      Download6849_30: -612015246
-      Download6849_159: -629244090
-      Download6849_180: 1125470735
-      Download6849_154: -1084173733
-      Download6849_97: -2144676493
-      Download6849_143: 1779886268
-      Download6849_104: -1751680708
-      Download6849_22: -1798901390
-      Download6849_85: 161167093
-      Download6849_57: -1636300590
-      Download6849_111: -1907112936
-      Download6849_125: -438135596
-      Download6849_47: 174201434
-      Download6849_183: -1088866736
-      Download6849_117: -2063907500
-      Download6849_108: -2010919889
-      Download6849_15: 1472836087
-      Download6849_39: 1785252972
-      Download6849_163: 768690399
-      Download6849_80: 1856867873
-      Download6849_115: -1521915972
-      Download6849_141: 1334731719
-      Download6849_153: 149461329
-      Download6849_11: 1946173651
-      Download6849_1: -1823914717
-      Download6849_182: -1092413843
-      Download6849_137: 585217765
       Download6849_0: 1871155978
-      Download6849_132: 1381418478
+      Download6849_1: -1823914717
+      Download6849_10: -1600443701
+      Download6849_100: 1759390605
+      Download6849_101: 1773317411
       Download6849_102: -1178427725
-      Download6849_50: -1759772212
+      Download6849_103: -1653769853
+      Download6849_104: -1751680708
+      Download6849_105: 1156944438
+      Download6849_106: -1261489654
+      Download6849_107: -1778269779
+      Download6849_108: -2010919889
+      Download6849_109: 122580101
+      Download6849_11: 1946173651
+      Download6849_110: -30308448
+      Download6849_111: -1907112936
+      Download6849_112: -578748380
+      Download6849_113: 2013450847
+      Download6849_114: -1055235057
+      Download6849_115: -1521915972
+      Download6849_116: 111279931
+      Download6849_117: -2063907500
       Download6849_118: -1855677564
       Download6849_119: 1332394416
+      Download6849_12: 1785209192
+      Download6849_120: 1928317162
+      Download6849_121: -1731010285
+      Download6849_122: 1495927229
+      Download6849_123: -1184043545
+      Download6849_124: -1597400104
+      Download6849_125: -438135596
+      Download6849_126: 1712069291
+      Download6849_127: -930494750
+      Download6849_128: -1181610497
+      Download6849_129: 1271770084
+      Download6849_13: -1522864026
+      Download6849_130: 1734908205
+      Download6849_131: 1996444898
+      Download6849_132: 1381418478
+      Download6849_133: 1828201883
+      Download6849_134: -1430360960
+      Download6849_135: -474572929
+      Download6849_136: -1941119230
+      Download6849_137: 585217765
+      Download6849_138: -1285747610
+      Download6849_139: -1074163911
+      Download6849_14: 2117642567
+      Download6849_140: 181448995
+      Download6849_141: 1334731719
+      Download6849_142: 131123423
+      Download6849_143: 1779886268
+      Download6849_144: -315857265
+      Download6849_145: -586930185
+      Download6849_146: 1913749397
+      Download6849_147: 252483991
+      Download6849_148: 1268694564
+      Download6849_149: 1318675203
+      Download6849_15: 1472836087
+      Download6849_150: -479173553
+      Download6849_151: -1132134008
+      Download6849_152: 374429643
+      Download6849_153: 149461329
+      Download6849_154: -1084173733
+      Download6849_155: 1914403155
+      Download6849_156: -979045284
+      Download6849_157: 1079420157
+      Download6849_158: -1227571570
+      Download6849_159: -629244090
+      Download6849_16: -221485411
+      Download6849_160: 1429039215
+      Download6849_161: -2122650241
+      Download6849_162: 1288372458
+      Download6849_163: 768690399
+      Download6849_164: 1778251163
+      Download6849_165: -450670309
+      Download6849_166: 1992407078
+      Download6849_167: 1776963553
+      Download6849_168: 2001924175
+      Download6849_169: 1573108190
+      Download6849_17: 404473745
+      Download6849_170: 1782374798
+      Download6849_171: 1680158622
+      Download6849_172: -1698727589
+      Download6849_173: 979266498
+      Download6849_174: 1456831123
+      Download6849_175: 1250699952
+      Download6849_176: 1451931444
+      Download6849_177: -1688386581
+      Download6849_178: -948304438
+      Download6849_179: 1077416649
+      Download6849_18: 242484918
+      Download6849_180: 1125470735
+      Download6849_181: 1393887731
+      Download6849_182: -1092413843
+      Download6849_183: -1088866736
+      Download6849_184: 27438778
+      Download6849_19: -1810103686
+      Download6849_2: 1494541447
+      Download6849_20: -2063174319
+      Download6849_21: -585636440
+      Download6849_22: -1798901390
+      Download6849_23: -939961913
+      Download6849_24: -1953204602
+      Download6849_25: 991737312
       Download6849_26: -1758698107
-  spritePackingTag: 
+      Download6849_27: -1104055669
+      Download6849_28: 27159834
+      Download6849_29: -490159177
+      Download6849_3: 1877355777
+      Download6849_30: -612015246
+      Download6849_31: -1702250894
+      Download6849_32: 1458100067
+      Download6849_33: 1642619663
+      Download6849_34: -107711731
+      Download6849_35: 87982596
+      Download6849_36: 2089330481
+      Download6849_37: 2102219342
+      Download6849_38: 292000236
+      Download6849_39: 1785252972
+      Download6849_4: 1347888221
+      Download6849_40: -1364026450
+      Download6849_41: -1937480597
+      Download6849_42: 530562645
+      Download6849_43: -1132714416
+      Download6849_44: 1772862805
+      Download6849_45: -1559371784
+      Download6849_46: 30743031
+      Download6849_47: 174201434
+      Download6849_48: -809152767
+      Download6849_49: 1824498280
+      Download6849_5: 403159180
+      Download6849_50: -1759772212
+      Download6849_51: 2021229291
+      Download6849_52: 1978230015
+      Download6849_53: -1082302098
+      Download6849_54: 389057304
+      Download6849_55: 1221372373
+      Download6849_56: 2028859935
+      Download6849_57: -1636300590
+      Download6849_58: -1831297876
+      Download6849_59: 629735737
+      Download6849_6: 54028645
+      Download6849_60: -1623054633
+      Download6849_61: 405910243
+      Download6849_62: 1217158049
+      Download6849_63: 1327356770
+      Download6849_64: -2027501832
+      Download6849_65: -549851013
+      Download6849_66: 1593822792
+      Download6849_67: -650588562
+      Download6849_68: 271336599
+      Download6849_69: 1534514979
+      Download6849_7: 724683150
+      Download6849_70: 1323942860
+      Download6849_71: 1233655008
+      Download6849_72: 1003664279
+      Download6849_73: -1861542704
+      Download6849_74: -1876943056
+      Download6849_75: -327625401
+      Download6849_76: -414562980
+      Download6849_77: 1603852390
+      Download6849_78: -1526684510
+      Download6849_79: 2091609577
+      Download6849_8: 22966470
+      Download6849_80: 1856867873
+      Download6849_81: -1508899038
+      Download6849_82: -1814953426
+      Download6849_83: 1728563076
+      Download6849_84: -1824776292
+      Download6849_85: 161167093
+      Download6849_86: -2002344763
+      Download6849_87: 1930754445
+      Download6849_88: 1508768659
+      Download6849_89: -29753877
+      Download6849_9: -1689868342
+      Download6849_90: -1241086821
+      Download6849_91: 836448671
+      Download6849_92: -1421722150
+      Download6849_93: -1747788420
+      Download6849_94: -597799787
+      Download6849_95: -1189145125
+      Download6849_96: 1948150134
+      Download6849_97: -2144676493
+      Download6849_98: 1351065985
+      Download6849_99: 1159833507
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
