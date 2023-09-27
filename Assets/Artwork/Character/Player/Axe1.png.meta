@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 043d78e2747994a32b3aff84e4cefe66
+guid: 8509c5720d65d46e8a8b1e2c152f30db
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,7 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Standalone
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -146,8 +146,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 4096
+    buildTarget: WebGL
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -162,13 +162,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Orc with Axe Attack_0
+      name: Hero_With_Axe-1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 576
-        width: 192
-        height: 192
+        y: 1536
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +176,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e77313d61ef48486585cc340def52e18
-      internalID: -733730645
+      spriteID: 10a3095f86ce94714a0d50b8b213c4aa
+      internalID: 365563242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_1
+      name: Hero_With_Axe-1_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c7ef6d5b8be4fbaac0da22933dfe00
+      internalID: 765487575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da280cc4e35794f73bd8b47f9be74043
+      internalID: -1631768991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_3
       rect:
         serializedVersion: 2
         x: 192
-        y: 576
-        width: 192
-        height: 192
+        y: 1536
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +239,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e5cc518e50af485d84bbe99164bf50d
-      internalID: 858418569
+      spriteID: 7a956fdf8c0a34473a237cbc53ffbb05
+      internalID: -1871785967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_2
+      name: Hero_With_Axe-1_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c49b994f48e4fc9a68bc7d9804e2e1
+      internalID: -1395157362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558e685f8b879422080cdcf20d84e0d9
+      internalID: -42901503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_6
       rect:
         serializedVersion: 2
         x: 384
-        y: 576
-        width: 192
-        height: 192
+        y: 1536
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf48b2c64b0de4772896f9c84cac6780
-      internalID: -1711074026
+      spriteID: 86c49f4f2ee224b4a8bc76634938e05a
+      internalID: -164877156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_3
+      name: Hero_With_Axe-1_7
       rect:
         serializedVersion: 2
-        x: 576
-        y: 576
-        width: 192
-        height: 192
+        x: 448
+        y: 1536
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +323,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c490320325b0947df9d55f5c069553dc
-      internalID: -190098571
+      spriteID: 77e3cba2fc7e14e87abaec81910ce57b
+      internalID: -1533138898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_4
+      name: Hero_With_Axe-1_8
       rect:
         serializedVersion: 2
-        x: 768
-        y: 576
-        width: 192
-        height: 192
+        x: 512
+        y: 1536
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,41 +344,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f04548af508f24348b33377f78cd7456
-      internalID: 1210945337
+      spriteID: 2647f76e956e04fc0b0f3d31a0c1fe6a
+      internalID: 1098245505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_5
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 576
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82b6763d23e4a4ca688326f2bc838274
-      internalID: 1280938799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe Attack_6
+      name: Hero_With_Axe-1_9
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
-        width: 192
-        height: 192
+        y: 1472
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +365,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84bd2e9793fe24ba0940eeb870855605
-      internalID: 2030466158
+      spriteID: 97944dcd78e814fd986dcf27f51299f8
+      internalID: -301200824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_7
+      name: Hero_With_Axe-1_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805b95c66b7f14d03bcb421bfa634745
+      internalID: 1933762398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb453a835680424cb307479d45ecf3b
+      internalID: 441726605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_12
       rect:
         serializedVersion: 2
         x: 192
-        y: 384
-        width: 192
-        height: 192
+        y: 1472
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,20 +428,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06134dc10ff9a4521bdd0506c0f44505
-      internalID: 779960929
+      spriteID: d0cf6b3b4a8a54dd481711b50ebe455f
+      internalID: 1839331113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_8
+      name: Hero_With_Axe-1_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56add53e5488d412d89671eb1b904e19
+      internalID: 1871715700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9adce2a74fb4f40a782b3b97874376
+      internalID: 1604014055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_15
       rect:
         serializedVersion: 2
         x: 384
-        y: 384
-        width: 192
-        height: 192
+        y: 1472
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,20 +491,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b668497665e864d6b8e1a88d49d4f55b
-      internalID: -1701367294
+      spriteID: e3b76d9efcc5b4ae19c3cbe07f6a86d4
+      internalID: -611382013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_9
+      name: Hero_With_Axe-1_16
       rect:
         serializedVersion: 2
-        x: 576
-        y: 384
-        width: 192
-        height: 192
+        x: 448
+        y: 1472
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,20 +512,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2563a3b6f14c94dd888aaac3618aeea1
-      internalID: -678209037
+      spriteID: 470133f3f17ad4a6785e1d7efb1e1696
+      internalID: -773175065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_10
+      name: Hero_With_Axe-1_17
       rect:
         serializedVersion: 2
-        x: 768
-        y: 384
-        width: 192
-        height: 192
+        x: 512
+        y: 1472
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,41 +533,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1a7007eb7bb94586ad9da29d3345030
-      internalID: 924037908
+      spriteID: 78add8fe640d843f49d1112c5b223f69
+      internalID: 1567509948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_11
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 384
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 762bead3af2774c36beaa3eb8273941c
-      internalID: 1866543255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe Attack_12
+      name: Hero_With_Axe-1_18
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 192
-        height: 192
+        y: 1408
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,20 +554,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 403276ca2c1bc4a3f96f6843f9bd4d43
-      internalID: 208688242
+      spriteID: 0672bd38e563941a49f3e429391c642d
+      internalID: -290607079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_13
+      name: Hero_With_Axe-1_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f086f7ae68c4f4a8cb4cddd130ddaafc
+      internalID: -315816038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fd306d6c9c94ef09a343d2051ae8c4
+      internalID: -102837729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_21
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
-        width: 192
-        height: 192
+        y: 1408
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,20 +617,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98f600c36070b4b4d9155974db914275
-      internalID: -1959998977
+      spriteID: 3df4fa4cf0a404404b13cf201cc77f88
+      internalID: 2099355325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_14
+      name: Hero_With_Axe-1_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8c68149e9bd409a9d55b03ea38575f
+      internalID: -661217644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a927ac5b303684c1da8a0ea00c9a0ba0
+      internalID: 1337783856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_24
       rect:
         serializedVersion: 2
         x: 384
-        y: 192
-        width: 192
-        height: 192
+        y: 1408
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,20 +680,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01f57eae5b11d4e9eb1c7a718b272a18
-      internalID: -1940127317
+      spriteID: 205af42aec2b14ababe02f2da03fcdd1
+      internalID: -440092564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_15
+      name: Hero_With_Axe-1_25
       rect:
         serializedVersion: 2
-        x: 576
-        y: 192
-        width: 192
-        height: 192
+        x: 448
+        y: 1408
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45346ff120a644441bd94f34e7eb0fab
-      internalID: -1118098995
+      spriteID: e7e4f6d453bd04e34b8d6eb40d5a4f21
+      internalID: -1438540937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_16
+      name: Hero_With_Axe-1_26
       rect:
         serializedVersion: 2
-        x: 768
-        y: 192
-        width: 192
-        height: 192
+        x: 512
+        y: 1408
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,41 +722,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 618e7523a9e3b4ac9b9aeba037e68dbb
-      internalID: -2003822758
+      spriteID: e6158f8a3cb6a49999e0d7c2037c186b
+      internalID: -1824904296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_17
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 192
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51d415f689b3949779b9fb60b38b2c65
-      internalID: 1843465153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe Attack_18
+      name: Hero_With_Axe-1_27
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 192
-        height: 192
+        y: 1344
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,20 +743,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d851f49aa2ce344c6b4e9984f3a8c33d
-      internalID: 529346786
+      spriteID: b1edfc8c4c50b42c8a0e7beb80bbb67d
+      internalID: -1788470141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_19
+      name: Hero_With_Axe-1_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d35d8f8882841a78413a53260bbbec
+      internalID: 1035135334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce3b1e82f55a4ea7b68d203d429f75d
+      internalID: 1619234605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_30
       rect:
         serializedVersion: 2
         x: 192
-        y: 0
-        width: 192
-        height: 192
+        y: 1344
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,20 +806,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cefb554fbf396405ba80951729134f01
-      internalID: 1529770786
+      spriteID: b8d98fe5a86284342ad8ecece44ecd11
+      internalID: 782788041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_20
+      name: Hero_With_Axe-1_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f7b858482d849eebd5ed63a9ae3781
+      internalID: -787353000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beff7370c2444f0bb4c0f59637467cd
+      internalID: 1683135481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_With_Axe-1_33
       rect:
         serializedVersion: 2
         x: 384
-        y: 0
-        width: 192
-        height: 192
+        y: 1344
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,20 +869,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1f80b02816e44ce8863f6516d3cd90b
-      internalID: 201692813
+      spriteID: 23defce8c1bfb4db6a7e279e8b0e6903
+      internalID: -241413024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_21
+      name: Hero_With_Axe-1_34
       rect:
         serializedVersion: 2
-        x: 576
-        y: 0
-        width: 192
-        height: 192
+        x: 448
+        y: 1344
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,20 +890,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab186ce6725d24d6a980d07e430b06cd
-      internalID: 1238391675
+      spriteID: b4b4397d46b1644af84651d9600da593
+      internalID: -85973082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc with Axe Attack_22
+      name: Hero_With_Axe-1_35
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
-        width: 192
-        height: 192
+        x: 512
+        y: 1344
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,29 +911,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cade6879e6a2745d58728d320b0efa5c
-      internalID: 849514835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc with Axe Attack_23
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 892b1650610214b79b395180bb905502
-      internalID: 1100061848
+      spriteID: 75a00a8bd2e924837a855e1eacb03dc3
+      internalID: -2099220257
       vertices: []
       indices: 
       edges: []
@@ -676,30 +928,42 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Orc with Axe Attack_0: -733730645
-      Orc with Axe Attack_1: 858418569
-      Orc with Axe Attack_10: 924037908
-      Orc with Axe Attack_11: 1866543255
-      Orc with Axe Attack_12: 208688242
-      Orc with Axe Attack_13: -1959998977
-      Orc with Axe Attack_14: -1940127317
-      Orc with Axe Attack_15: -1118098995
-      Orc with Axe Attack_16: -2003822758
-      Orc with Axe Attack_17: 1843465153
-      Orc with Axe Attack_18: 529346786
-      Orc with Axe Attack_19: 1529770786
-      Orc with Axe Attack_2: -1711074026
-      Orc with Axe Attack_20: 201692813
-      Orc with Axe Attack_21: 1238391675
-      Orc with Axe Attack_22: 849514835
-      Orc with Axe Attack_23: 1100061848
-      Orc with Axe Attack_3: -190098571
-      Orc with Axe Attack_4: 1210945337
-      Orc with Axe Attack_5: 1280938799
-      Orc with Axe Attack_6: 2030466158
-      Orc with Axe Attack_7: 779960929
-      Orc with Axe Attack_8: -1701367294
-      Orc with Axe Attack_9: -678209037
+      Hero_With_Axe-1_0: 365563242
+      Hero_With_Axe-1_1: 765487575
+      Hero_With_Axe-1_10: 1933762398
+      Hero_With_Axe-1_11: 441726605
+      Hero_With_Axe-1_12: 1839331113
+      Hero_With_Axe-1_13: 1871715700
+      Hero_With_Axe-1_14: 1604014055
+      Hero_With_Axe-1_15: -611382013
+      Hero_With_Axe-1_16: -773175065
+      Hero_With_Axe-1_17: 1567509948
+      Hero_With_Axe-1_18: -290607079
+      Hero_With_Axe-1_19: -315816038
+      Hero_With_Axe-1_2: -1631768991
+      Hero_With_Axe-1_20: -102837729
+      Hero_With_Axe-1_21: 2099355325
+      Hero_With_Axe-1_22: -661217644
+      Hero_With_Axe-1_23: 1337783856
+      Hero_With_Axe-1_24: -440092564
+      Hero_With_Axe-1_25: -1438540937
+      Hero_With_Axe-1_26: -1824904296
+      Hero_With_Axe-1_27: -1788470141
+      Hero_With_Axe-1_28: 1035135334
+      Hero_With_Axe-1_29: 1619234605
+      Hero_With_Axe-1_3: -1871785967
+      Hero_With_Axe-1_30: 782788041
+      Hero_With_Axe-1_31: -787353000
+      Hero_With_Axe-1_32: 1683135481
+      Hero_With_Axe-1_33: -241413024
+      Hero_With_Axe-1_34: -85973082
+      Hero_With_Axe-1_35: -2099220257
+      Hero_With_Axe-1_4: -1395157362
+      Hero_With_Axe-1_5: -42901503
+      Hero_With_Axe-1_6: -164877156
+      Hero_With_Axe-1_7: -1533138898
+      Hero_With_Axe-1_8: 1098245505
+      Hero_With_Axe-1_9: -301200824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
