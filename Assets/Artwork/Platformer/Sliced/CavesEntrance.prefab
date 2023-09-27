@@ -3971,7 +3971,7 @@ GameObject:
   - component: {fileID: 2087531138956040044}
   - component: {fileID: 8637976643649445530}
   m_Layer: 0
-  m_Name: Caves_help me
+  m_Name: CavesEntrance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

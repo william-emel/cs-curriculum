@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TopDown_EnemyController : MonoBehaviour
+public class TopDown_EnemyAnimator : MonoBehaviour
 {
     Vector3 prevPos;
 
