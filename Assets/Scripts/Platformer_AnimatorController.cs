@@ -4,37 +4,29 @@ using UnityEngine;
 
 public class Platformer_Animator : MonoBehaviour
 {
-    
+    public bool IsAttacking { get; private set; }
+
     Animator anim;
     SpriteRenderer sprite;
 
-    private void Awake()
-    {
-        anim = GetComponentInChildren<Animator>();
-        sprite = GetComponentInChildren<SpriteRenderer>();
-    }
 
     private void Start()
     {
+        anim = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
+
         //start off facing to the right.
-        anim.SetBool("isWalking", false);
-        anim.SetInteger("walkDir", 1);
+        anim.SetBool("IsWalking", false);
+        anim.SetInteger("WalkDir", 1);
         sprite.flipX = true;
 
     }
 
     private void Update()
     {
-        PlayAnimations();
-
-    }
-
-    void PlayAnimations()
-    { 
         if (Input.GetAxis("Horizontal") != 0)
         {
-            anim.enabled = true;
-            anim.SetBool("isWalking", true);
+            anim.SetBool("IsWalking", true);
 
             if (Input.GetAxis("Horizontal") > 0)
             {
@@ -47,12 +39,15 @@ public class Platformer_Animator : MonoBehaviour
         }
         else
         {
-            anim.SetBool("isWalking", false);
+            anim.SetBool("IsWalking", false);
         }
 
         if (Input.GetMouseButton(0))
         {
             anim.SetTrigger("Attack");
+            anim.SetBool("IsWalking", false);
         }
+
+        IsAttacking = anim.GetCurrentAnimatorStateInfo(0).IsTag("Attack");
     }
 }

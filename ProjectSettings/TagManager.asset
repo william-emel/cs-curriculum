@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coin
+  - Enemy
+  - Axe
+  - Spikes
   layers:
   - Default
   - TransparentFX
