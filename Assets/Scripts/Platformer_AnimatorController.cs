@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Platformer_Animator : MonoBehaviour
 {
+    public bool IsAttacking { get; private set; }
 
     Animator anim;
     SpriteRenderer sprite;
@@ -11,8 +12,8 @@ public class Platformer_Animator : MonoBehaviour
 
     private void Start()
     {
-        anim = GetComponentInChildren<Animator>();
-        sprite = GetComponentInChildren<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
 
         //start off facing to the right.
         anim.SetBool("IsWalking", false);
@@ -47,5 +48,6 @@ public class Platformer_Animator : MonoBehaviour
             anim.SetBool("IsWalking", false);
         }
 
+        IsAttacking = anim.GetCurrentAnimatorStateInfo(0).IsTag("Attack");
     }
 }

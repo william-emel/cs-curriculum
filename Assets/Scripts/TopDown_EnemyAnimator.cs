@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class TopDown_EnemyAnimator : MonoBehaviour
 {
-    Vector3 prevPos;
+    public bool IsAttacking { get; private set; }
 
+    Vector3 prevPos;
     Animator anim;
 
     // Start is called before the first frame update
@@ -48,6 +49,8 @@ public class TopDown_EnemyAnimator : MonoBehaviour
         {
             Attack();
         }
+
+        IsAttacking = anim.GetCurrentAnimatorStateInfo(0).IsTag("Attack");
     }
 
     // Call this function from another script for the orc to attack!

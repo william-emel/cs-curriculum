@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class TopDown_AnimatorController : MonoBehaviour
 {
-    public RuntimeAnimatorController animShovel;
-    public RuntimeAnimatorController animAxe;
+    [SerializeField]
+    RuntimeAnimatorController animShovel;
+
+    [SerializeField]
+    RuntimeAnimatorController animAxe;
+
+    public bool IsAttacking { get; private set; }
 
     Animator anim;
     SpriteRenderer sprite;
@@ -25,27 +30,43 @@ public class TopDown_AnimatorController : MonoBehaviour
 
     private void Update()
     {
-        //if either horizontal or vertical is not equal to zero but not both
-        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0 && !(Input.GetAxis("Horizontal") != 0 && Input.GetAxis("Vertical") != 0))
+        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
         {
-            anim.SetBool("IsWalking", true);
-            if (Input.GetAxis("Horizontal") > 0)
+            if (Input.GetAxis("Horizontal") != 0 && Input.GetAxis("Vertical") != 0)
             {
-                anim.SetInteger("WalkDir", 1);
-                sprite.flipX = true;
+                anim.SetBool("IsWalking", true);
+                if (Input.GetAxis("Horizontal") > 0)
+                {
+                    anim.SetInteger("WalkDir", 1);
+                    sprite.flipX = true;
+                }
+                else if (Input.GetAxis("Horizontal") < 0)
+                {
+                    anim.SetInteger("WalkDir", 1);
+                    sprite.flipX = false;
+                }
             }
-            else if (Input.GetAxis("Horizontal") < 0)
+            else
             {
-                anim.SetInteger("WalkDir", 1);
-                sprite.flipX = false;
-            }
-            else if (Input.GetAxis("Vertical") > 0)
-            {
-                anim.SetInteger("WalkDir", 0);
-            }
-            else if (Input.GetAxis("Vertical") < 0)
-            {
-                anim.SetInteger("WalkDir", 2);
+                anim.SetBool("IsWalking", true);
+                if (Input.GetAxis("Horizontal") > 0)
+                {
+                    anim.SetInteger("WalkDir", 1);
+                    sprite.flipX = true;
+                }
+                else if (Input.GetAxis("Horizontal") < 0)
+                {
+                    anim.SetInteger("WalkDir", 1);
+                    sprite.flipX = false;
+                }
+                else if (Input.GetAxis("Vertical") > 0)
+                {
+                    anim.SetInteger("WalkDir", 0);
+                }
+                else if (Input.GetAxis("Vertical") < 0)
+                {
+                    anim.SetInteger("WalkDir", 2);
+                }
             }
         }
         else
@@ -58,6 +79,8 @@ public class TopDown_AnimatorController : MonoBehaviour
             anim.SetTrigger("Attack");
             anim.SetBool("IsWalking", false);
         }
+
+        IsAttacking = anim.GetCurrentAnimatorStateInfo(0).IsTag("Attack");
 
     }
 
