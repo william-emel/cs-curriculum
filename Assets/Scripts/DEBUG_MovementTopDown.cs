@@ -7,11 +7,13 @@ public class Movement2D : MonoBehaviour
     public float speed;
 
     Rigidbody2D rb;
+    TopDown_AnimatorController animatorScript;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animatorScript = GetComponentInChildren<TopDown_AnimatorController>();
     }
 
     // Update is called once per frame
@@ -47,5 +49,18 @@ public class Movement2D : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         other.gameObject.SetActive(false);
+        if(other.gameObject.CompareTag("Axe"))
+        {
+            animatorScript.SwitchToAxe();
+        }
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("Spikes"))
+        {
+            gameObject.SetActive(false);
+        }
     }
 }
