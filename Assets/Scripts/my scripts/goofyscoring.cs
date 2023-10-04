@@ -5,56 +5,85 @@ using System.Collections.ObjectModel;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class goofyscoring : MonoBehaviour
 {
-    private float timer;
-    private bool iframes;
-    private int health;
-    private int gold;
+    public float timer;
+    public bool iframes;
+    public int health;
+    public int gold;
     public TextMeshProUGUI goldtext;
     public TextMeshProUGUI healthtext;
     public float originalTimer = 1.5f;
-    // Start is called before the first frame update
+    int CollectCoin (int amount)
+    {
+        gold += amount;
+        return gold;
+    }
+    int ChangeHealth(int amount, float time)
+    {
+        if (timer <= 0)
+        {
+            health += amount;
+            timer = time;
+        }
+        
+        return health;
+    }
+
+    void Death()
+    {
+        health = 100;
+        gold = 0;
+        SceneManager.LoadScene("Start");
+    }
     void Start()
     {
         timer = originalTimer;
-        void CollectCoin(int amount)
-        {
-            gold += amount;
-            //    .gameObject.SetActive(false);
-        }
+        health = 100;
+        gold = 0;
 
-        void changehealth(int amount)
-        {
-            health += amount;
-        }
     }
 
-    // Update is called once per frame
+    
+    
     void Update()
     {
-        timer -= Time.deltaTime;
-        if (timer < 0)
+        if (timer >= 0)
         {
-            timer = originalTimer;
-            //turn off iframes
+            timer -= 1 * Time.deltaTime;
         }
-        void OnTriggerEnter2D(Collider other)
-        {
-            if (other.gameObject.CompareTag("Coin"))
-            {
-            
-            }    
-        }
-        
-    }
 
-    private void OnTriggerEnter2D(Collider2D other)
+        if (health < 1)
+        {
+            Death();
+        }
+
+        healthtext.text = "Health: " + health;
+        goldtext.text = "Gold: " + gold;
+
+
+
+
+
+
+
+    }
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag(("Coin")))
+        { 
+            CollectCoin(1);
+            other.gameObject.SetActive(false);
+        }
+    }
+
+    void OnCollisionEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Spikes"))
         {
-            
+            ChangeHealth(-10,10);
         }
     }
 }
