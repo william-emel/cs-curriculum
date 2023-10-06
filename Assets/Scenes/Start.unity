@@ -3571,11 +3571,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7386698514500486556, guid: cddc0eae8679c4344b7e477729e7843b,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1856841598}
-    - targetCorrespondingSourceObject: {fileID: 7386698514500486556, guid: cddc0eae8679c4344b7e477729e7843b,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1856841603}
+      addedObject: {fileID: 1856841608}
   m_SourcePrefab: {fileID: 100100000, guid: cddc0eae8679c4344b7e477729e7843b, type: 3}
 --- !u!1 &1856841597 stripped
 GameObject:
@@ -3583,7 +3579,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1856841596}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1856841598
+--- !u!114 &1856841608
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3592,31 +3588,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1856841597}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520ad0920b6974ba89a615068d40f701, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e74438b8db1a45ee9e0f85bdcccde4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkingspeed: 0
+  yspeed: 0
   xDirection: 0
   xVector: 0
---- !u!114 &1856841603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856841597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 712ad91fbd8f8486fa6176f5322ecbef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 0
-  iframes: 0
-  health: 0
-  gold: 0
-  goldtext: {fileID: 0}
-  healthtext: {fileID: 0}
-  originalTimer: 1.5
+  yDirection: 0
+  yVector: 0
+  xspeed: 0
 --- !u!1 &1894290696
 GameObject:
   m_ObjectHideFlags: 0
