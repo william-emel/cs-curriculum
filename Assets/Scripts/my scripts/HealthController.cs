@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +10,7 @@ public class HealthController : MonoBehaviour
     public float timer;
     public int health;
     public float originalTimer = 1.5f;
+    public TextMeshProUGUI HealthText;
     
     void Death()
     {
@@ -35,6 +37,7 @@ public class HealthController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        HealthText.text = "Health: " + health.ToString();
         if (timer >= 0)
         {
             timer -= 1 * Time.deltaTime;
