@@ -11,11 +11,12 @@ public class shoot : MonoBehaviour
     private float timer;
     private Vector2 targetPosition;
     private Vector2 startposition;
-    
+  
     // Start is called before the first frame update
     void Start()
     {
         timer = 5;
+        startposition = this.transform.position;
     }
 
     // Update is called once per frame
@@ -24,17 +25,15 @@ public class shoot : MonoBehaviour
         if (timer >= 0)
         {
             timer -= 1 * Time.deltaTime;
-        } 
+        }
+
         if (timer < 0)
-        { 
-            startposition = this.gameObject.transform.position;
+        {
             targetPosition = player.transform.position;
             Instantiate(fireball);
-            fireball.transform.Translate(startposition);
-            fireball.transform.position = targetPosition;
-            fireball.SetActive(false);
+            fireball.transform.position = (startposition);
+            fireball.GetComponent<Rigidbody2D>().AddForce(targetPosition,ForceMode2D.Impulse);
             timer = 5;
-            
         }
     }
 
@@ -43,6 +42,8 @@ public class shoot : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             player = other.gameObject;
+           
+                
             
         }
     }

@@ -41,7 +41,7 @@ public class HealthController : MonoBehaviour
             timer -= 1 * Time.deltaTime;
         }
 
-        if (hud.health < 0)
+        if (hud.health <= 0)
         {
             Death();
         }
