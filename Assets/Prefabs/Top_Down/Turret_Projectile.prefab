@@ -14,11 +14,11 @@ GameObject:
   - component: {fileID: -3709355361233586087}
   m_Layer: 0
   m_Name: Turret_Projectile
-  m_TagString: Spikes
+  m_TagString: fireball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7101103389178533185
 Transform:
   m_ObjectHideFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5790822057519619805}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.17420255, y: 0.11452826, z: 0}
+  m_LocalPosition: {x: 9.341356, y: 11.549732, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

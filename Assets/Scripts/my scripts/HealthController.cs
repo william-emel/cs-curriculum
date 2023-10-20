@@ -54,4 +54,13 @@ public class HealthController : MonoBehaviour
             ChangeHealth(-1, 1);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("fireball"))
+        {
+            other.gameObject.SetActive(false);
+            ChangeHealth(-1, 1);
+        }
+    }
 }

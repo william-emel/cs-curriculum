@@ -26,25 +26,27 @@ public class shoot : MonoBehaviour
         {
             timer -= 1 * Time.deltaTime;
         }
-
-        if (timer < 0)
-        {
-            targetPosition = player.transform.position;
-            Instantiate(fireball);
-            fireball.transform.position = (startposition);
-            fireball.GetComponent<Rigidbody2D>().AddForce(targetPosition,ForceMode2D.Impulse);
-            timer = 5;
-        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            player = other.gameObject;
-           
-                
+            if (timer < 0)
+            {
+                player = other.gameObject;
+                targetPosition = player.transform.position;
+                targetPosition = player.transform.position;
+                Instantiate(fireball);
+                fireball.transform.position = startposition;
+                transform.position = Vector2.MoveTowards(startposition, targetPosition, 1 * Time.deltaTime);
+                timer = 5;
+            }
             
+            
+        
+
         }
     }
 }
