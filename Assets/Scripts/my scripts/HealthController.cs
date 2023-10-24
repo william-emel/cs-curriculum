@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -53,14 +54,13 @@ public class HealthController : MonoBehaviour
         {
             ChangeHealth(-1, 1);
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("fireball"))
+        else if (other.gameObject.CompareTag("fireball"))
         {
-            other.gameObject.SetActive(false);
+            Destroy(other.gameObject);
             ChangeHealth(-1, 1);
         }
     }
+
+
+    
 }
