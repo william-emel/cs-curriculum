@@ -59,6 +59,14 @@ public class HealthController : MonoBehaviour
             Destroy(other.gameObject);
             ChangeHealth(-1, 1);
         }
+        else if (other.gameObject.CompareTag("healthpotion"))
+        {
+            if (hud.health < 10)
+            {
+                ChangeHealth(1, 1);
+                other.gameObject.SetActive(false);
+            }
+        }
     }
 
 

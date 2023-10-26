@@ -9,6 +9,8 @@ TagManager:
   - Axe
   - Spikes
   - fireball
+  - healthpotion
+  - projectile
   layers:
   - Default
   - TransparentFX
