@@ -17,6 +17,6 @@ public class FIREBALL : MonoBehaviour
     void Update()
     {
         //move towards player's gotten position
-        gameObject.transform.position = target * Time.deltaTime;
+        Vector3.MoveTowards(gameObject.transform.position, target, 1 * Time.deltaTime);
     }
 }

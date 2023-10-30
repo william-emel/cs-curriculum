@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class shoot : MonoBehaviour
+public class Shoot : MonoBehaviour
 {
     private GameObject player;
     public GameObject fireball;
@@ -15,18 +15,21 @@ public class shoot : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timer = 5;
+        timer = 0;
        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timer >= 0)
+        timer -= 1 * Time.deltaTime;
+        if (timer < 0)
         {
             if (player != null)
             {
-                timer -= 1 * Time.deltaTime;
+                Instantiate(fireball, transform.position, transform.rotation);
+                timer = 2;
+                player = null;
             }
         }
         
@@ -36,17 +39,10 @@ public class shoot : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (timer < 0)
-            {
-                player = other.gameObject;
-                Instantiate(fireball);
-                fireball.SetActive(true);
-                timer = 5;
-            }
+            timer = 2;
+            player = other.gameObject;
             
             
-        
-
         }
     }
 }
