@@ -5,18 +5,25 @@ using UnityEngine;
 public class FIREBALL : MonoBehaviour
 {
     // Start is called before the first frame update
-    private Vector3 target;
+    private Vector2 target;
     private GameObject player;
+    private Vector2 position;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        target = player.transform.position;
+        
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        //move towards player's gotten position
-        Vector3.MoveTowards(gameObject.transform.position, target, 1 * Time.deltaTime);
+        position = transform.position;
+        target = player.transform.position;
+        transform.position = Vector2.MoveTowards(transform.position, target, 5 * Time.deltaTime);
+        if (position == target)
+        {
+            Destroy(gameObject);
+        }
     }
 }
