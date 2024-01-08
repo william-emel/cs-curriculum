@@ -68,7 +68,7 @@ public class overworldmovement : MonoBehaviour
         {
             if (timer < 0)
             {
-                Instantiate(projectile);
+                Instantiate(projectile,transform.position,transform.rotation);
             }
         }
     }

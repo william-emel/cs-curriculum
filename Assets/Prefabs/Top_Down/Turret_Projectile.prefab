@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -3514862467880035125}
   - component: {fileID: 4327165216284067482}
   - component: {fileID: 4565231033971350846}
+  - component: {fileID: 881976418334875875}
   m_Layer: 0
   m_Name: Turret_Projectile
   m_TagString: fireball
@@ -133,3 +134,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a886b0ce684246c6bf22bf7b35ad495, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &881976418334875875
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5790822057519619805}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

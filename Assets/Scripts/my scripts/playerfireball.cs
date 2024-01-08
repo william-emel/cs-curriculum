@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -7,38 +8,28 @@ public class playerfireball : MonoBehaviour
 {
     private static GameObject player;
     private Rigidbody2D rb;
-    private Vector2 startposition;
-    private Vector2 targetposition;
+    public Vector2 startposition;
+    public Vector2 targetposition;
     // Start is called before the first frame update
-    void Update()
+    private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        startposition = (player.transform.position);
-        
-
-
+        startposition = player.transform.position;
         if (player.GetComponent<overworldmovement>().direction == "right")
         {
-            transform.Translate(startposition + new Vector2(0,0.5f));
-            targetposition = startposition + new Vector2(2, 0);
-            transform.Translate(startposition);
-            transform.position = Vector2.MoveTowards(transform.position, targetposition, 1 * Time.deltaTime);
-
+            targetposition = startposition + new Vector2(5, 0);
+        } else if (player.GetComponent<overworldmovement>().direction == "left") {
+            targetposition = startposition + new Vector2(-5, 0);
+        } else if (player.GetComponent<overworldmovement>().direction == "up") {
+            targetposition = startposition + new Vector2(0, 5);
+        } else if (player.GetComponent<overworldmovement>().direction == "down") {
+            targetposition = startposition + new Vector2(0, -5);
         }
+    }
 
-        if (player.GetComponent<overworldmovement>().direction == "left")
-        {
-            
-        }
-
-        if (player.GetComponent<overworldmovement>().direction == "up")
-        {
-              
-        }
-
-        if (player.GetComponent<overworldmovement>().direction == "down")
-        {
-                  
-        }
+    void Update()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, targetposition, 1 * Time.deltaTime);
+        
     }
 }
