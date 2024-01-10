@@ -11,7 +11,7 @@ public class FIREBALL : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        
+        target = player.transform.position;
         
     }
 
@@ -19,7 +19,6 @@ public class FIREBALL : MonoBehaviour
     void Update()
     {
         position = transform.position;
-        target = player.transform.position;
         transform.position = Vector2.MoveTowards(transform.position, target, 5 * Time.deltaTime);
         if (position == target)
         {
