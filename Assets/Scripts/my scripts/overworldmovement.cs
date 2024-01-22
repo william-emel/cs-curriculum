@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.Timeline;
@@ -14,18 +17,26 @@ public class overworldmovement : MonoBehaviour
     public float xspeed;
     public string direction = "up";
     public float timer;
+    private bool platform;
+    private bool inAir;
     public GameObject projectile;
+    private Rigidbody2D rb;
     
     
     void Start()
     {
         xspeed = 5;
         timer = 1;
+        rb = gameObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("space") && platform && !inAir  )
+        {
+            rb.AddForce(transform.up * 7,ForceMode2D.Impulse);
+        }
         if (timer > 0)
         {
             timer -= 1 * Time.deltaTime;
@@ -34,6 +45,11 @@ public class overworldmovement : MonoBehaviour
         if (scene.name == "Overworld")
         {
             yspeed = 5;
+        }
+        else if (scene.name == "Platformer")
+        {
+            platform = true;
+            yspeed = 0;
         }
         else
         {
@@ -70,6 +86,22 @@ public class overworldmovement : MonoBehaviour
             {
                 Instantiate(projectile,transform.position,transform.rotation);
             }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (platform == true)
+        {
+            inAir = false;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (platform == true)
+        {
+            inAir = true;
         }
     }
 }
