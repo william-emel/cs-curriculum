@@ -93,6 +93,7 @@ public class overworldmovement : MonoBehaviour
     {
         if (platform == true)
         {
+            transform.SetParent(null);
             inAir = false;
         }
     }
@@ -101,6 +102,7 @@ public class overworldmovement : MonoBehaviour
     {
         if (platform == true)
         {
+            transform.parent = other.transform;
             inAir = true;
         }
     }
