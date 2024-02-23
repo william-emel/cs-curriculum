@@ -50,6 +50,7 @@ public class overworldmovement : MonoBehaviour
         {
             platform = true;
             yspeed = 0;
+            
         }
         else
         {
@@ -93,8 +94,16 @@ public class overworldmovement : MonoBehaviour
     {
         if (platform == true)
         {
-            transform.SetParent(null);
-            inAir = false;
+            if (other.gameObject.CompareTag("Spikes"))
+            {
+                inAir = false;
+            }
+            else
+            {
+                inAir = false;
+                transform.parent = other.transform;
+            }
+            
         }
     }
 
@@ -102,7 +111,7 @@ public class overworldmovement : MonoBehaviour
     {
         if (platform == true)
         {
-            transform.parent = other.transform;
+            transform.SetParent(null);
             inAir = true;
         }
     }

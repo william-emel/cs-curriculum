@@ -37,6 +37,11 @@ public class HealthController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "Platformer")
+        {
+            hud.health = 1;
+        }
         if (timer >= 0)
         {
             timer -= 1 * Time.deltaTime;
